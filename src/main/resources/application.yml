@@ -6,18 +6,18 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/student?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT
-    username:
-    password:
+    username: root
+    password: root
   #这个开发配置为false，避免改了模板还要重启服务器
   thymeleaf:
     cache: false
-  #配置文件下加配置静态资源地址：
-  resources:
-    static-locations: classpath:/
+#  #配置文件下加配置静态资源地址：
+#  resources:
+#    static-locations: classpath:/
 
-mybatis:
-  #Mapper文件路径
-  mapper-locations: classpath:/mapper/*.xml
-  #设置别名
-  type-aliases-package: cn.bdqn.exam.entity
+#mybatis:
+#  #Mapper文件路径
+#  mapper-locations: classpath:/mapper/*.xml
+#  #设置别名
+#  type-aliases-package: cn.bdqn.exam.entity
 
