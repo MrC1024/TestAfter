@@ -5,35 +5,35 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class aContr {
-//    @RequestMapping("/toIndex")
-//    public String toIndex(){
-//        return "index.html";
-//    }
-    @RequestMapping("/welcome.html")
+    @RequestMapping("/toIndex")
+    public String toIndex(){
+        return "index.html";
+    }
+    @RequestMapping("/welcome")
     public String welcome(){
         return "welcome.html";
     }
-    @RequestMapping("/Banner.html")
+    @RequestMapping("/Banner")
     public String banner(){
         return "Banner.html";
     }
-    @RequestMapping("/huiYuanGuanLi.html")
+    @RequestMapping("/huiYuanGuanLi")
     public String huiYuanGuanLi(){
         return "huiYuanGuanLi.html";
     }
-    @RequestMapping("/huiYuanGuanLi2.html")
+    @RequestMapping("/huiYuanGuanLi2")
     public String huiYuanGuanLi2(){
         return "huiYuanGuanLi2.html";
     }
-    @RequestMapping("/product-brand.html")
+    @RequestMapping("/product-brand")
     public String productbrand(){
         return "product-brand.html";
     }
-    @RequestMapping("/product-category.html")
+    @RequestMapping("/product-category")
     public String productcategory(){
         return "product-category.html";
     }
-    @RequestMapping("/wenTiFanKui.html")
+    @RequestMapping("/wenTiFanKuil")
     public String wenTiFanKui(){
         return "wenTiFanKui.html";
     }

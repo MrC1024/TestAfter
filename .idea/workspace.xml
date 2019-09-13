@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e91b074-d839-4def-ac41-64c60985a5cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/aContr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/README.md" afterDir="false" />
+    <list default="true" id="97e9769a-deb4-48c0-8663-6e32f28369bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/aContr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/aContr.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Answer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criteria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criterion.class" afterDir="false" />
@@ -63,21 +49,8 @@
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criterion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$GeneratedCriteria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Banner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/charts-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/charts-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/feedback-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/feedback-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-brand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/wenTiFanKui.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wenTiFanKui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/xiTongGongGao.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/xiTongGongGao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/bdqn/exam/ExamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/bdqn/exam/ExamTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,12 +64,31 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="190">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="76" column="46" lean-forward="true" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -145,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/Banner.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" />
@@ -154,8 +145,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/member-list.html" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -187,10 +179,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-95" />
-    <option name="y" value="15" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="x" value="845" />
+    <option name="y" value="116" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,39 +190,77 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="xm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="xm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="xm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +274,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -339,13 +369,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="91b4834a-02e9-4c40-a05f-c9416803cf7d" name="Default Changelist" comment="" />
+      <changelist id="97e9769a-deb4-48c0-8663-6e32f28369bd" name="Default Changelist" comment="" />
       <created>1568254511635</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568254511635</updated>
       <workItem from="1568254514382" duration="6320000" />
       <workItem from="1568284565229" duration="4150000" />
+      <workItem from="1568343495481" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1568296910615</created>
@@ -372,32 +403,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20265000" />
+    <option name="totallyTimeSpent" value="20413000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23726542" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.39944133" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.42039105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.39944133" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.42039105" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.32681563" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,41 +488,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Option.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/AnswerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/OptionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1628">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Option.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/AnswerExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Dept.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/OptionExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Video.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html" />
     <entry file="jar://F:/maven/MyRepository/org/springframework/boot/spring-boot-autoconfigure/2.0.2.RELEASE/spring-boot-autoconfigure-2.0.2.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class" />
     <entry file="file://$PROJECT_DIR$/exam.iml">
@@ -497,250 +502,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/h-ui.admin/js/de_DE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/h-ui.admin/js/de_DE.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/h-ui/js/H-ui.js" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/bdqn/exam/ExamTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_blank.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Answer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list1.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-brand.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-category.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/member-list.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-4.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/h-ui/js/H-ui.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1568282563697" expanded="true" signature="123001:123013" ph="..." />
-            <marker date="1568282563697" expanded="true" signature="125380:125388" ph="&amp;##xe64b;" />
-            <marker date="1568282563697" expanded="true" signature="129510:129624" ph="..." />
-            <marker date="1568282563697" expanded="true" signature="132347:132379" ph="..." />
-            <marker date="1568282563697" expanded="true" signature="132381:132389" ph="&amp;##xe684;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/bdqn/exam/ExamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1886">
-          <caret line="196" column="36" selection-start-line="196" selection-start-column="36" selection-end-line="196" selection-end-column="36" />
+        <state relative-caret-position="190">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/feedback-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="224" column="24" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-669">
-          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="188" column="43" selection-start-line="188" selection-start-column="43" selection-end-line="188" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-brand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="178" column="43" selection-start-line="178" selection-start-column="43" selection-end-line="178" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/member-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="141" column="46" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="133">
+          <caret line="76" column="46" lean-forward="true" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
         </state>
       </provider>
     </entry>
