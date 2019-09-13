@@ -5,33 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/aContr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/aContr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/feedback-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/feedback-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-brand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/wenTiFanKui.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wenTiFanKui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/xiTongGongGao.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/xiTongGongGao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/charts-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/charts-4.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
@@ -70,10 +45,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/change-password.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="34" column="259" lean-forward="true" selection-start-line="34" selection-start-column="243" selection-end-line="34" selection-end-column="259" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="158" column="46" selection-start-line="158" selection-start-column="46" selection-end-line="158" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+            <state relative-caret-position="1173">
+              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
               <folding>
                 <element signature="e#350#351#0" expanded="true" />
                 <element signature="e#387#388#0" expanded="true" />
@@ -110,15 +122,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-category.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-324">
-              <caret line="178" column="43" selection-start-line="178" selection-start-column="43" selection-end-line="178" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
@@ -137,44 +140,6 @@
             <state relative-caret-position="207">
               <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-brand.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-232">
-              <caret line="188" column="43" selection-start-line="188" selection-start-column="43" selection-end-line="188" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-669">
-              <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
               </folding>
@@ -202,6 +167,7 @@
       <find>问题反馈</find>
       <find>课程</find>
       <find>订单</find>
+      <find>添加图片</find>
       <find>柱状图</find>
     </findStrings>
   </component>
@@ -228,15 +194,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/Banner.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/product-category.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/member-list.html" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/Banner.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" />
       </list>
     </option>
   </component>
@@ -311,15 +278,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="exam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exam" type="b2602c69:ProjectViewProjectNode" />
@@ -489,17 +447,23 @@
       <option name="project" value="LOCAL" />
       <updated>1568339437530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init">
+      <created>1568342359391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568342359391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19617000" />
+    <option name="totallyTimeSpent" value="21710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23391421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23391421" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -509,7 +473,7 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.12606232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3427762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -656,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1886">
@@ -749,24 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-669">
-          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-232">
@@ -828,10 +767,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/change-password.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="34" column="259" lean-forward="true" selection-start-line="34" selection-start-column="243" selection-end-line="34" selection-end-column="259" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="158" column="46" selection-start-line="158" selection-start-column="46" selection-end-line="158" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="1173">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
           <folding>
             <element signature="e#350#351#0" expanded="true" />
             <element signature="e#387#388#0" expanded="true" />
@@ -849,18 +838,6 @@
             <element signature="e#1096#1097#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1218#1219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

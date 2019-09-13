@@ -67,6 +67,11 @@ public class aContr {
     public String charts4(){
         return "charts-4.html";
     }
+    @RequestMapping("/picture-add.html")
+    public String pictureadd(){
+        return "picture-add.html";
+    }
+
 
 
 
