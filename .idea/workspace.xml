@@ -1,222 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91b4834a-02e9-4c40-a05f-c9416803cf7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="5e91b074-d839-4def-ac41-64c60985a5cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/aContr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/css/H-ui.admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/css/H-ui.admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/css/H-ui.login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/css/H-ui.login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/images/acrossTab/acrossTab-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/images/acrossTab/acrossTab-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/images/admin-login-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/images/admin-login-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/images/admin-loginform-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/images/admin-loginform-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/images/cn.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/images/cn.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/images/um.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/images/um.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/js/H-ui.admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/js/H-ui.admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/js/de_DE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/js/de_DE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/blue/acrossTab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/blue/acrossTab-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/blue/acrossTab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/blue/acrossTab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/blue/icon_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/blue/icon_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/blue/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/blue/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/default/acrossTab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/default/acrossTab-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/default/acrossTab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/default/acrossTab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/default/icon_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/default/icon_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/default/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/default/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/green/acrossTab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/green/acrossTab-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/green/acrossTab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/green/acrossTab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/green/icon_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/green/icon_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/green/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/green/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/orange/acrossTab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/orange/acrossTab-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/orange/acrossTab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/orange/acrossTab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/orange/icon_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/orange/icon_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/orange/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/orange/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/red/acrossTab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/red/acrossTab-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/red/acrossTab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/red/acrossTab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/red/icon_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/red/icon_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/red/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/red/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/yellow/acrossTab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/yellow/acrossTab-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/yellow/acrossTab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/yellow/acrossTab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/yellow/icon_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/yellow/icon_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui.admin/skin/yellow/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/skin/yellow/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/css/H-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/css/H-ui.ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/css/H-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/css/H-ui.reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/Hui-tags/empty.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/Hui-tags/empty.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/acrossTab/acrossTab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/acrossTab/acrossTab-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/acrossTab/acrossTab-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/acrossTab/acrossTab-close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/acrossTab/acrossTab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/acrossTab/acrossTab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/dataTable/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/dataTable/sort_asc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/dataTable/sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/dataTable/sort_both.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/dataTable/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/dataTable/sort_desc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/dropDown/icon-jt.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/dropDown/icon-jt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/201.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/201.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/202.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/202.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/203.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/203.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/204.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/204.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/205.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/205.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/206.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/206.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/207.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/207.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/208.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/208.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/209.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/209.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/210.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/210.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/0.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/10.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/100.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/100.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/101.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/101.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/102.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/102.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/103.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/103.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/104.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/104.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/105.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/105.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/106.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/106.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/11.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/12.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/13.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/14.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/15.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/16.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/18.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/19.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/20.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/21.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/22.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/23.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/24.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/25.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/26.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/27.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/28.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/29.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/30.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/31.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/32.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/33.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/34.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/35.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/36.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/37.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/38.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/39.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/40.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/41.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/42.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/43.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/44.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/45.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/46.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/47.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/48.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/49.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/5.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/50.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/51.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/52.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/53.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/54.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/55.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/56.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/57.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/58.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/59.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/6.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/60.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/61.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/62.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/63.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/64.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/65.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/66.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/67.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/68.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/69.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/7.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/70.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/71.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/72.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/72.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/73.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/73.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/74.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/74.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/75.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/75.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/76.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/76.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/77.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/77.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/78.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/78.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/79.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/79.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/8.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/80.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/80.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/81.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/81.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/82.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/82.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/83.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/83.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/84.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/84.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/85.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/85.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/86.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/86.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/87.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/87.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/88.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/88.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/89.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/89.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/9.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/90.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/90.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/91.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/91.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/92.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/92.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/93.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/93.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/94.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/94.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/95.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/95.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/96.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/96.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/97.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/97.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/98.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/98.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/face/QQ/99.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/face/QQ/99.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/aero.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/aero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/aero@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/aero@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/blue@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/green.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/green@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/grey.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/grey@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/minimal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/minimal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/minimal@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/minimal@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/orange.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/orange@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/pink.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/pink@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/pink@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/purple.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/purple@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/red@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/yellow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iCheck/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iCheck/yellow@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/iconpic-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/iconpic-arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/jselect/iconpic-arrow-down2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/jselect/iconpic-arrow-down2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/loading/loading-b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/loading/loading-b.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/loading/loading-s.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/loading/loading-s.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/rollpic/unslider-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/rollpic/unslider-arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/star/iconpic-star-S-default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/star/iconpic-star-S-default.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/star/iconpic-star-S.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/star/iconpic-star-S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/steps/step_arrow-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/steps/step_arrow-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/steps/step_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/steps/step_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/steps/step_bg-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/steps/step_bg-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/steps/step_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/steps/step_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/ucnter/avatar-default-S.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/ucnter/avatar-default-S.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/ucnter/avatar-default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/ucnter/avatar-default.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/ucnter/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/ucnter/avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/ucnter/noavatar_small.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/ucnter/noavatar_small.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/validform/iconpic-error.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/validform/iconpic-error.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/validform/iconpic-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/validform/iconpic-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/validform/iconpic-warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/validform/iconpic-warning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/verticalTab/tabNav-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/verticalTab/tabNav-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/verticalTab/tabNav-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/verticalTab/tabNav-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/verticalTab/tabNav.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/verticalTab/tabNav.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/verticalTab/tabNav_right-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/verticalTab/tabNav_right-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/verticalTab/tabNav_right-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/verticalTab/tabNav_right-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/verticalTab/tabNav_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/verticalTab/tabNav_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/images/verticalTab/tab_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/images/verticalTab/tab_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/js/H-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/js/H-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/h-ui/js/H-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/js/H-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Badanswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Badanswer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Dept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Option.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Video.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Vtype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Vtype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/charts-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/charts-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/feedback-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/feedback-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/member-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/wenTiFanKui.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wenTiFanKui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/xiTongGongGao.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/xiTongGongGao.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -230,44 +91,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" selection-start-line="16" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="374">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -277,13 +106,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>banner</find>
+      <find>ban</find>
+      <find>..</find>
+      <find>if</find>
+      <find>课程管理</find>
+      <find>问题反馈</find>
+      <find>课程</find>
+      <find>订单</find>
+      <find>柱状图</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -291,10 +137,25 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Option.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/bdqn/exam/ExamTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/welcome.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-list1.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/feedback-list.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/Banner.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/product-category.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/member-list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" />
       </list>
     </option>
   </component>
@@ -326,7 +187,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-94" />
+    <option name="x" value="-95" />
     <option name="y" value="15" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
@@ -361,59 +222,46 @@
               <item name="exam" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Java-work-space\exam\src\main\resources\templates" />
-      <recent name="D:\Java-work-space\exam\src\main\resources\static" />
+      <recent name="F:\KaoShiXT\exam\src\main\resources\static" />
       <recent name="D:\Java-work-space\exam\src\main\java\cn\bdqn\exam\entity" />
     </key>
   </component>
@@ -430,6 +278,25 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="exam" />
       <extension name="coverage">
@@ -439,6 +306,24 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bdqn.exam.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -460,67 +345,111 @@
       <option name="presentableId" value="Default" />
       <updated>1568254511635</updated>
       <workItem from="1568254514382" duration="6320000" />
-      <workItem from="1568276909965" duration="1508000" />
-      <workItem from="1568279785422" duration="561000" />
+      <workItem from="1568284565229" duration="4150000" />
     </task>
-    <task id="LOCAL-00001" summary="init commit">
-      <created>1568277213367</created>
+    <task id="LOCAL-00001" summary="11">
+      <created>1568296910615</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1568277213367</updated>
+      <updated>1568296910616</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1568337508698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568337508698</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1568339437530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568339437530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8389000" />
+    <option name="totallyTimeSpent" value="20265000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25670242" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.39944133" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.5251397" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.39944133" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.32681563" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22453083" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932975" visible="true" weight="0.30169973" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.30169973" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.32719547" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="11" />
+    <MESSAGE value="111" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity.java" />
@@ -528,24 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,76 +488,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/bdqn/exam/ExamTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html" />
+    <entry file="jar://F:/maven/MyRepository/org/springframework/boot/spring-boot-autoconfigure/2.0.2.RELEASE/spring-boot-autoconfigure-2.0.2.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class" />
+    <entry file="file://$PROJECT_DIR$/exam.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="-1998">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/mapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/h-ui.admin/js/de_DE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/h-ui/js/H-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1568282563697" expanded="true" signature="123001:123013" ph="..." />
+            <marker date="1568282563697" expanded="true" signature="125380:125388" ph="&amp;##xe64b;" />
+            <marker date="1568282563697" expanded="true" signature="129510:129624" ph="..." />
+            <marker date="1568282563697" expanded="true" signature="132347:132379" ph="..." />
+            <marker date="1568282563697" expanded="true" signature="132381:132389" ph="&amp;##xe684;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/bdqn/exam/ExamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="185">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/maven/MyRepository/org/springframework/boot/spring-boot-autoconfigure/2.0.2.RELEASE/spring-boot-autoconfigure-2.0.2.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="1886">
+          <caret line="196" column="36" selection-start-line="196" selection-start-column="36" selection-end-line="196" selection-end-column="36" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/logo.psd">
-      <provider selected="true" editor-type-id="layeredimageeditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/LICENSE.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/【开发必读】文档目录.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1271" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="-326">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/feedback-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="224" column="24" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-669">
+          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="188" column="43" selection-start-line="188" selection-start-column="43" selection-end-line="188" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="178" column="43" selection-start-line="178" selection-start-column="43" selection-end-line="178" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/member-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="141" column="46" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        <state relative-caret-position="374">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -700,6 +794,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8 (2)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

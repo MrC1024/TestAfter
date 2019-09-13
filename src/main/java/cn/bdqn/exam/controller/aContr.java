@@ -5,20 +5,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class aContr {
-    @RequestMapping("/toIndex")
-    public String toIndex(){
-        return "index.html";
-    }
+//    @RequestMapping("/toIndex")
+//    public String toIndex(){
+//        return "index.html";
+//    }
     @RequestMapping("/welcome.html")
     public String welcome(){
         return "welcome.html";
     }
-
     @RequestMapping("/Banner.html")
     public String banner(){
         return "Banner.html";
     }
-
     @RequestMapping("/huiYuanGuanLi.html")
     public String huiYuanGuanLi(){
         return "huiYuanGuanLi.html";
@@ -27,7 +25,6 @@ public class aContr {
     public String huiYuanGuanLi2(){
         return "huiYuanGuanLi2.html";
     }
-
     @RequestMapping("/product-brand.html")
     public String productbrand(){
         return "product-brand.html";
@@ -36,6 +33,43 @@ public class aContr {
     public String productcategory(){
         return "product-category.html";
     }
+    @RequestMapping("/wenTiFanKui.html")
+    public String wenTiFanKui(){
+        return "wenTiFanKui.html";
+    }
+    @RequestMapping("/xiTongGongGao.html")
+    public String xiTongGongGaos(){
+        return "xiTongGongGao.html";
+    }
+    @RequestMapping("/picture-list.html")
+    public String picture(){
+        return "picture-list.html";
+    }
+    @RequestMapping("/picture-list1.html")
+    public String picture1(){
+        return "picture-list.html";
+    }
+    @RequestMapping("/picture-list2.html")
+    public String picture2(){
+        return "picture-list.html";
+    }
+
+    @RequestMapping("/member-list.html")
+    public String member1(){
+        return "member-list.html";
+    }
+    @RequestMapping("/feedback-list.html")
+    public String feedback1(){
+        return "feedback-list.html";
+    }
+
+    @RequestMapping("/charts-4.html")
+    public String charts4(){
+        return "charts-4.html";
+    }
+
+
+
 
 
 }
