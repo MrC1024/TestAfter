@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class PageController {
-    //    @RequestMapping("/toIndex")
-//    public String toIndex(){
-//        return "index.html";
-//    }
+    @RequestMapping("/toIndex")
+    public String toIndex(){
+        return "index";
+   }
     @RequestMapping("/welcome.html")
     public String welcome() {
         return "welcome.html";
