@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Option;
-import com.bangbang.po.OptionExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Option;
+import cn.bdqn.exam.entity.OptionExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface OptionMapper {

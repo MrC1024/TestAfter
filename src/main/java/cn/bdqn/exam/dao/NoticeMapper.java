@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Notice;
-import com.bangbang.po.NoticeExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Notice;
+import cn.bdqn.exam.entity.NoticeExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface NoticeMapper {

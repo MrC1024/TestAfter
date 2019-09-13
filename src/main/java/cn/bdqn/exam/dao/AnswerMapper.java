@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Answer;
-import com.bangbang.po.AnswerExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Answer;
+import cn.bdqn.exam.entity.AnswerExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface AnswerMapper {

@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Badanswer;
-import com.bangbang.po.BadanswerExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Badanswer;
+import cn.bdqn.exam.entity.BadanswerExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface BadanswerMapper {
