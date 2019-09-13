@@ -18,4 +18,24 @@ public class aContr {
     public String banner(){
         return "Banner.html";
     }
+
+    @RequestMapping("/huiYuanGuanLi.html")
+    public String huiYuanGuanLi(){
+        return "huiYuanGuanLi.html";
+    }
+    @RequestMapping("/huiYuanGuanLi2.html")
+    public String huiYuanGuanLi2(){
+        return "huiYuanGuanLi2.html";
+    }
+
+    @RequestMapping("/product-brand.html")
+    public String productbrand(){
+        return "product-brand.html";
+    }
+    @RequestMapping("/product-category.html")
+    public String productcategory(){
+        return "product-category.html";
+    }
+
+
 }
