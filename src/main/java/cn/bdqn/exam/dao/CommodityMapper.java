@@ -1,11 +1,12 @@
 package cn.bdqn.exam.dao;
 
 
-import java.util.List;
 
-import cn.bdqn.exam.entity.Commodity;
-import cn.bdqn.exam.entity.CommodityExample;
+import cn.bdqn.exam.po.Commodity;
+import cn.bdqn.exam.po.CommodityExample;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface CommodityMapper {
     int countByExample(CommodityExample example);

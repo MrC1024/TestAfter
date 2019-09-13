@@ -15,9 +15,17 @@ spring:
   resources:
     static-locations: classpath:/
 
+<<<<<<< HEAD
 #mybatis:
 #  #Mapper文件路径
 #  mappers-locations: classpath:/mappers/*.xml
 #  #设置别名
 #  type-aliases-package: cn.bdqn.exam.entity
+=======
+mybatis:
+  #Mapper文件路径
+  mappers-locations: classpath:/mappers/*.xml
+  #设置别名
+  type-aliases-package: cn.bdqn.exam.entity
+>>>>>>> origin/master
 

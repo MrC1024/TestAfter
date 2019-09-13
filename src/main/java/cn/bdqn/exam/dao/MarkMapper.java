@@ -1,11 +1,11 @@
 package cn.bdqn.exam.dao;
 
 
-import java.util.List;
-
-import cn.bdqn.exam.entity.Mark;
-import cn.bdqn.exam.entity.MarkExample;
+import cn.bdqn.exam.po.Mark;
+import cn.bdqn.exam.po.MarkExample;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface MarkMapper {
     int countByExample(MarkExample example);

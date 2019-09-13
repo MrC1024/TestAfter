@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="97e9769a-deb4-48c0-8663-6e32f28369bd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/aContr.class" afterDir="false" />
@@ -151,15 +152,124 @@
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapper/mapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+=======
+    <list default="true" id="1bab5a19-3ca2-4ce4-9cbf-a79ee4c39133" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/AnswerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/AnswerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/PageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/AnswerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/AnswerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BadanswerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BadanswerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BannerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BannerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BecommentedMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BecommentedMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommodityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommodityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/DeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/IndentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/IndentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/MarkMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/MarkMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/NoticeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/NoticeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/OptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/OptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VideoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VideoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VtypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VtypeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Badanswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Badanswer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Banner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Banner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Becommented.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Becommented.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Commodity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Commodity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Dept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Indent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Indent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Mark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Mark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Notice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Option.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Video.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Vtype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Vtype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/AnswerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/BadanswerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/BannerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/BecommentedMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CommodityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/IndentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/MarkMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/NoticeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/OptionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/VideoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/VtypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/bdqn/exam/ExamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/bdqn/exam/ExamTest.class" afterDir="false" />
+>>>>>>> origin/master
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -243,30 +353,19 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> origin/master
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>banner</find>
-      <find>ban</find>
-      <find>..</find>
-      <find>if</find>
-      <find>课程管理</find>
-      <find>问题反馈</find>
-      <find>课程</find>
-      <find>订单</find>
-      <find>柱状图</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -317,18 +416,26 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BecommentedMapper.java" />
       </list>
     </option>
+=======
+>>>>>>> origin/master
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="mavenHome" value="F:/maven/apache-maven-3.6.1" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="printErrorStackTraces" value="true" />
         <option name="usePluginRegistry" value="true" />
         <option name="userSettingsFile" value="F:\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
+<<<<<<< HEAD
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -421,29 +528,22 @@
       <pane id="Scratches" />
     </panes>
   </component>
+=======
+  <component name="ProjectId" id="1QlZ5oGClEV8msKHILb6INdybd9" />
+>>>>>>> origin/master
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -454,7 +554,19 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\KaoShiXT\exam\src\main\resources\static" />
       <recent name="D:\Java-work-space\exam\src\main\java\cn\bdqn\exam\entity" />
+=======
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.bdqn.exam.server.impl" />
+>>>>>>> origin/master
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -469,25 +581,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="exam" />
       <extension name="coverage">
@@ -501,24 +594,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
@@ -526,42 +601,30 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\TL\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="91b4834a-02e9-4c40-a05f-c9416803cf7d" name="Default Changelist" comment="" />
-      <created>1568254511635</created>
+      <changelist id="1bab5a19-3ca2-4ce4-9cbf-a79ee4c39133" name="Default Changelist" comment="" />
+      <created>1568346962618</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568254511635</updated>
-      <workItem from="1568254514382" duration="6320000" />
-      <workItem from="1568284565229" duration="4150000" />
+      <updated>1568346962618</updated>
+      <workItem from="1568346966534" duration="2050000" />
+      <workItem from="1568356996926" duration="1290000" />
+      <workItem from="1568358311042" duration="742000" />
     </task>
-    <task id="LOCAL-00001" summary="11">
-      <created>1568296910615</created>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1568357777426</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1568296910616</updated>
+      <updated>1568357777426</updated>
     </task>
-    <task id="LOCAL-00002" summary="init">
-      <created>1568337508698</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1568337508698</updated>
-    </task>
-    <task id="LOCAL-00003" summary="init">
-      <created>1568339437530</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1568339437530</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="21262000" />
   </component>
@@ -1016,102 +1079,26 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8 (2)</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>exam</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> origin/master
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>

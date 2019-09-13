@@ -1,11 +1,12 @@
 package cn.bdqn.exam.dao;
 
 
-import java.util.List;
 
-import cn.bdqn.exam.entity.Banner;
-import cn.bdqn.exam.entity.BannerExample;
+import cn.bdqn.exam.po.Banner;
+import cn.bdqn.exam.po.BannerExample;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface BannerMapper {
     int countByExample(BannerExample example);
