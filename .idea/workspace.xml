@@ -1,267 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="97e9769a-deb4-48c0-8663-6e32f28369bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/aContr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/AnswerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BadanswerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BannerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BecommentedMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommodityMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/DeptMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/IndentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/MarkMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/NoticeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/OptionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VideoMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VtypeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Banner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Becommented.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Commodity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Indent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Mark.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Notice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Answer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/AnswerExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/AnswerExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/AnswerExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/AnswerExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Badanswer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BadanswerExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BadanswerExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BadanswerExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BadanswerExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Comment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/CommentExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/CommentExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/CommentExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Dept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/DeptExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/DeptExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/DeptExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/DeptExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Option.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/OptionExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/OptionExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/OptionExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/OptionExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/UserExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/UserExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/UserExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Video.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/VideoExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/VideoExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/VideoExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/VideoExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Vtype.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/VtypeExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/VtypeExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/VtypeExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/VtypeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Banner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BannerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BannerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BannerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BannerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Becommented.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BecommentedExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BecommentedExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BecommentedExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/BecommentedExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Commodity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/CommodityExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/CommodityExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/CommodityExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/CommodityExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Indent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/IndentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/IndentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/IndentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/IndentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Mark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/MarkExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/MarkExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/MarkExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/MarkExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/NoticeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/NoticeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/NoticeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/NoticeExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/AnswerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/AnswerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/AnswerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/AnswerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BadanswerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BadanswerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BadanswerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/BadanswerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BannerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BannerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BannerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/BannerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BecommentedMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BecommentedMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BecommentedMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/BecommentedMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/CommodityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/CommodityMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/CommodityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/CommodityMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/DeptMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/DeptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/IndentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/IndentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/IndentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/IndentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/MarkMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/MarkMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/MarkMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/MarkMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/NoticeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/NoticeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/NoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/NoticeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/OptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/OptionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/OptionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/OptionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VideoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VideoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VtypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VtypeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VtypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/VtypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/AnswerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/AnswerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Badanswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Badanswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/BadanswerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/BadanswerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Banner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/BannerExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Becommented.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/BecommentedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/BecommentedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/CommentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/CommentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Commodity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Commodity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/CommodityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/CommodityExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Dept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/DeptExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/DeptExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Indent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Indent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/IndentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/IndentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Mark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Mark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/MarkExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/MarkExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Notice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/NoticeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/NoticeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Option.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/OptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/OptionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/UserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/VideoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/VideoExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Vtype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Vtype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/VtypeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/VtypeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-=======
-    <list default="true" id="1bab5a19-3ca2-4ce4-9cbf-a79ee4c39133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/AnswerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/AnswerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/UserExample.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/AnswerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/AnswerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BadanswerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BadanswerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BannerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BannerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BecommentedMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BecommentedMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommodityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommodityMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/DeptMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/IndentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/IndentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/MarkMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/MarkMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/NoticeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/NoticeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/OptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/OptionMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VideoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VideoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VtypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VtypeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Badanswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Badanswer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Banner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Banner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Becommented.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Becommented.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Commodity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Commodity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Dept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Indent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Indent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Mark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Mark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Notice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Option.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Video.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Vtype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Vtype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/AnswerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/BadanswerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/BannerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/BecommentedMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CommodityMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/DeptMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/IndentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/MarkMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/NoticeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/OptionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/VideoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/VtypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/bdqn/exam/ExamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/bdqn/exam/ExamTest.class" afterDir="false" />
->>>>>>> origin/master
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/UserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/UserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/UserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/po/UserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,17 +55,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/BadanswerExample.java">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="310">
+              <caret line="897" column="14" selection-start-line="897" selection-start-column="14" selection-end-line="897" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -288,10 +82,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/AnswerExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7324">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -300,61 +94,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/404.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="16" column="7" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_footer.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article-add.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-role.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article-class.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="157">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-3.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/DeptController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Answer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-541" />
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-=======
->>>>>>> origin/master
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -365,7 +172,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -379,7 +185,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/welcome.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/picture-list1.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/picture-list2.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" />
@@ -414,10 +219,14 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/IndentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/NoticeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BecommentedMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java" />
       </list>
     </option>
-=======
->>>>>>> origin/master
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -435,7 +244,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-<<<<<<< HEAD
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -458,6 +266,7 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectId" id="1QlZ5oGClEV8msKHILb6INdybd9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -512,12 +321,52 @@
               <item name="项目" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="项目" type="b2602c69:ProjectViewProjectNode" />
               <item name="项目" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -528,9 +377,6 @@
       <pane id="Scratches" />
     </panes>
   </component>
-=======
-  <component name="ProjectId" id="1QlZ5oGClEV8msKHILb6INdybd9" />
->>>>>>> origin/master
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -543,24 +389,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-<<<<<<< HEAD
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.bdqn.exam.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\KaoShiXT\exam\src\main\resources\static" />
-      <recent name="D:\Java-work-space\exam\src\main\java\cn\bdqn\exam\entity" />
-=======
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
       <recent name="cn.bdqn.exam.server.impl" />
->>>>>>> origin/master
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -624,12 +458,12 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-<<<<<<< HEAD
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21262000" />
+    <option name="totallyTimeSpent" value="22074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -640,7 +474,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.12606232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.37677053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -649,7 +483,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.30169973" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.32719547" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -719,97 +553,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/DeptMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/OptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VtypeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VideoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/MarkMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Commodity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/CommodityExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Indent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/IndentExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -838,13 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/UserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/UserExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/MarkExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -885,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -903,9 +640,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/Becommented.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/Becommented.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/IndentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -1072,33 +807,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/aContr.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="897" column="14" selection-start-line="897" selection-start-column="14" selection-end-line="897" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/AnswerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-=======
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
->>>>>>> origin/master
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-541" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="7" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
