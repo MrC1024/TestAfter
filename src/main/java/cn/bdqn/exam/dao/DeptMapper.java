@@ -3,8 +3,8 @@ package cn.bdqn.exam.dao;
 
 import java.util.List;
 
-import cn.bdqn.exam.entity.Dept;
-import cn.bdqn.exam.entity.DeptExample;
+import cn.bdqn.exam.po.Dept;
+import cn.bdqn.exam.po.DeptExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface DeptMapper {

@@ -3,8 +3,8 @@ package cn.bdqn.exam.dao;
 
 import java.util.List;
 
-import cn.bdqn.exam.entity.Vtype;
-import cn.bdqn.exam.entity.VtypeExample;
+import cn.bdqn.exam.po.Vtype;
+import cn.bdqn.exam.po.VtypeExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface VtypeMapper {

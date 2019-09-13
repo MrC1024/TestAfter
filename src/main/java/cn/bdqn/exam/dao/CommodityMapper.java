@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Commodity;
-import com.bangbang.po.CommodityExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Commodity;
+import cn.bdqn.exam.entity.CommodityExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface CommodityMapper {

@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Mark;
-import com.bangbang.po.MarkExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Mark;
+import cn.bdqn.exam.entity.MarkExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface MarkMapper {
