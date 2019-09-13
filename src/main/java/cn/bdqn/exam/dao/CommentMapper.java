@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Comment;
-import com.bangbang.po.CommentExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Comment;
+import cn.bdqn.exam.entity.CommentExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface CommentMapper {
