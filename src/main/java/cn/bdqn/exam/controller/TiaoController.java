@@ -2,16 +2,12 @@ package cn.bdqn.exam.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-/**
- * 显示页面的Controller,不需要修改
- */
 @Controller
-public class PageController {
+public class TiaoController {
     @RequestMapping("/toIndex")
     public String toIndex(){
         return "index";
-   }
+    }
     @RequestMapping("/welcome.html")
     public String welcome() {
         return "welcome.html";
@@ -59,12 +55,12 @@ public class PageController {
 
     @RequestMapping("/picture-list1.html")
     public String picture1() {
-        return "picture-list.html";
+        return "picture-list1.html";
     }
 
     @RequestMapping("/picture-list2.html")
     public String picture2() {
-        return "picture-list.html";
+        return "picture-list2.html";
     }
 
     @RequestMapping("/member-list.html")
@@ -89,3 +85,4 @@ public class PageController {
 
 
 }
+

@@ -16,8 +16,8 @@ spring:
     static-locations: classpath:/
 
 mybatis:
-  #Mapper文件路径
-  mapper-locations: classpath:/mappers/*.xml
-  #设置别名
-  type-aliases-package: cn.bdqn.exam.entity
+ #Mapper文件路径
+  mapper-locations: classpath:mappers/*.xml
+ #设置别名
+  #type-aliases-package: cn.bdqn.exam.entity
 
