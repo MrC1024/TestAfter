@@ -9,8 +9,20 @@
     <result column="sex" property="sex" jdbcType="CHAR" />
     <result column="deptID" property="deptid" jdbcType="VARCHAR" />
     <result column="points" property="points" jdbcType="INTEGER" />
+    <association property="dept" javaType="cn.bdqn.exam.po.Dept">
+     <result column="deptName" property="deptname"></result>
+    </association>
   </resultMap>
-    <!--<select id="getAll" resultMap="BaseResultMap" >
-
-    </select>-->
+    <select id="getAll" resultMap="BaseResultMap" >
+        SELECT u.*,d.`deptName`  FROM USER u,dept d WHERE u.`deptID`=d.`deptID`
+    </select>
+    <delete id="del" parameterType="Integer">
+        DELETE FROM USER WHERE user_id=#{id}
+    </delete>
+    <insert id="add" parameterType="Integer">
+      INSERT INTO USER VALUES(NULL,#{userName},#{account},#{password},#{sex},#{deptID},#{points})
+    </insert>
+    <select id="getALL" resultType="cn.bdqn.exam.po.Dept">
+       select  * from dept
+    </select>
 </mapper>

@@ -15,6 +15,16 @@ public class User {
 
     private Integer points;
 
+    private Dept dept;
+
+    public Dept getDept() {
+        return dept;
+    }
+
+    public void setDept(Dept dept) {
+        this.dept = dept;
+    }
+
     public Integer getUserId() {
         return userId;
     }
