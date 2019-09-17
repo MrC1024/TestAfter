@@ -94,7 +94,7 @@ public class UserController {
     public String update(User user,HttpServletRequest request){
         String newpassword = request.getParameter("newpassword");
         out.println(newpassword);
-        user.setPassword(newpassword);
+       user.setPassword(newpassword);
         out.println(user.getPassword());
         int res = userService.upd(user);
         out.println(res);
