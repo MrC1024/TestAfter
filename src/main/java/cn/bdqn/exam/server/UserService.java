@@ -23,5 +23,14 @@ public interface UserService {
       查询全部部门
     */
    List<Dept> getALL();
+
+   /*
+      Id查询
+    */
+   User getById(int id);
+   /*
+     修改密码
+   */
+   int upd(User user);
 }
 

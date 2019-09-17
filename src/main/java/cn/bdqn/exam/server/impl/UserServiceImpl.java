@@ -29,4 +29,12 @@ public class UserServiceImpl implements UserService {
         return userMapper.getALL();
     }
 
+    public User getById(int id) {
+        return userMapper.getById(id);
+    }
+
+    public int upd(User user) {
+        return userMapper.upd(user);
+    }
+
 }

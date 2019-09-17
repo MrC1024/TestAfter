@@ -1,8 +1,15 @@
 package cn.bdqn.exam.controller;
 
+import cn.bdqn.exam.po.User;
+import javafx.scene.shape.Path;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import javax.servlet.http.HttpServletRequest;
+
+import static java.lang.System.out;
 
 @Controller
 public class TiaoController {
@@ -104,5 +111,6 @@ public class TiaoController {
     public String  membershow() {
         return "member-show.html";
     }
+
 }
 

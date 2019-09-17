@@ -1,5 +1,7 @@
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <html>
 <head>
 <meta charset="utf-8">
@@ -41,11 +43,11 @@
 			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>性别：</label>
 			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
 				<div class="radio-box">
-					<input name="sex" type="radio" id="sex-1" checked>
+					<input name="sex" type="radio" id="sex-1" checked value="男">
 					<label for="sex-1">男</label>
 				</div>
 				<div class="radio-box">
-					<input type="radio" id="sex-2" name="sex">
+					<input type="radio" id="sex-2" name="sex" value="女">
 					<label for="sex-2">女</label>
 				</div>
 			</div>
@@ -66,7 +68,7 @@
 		<div class="row cl ">
 			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>部门：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<select name="deptid" class="cha">
+				<select name="deptid" class="cha" id="deptid">
 
 				</select>
 			</div>
@@ -80,7 +82,7 @@
 
 		<div class="row cl">
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
-				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+				<input class="btn btn-primary radius" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;" onclick="b()">
 			</div>
 		</div>
 	</form>
@@ -160,4 +162,38 @@
 			}
 		})
 	}
+
+	function b() {
+		var username = $("input[name=username]").val();
+		var sex = $('input:radio[name="sex" ]:checked').val()
+		var deptid=$("#deptid").val();
+		var account = $("input[name=account]").val();
+		var password =$("input[name=password]").val();
+		var points = $("input[name=points]").val();
+		$.ajax({
+			"url":"/user/add",
+			"data":"username="+username+"&account="+account+"&password="+password+"&sex="+sex+"&deptid="+deptid+"&points="+points,
+			"dataType":"json",
+			"type":"post",
+			"success":function (result) {
+				if(result>0){
+					alert("添加成功!");
+					window.parent.location.reload();
+				}else{
+					alert("添加失败!");
+				}
+			}
+		})
+	}
+	function custom_close(){
+		if(confirm("您确定要关闭本页吗？")){
+			window.opener=null;
+			window.open('','_self');
+			window.close();
+		}
+		else{
+		}
+	}
+
+
 </script>

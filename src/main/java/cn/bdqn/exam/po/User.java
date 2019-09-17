@@ -11,11 +11,33 @@ public class User {
 
     private String sex;
 
-    private String deptid;
+    private int deptid;
 
-    private Integer points;
+    private int points;
 
     private Dept dept;
+
+    private Mark mark;
+
+    public Mark getMark() {
+        return mark;
+    }
+
+    public void setMark(Mark mark) {
+        this.mark = mark;
+    }
+
+    public int getDeptid() {
+        return deptid;
+    }
+
+    public void setDeptid(int deptid) {
+        this.deptid = deptid;
+    }
+
+
+    public User() {
+    }
 
     public Dept getDept() {
         return dept;
@@ -65,19 +87,13 @@ public class User {
         this.sex = sex == null ? null : sex.trim();
     }
 
-    public String getDeptid() {
-        return deptid;
-    }
 
-    public void setDeptid(String deptid) {
-        this.deptid = deptid == null ? null : deptid.trim();
-    }
 
-    public Integer getPoints() {
+    public int getPoints() {
         return points;
     }
 
-    public void setPoints(Integer points) {
+    public void setPoints(int points) {
         this.points = points;
     }
 }

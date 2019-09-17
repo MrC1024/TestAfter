@@ -11,6 +11,16 @@ public class Video {
 
     private String lengthoftime;
 
+    private Vtype vtype;
+
+    public Vtype getVtype() {
+        return vtype;
+    }
+
+    public void setVtype(Vtype vtype) {
+        this.vtype = vtype;
+    }
+
     public Integer getVid() {
         return vid;
     }
