@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Dept;
-import com.bangbang.po.DeptExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Dept;
+import cn.bdqn.exam.entity.DeptExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface DeptMapper {

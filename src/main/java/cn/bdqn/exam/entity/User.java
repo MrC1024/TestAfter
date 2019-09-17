@@ -1,5 +1,7 @@
 package cn.bdqn.exam.entity;
 
+import java.util.List;
+
 public class User {
     private Integer userId;
 
@@ -14,6 +16,25 @@ public class User {
     private String deptid;
 
     private Integer points;
+
+    private  List<Role> roles;
+
+    private List<Comment> commentList;
+
+    public List<Comment> getCommentList() {
+        return commentList;
+    }
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
+    }
+
+    public void setCommentList(List<Comment> commentList) {
+        this.commentList = commentList;
+    }
 
     public Integer getUserId() {
         return userId;

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bdqn.exam.dao.problemsMapper" >
+  <resultMap id="BaseDate" type="cn.bdqn.exam.entity.Problems" >
+    <id column="pro_id" property="pro_id" jdbcType="INTEGER" />
+    <result column="pro_question" property="pro_question" jdbcType="VARCHAR" />
+    <result column="pro_name" property="pro_name" jdbcType="VARCHAR" />
+    <result column="pro_phone" property="pro_phone" jdbcType="VARCHAR" />
+    <association property="user" javaType="cn.bdqn.exam.entity.User">
+        <result column="user_id" property="userId"/>
+        <result column="account" property="account"/>
+    </association>
+  </resultMap>
+    <select id="finaByproblems" resultMap="BaseDate">
+    SELECT  p.`pro_id`,p.`pro_question`,u.`account`,p.`pro_name`,p.`pro_phone` FROM `problems` AS p,`user` AS u WHERE p.`user_id`=u.`user_id`
+    </select>
+
+</mapper>

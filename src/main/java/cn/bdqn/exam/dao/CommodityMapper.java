@@ -1,7 +1,7 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Commodity;
-import com.bangbang.po.CommodityExample;
+import cn.bdqn.exam.entity.Commodity;
+import cn.bdqn.exam.entity.CommodityExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

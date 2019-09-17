@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bdqn.exam.dao.roleMapper" >
+  <resultMap id="BaseDate" type="cn.bdqn.exam.entity.Role" >
+    <id column="rid" property="rid" jdbcType="INTEGER" />
+    <result column="rname" property="rname" jdbcType="VARCHAR" />
+      <association property="user" javaType="cn.bdqn.exam.entity.User">
+          <result column="user_id" property="userId"/>
+          <result column="userName" property="username"/>
+      </association>
+      <association property="dept" javaType="cn.bdqn.exam.entity.Dept">
+          <result column="deptID" property="deptid"/>
+          <result column="deptName" property="deptname"/>
+      </association>
+  </resultMap>
+    <select id="finaByRole" resultMap="BaseDate">
+ SELECT r.`rid`,r.`rname`,u.`userName`,d.`deptName` FROM `role` AS r,`dept` AS d,`user` AS u WHERE r.`deptId`=d.`deptID` AND r.`userId`=u.`user_id`
+    </select>
+
+</mapper>

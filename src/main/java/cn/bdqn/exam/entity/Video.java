@@ -1,5 +1,7 @@
 package cn.bdqn.exam.entity;
 
+import java.util.List;
+
 public class Video {
     private Integer vid;
 
@@ -10,6 +12,15 @@ public class Video {
     private String path;
 
     private String lengthoftime;
+    private List<Comment> commentList;
+
+    public List<Comment> getCommentList() {
+        return commentList;
+    }
+
+    public void setCommentList(List<Comment> commentList) {
+        this.commentList = commentList;
+    }
 
     public Integer getVid() {
         return vid;

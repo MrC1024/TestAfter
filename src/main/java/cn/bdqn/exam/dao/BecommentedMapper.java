@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Becommented;
-import com.bangbang.po.BecommentedExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Becommented;
+import cn.bdqn.exam.entity.BecommentedExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface BecommentedMapper {

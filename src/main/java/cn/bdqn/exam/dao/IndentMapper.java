@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Indent;
-import com.bangbang.po.IndentExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Indent;
+import cn.bdqn.exam.entity.IndentExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface IndentMapper {

@@ -1,7 +1,7 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Banner;
-import com.bangbang.po.BannerExample;
+import cn.bdqn.exam.entity.Banner;
+import cn.bdqn.exam.entity.BannerExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -1,13 +1,24 @@
 package cn.bdqn.exam.entity;
 
+
+import java.util.Date;
+
+/**
+ * 问题反馈enttiy
+ */
 public class Comment {
     private Integer commentid;
 
     private String commentContent;
 
-    private Integer videoid;
+    private String  commentAdmin;
 
-    private Integer fromUid;
+
+    private Date commentDate;
+
+    private Video video;
+
+    private User user;
 
     public Integer getCommentid() {
         return commentid;
@@ -20,24 +31,37 @@ public class Comment {
     public String getCommentContent() {
         return commentContent;
     }
+    public Date getCommentDate() {
+        return commentDate;
+    }
+
+    public void setCommentDate(Date commentDate) {
+        this.commentDate = commentDate;
+    }
 
     public void setCommentContent(String commentContent) {
         this.commentContent = commentContent == null ? null : commentContent.trim();
     }
-
-    public Integer getVideoid() {
-        return videoid;
+    public void setCommentAdmin(String commentAdmin) {
+        this.commentAdmin = commentAdmin;
     }
 
-    public void setVideoid(Integer videoid) {
-        this.videoid = videoid;
+    public String getCommentAdmin() {
+        return commentAdmin;
+    }
+    public Video getVideo() {
+        return video;
     }
 
-    public Integer getFromUid() {
-        return fromUid;
+    public void setVideo(Video video) {
+        this.video = video;
     }
 
-    public void setFromUid(Integer fromUid) {
-        this.fromUid = fromUid;
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

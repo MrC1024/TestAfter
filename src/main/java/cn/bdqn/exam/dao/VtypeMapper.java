@@ -1,8 +1,10 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Vtype;
-import com.bangbang.po.VtypeExample;
+
 import java.util.List;
+
+import cn.bdqn.exam.entity.Vtype;
+import cn.bdqn.exam.entity.VtypeExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface VtypeMapper {

@@ -1,8 +1,9 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.User;
-import com.bangbang.po.UserExample;
 import java.util.List;
+
+import cn.bdqn.exam.entity.User;
+import cn.bdqn.exam.entity.UserExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface UserMapper {

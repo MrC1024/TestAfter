@@ -1,8 +1,9 @@
 package cn.bdqn.exam.dao;
 
-import com.bangbang.po.Video;
-import com.bangbang.po.VideoExample;
 import java.util.List;
+
+import cn.bdqn.exam.entity.Video;
+import cn.bdqn.exam.entity.VideoExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface VideoMapper {
