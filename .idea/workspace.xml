@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97e9769a-deb4-48c0-8663-6e32f28369bd" name="Default Changelist" comment="" />
+    <list default="true" id="97e9769a-deb4-48c0-8663-6e32f28369bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,14 +58,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="94" column="47" lean-forward="true" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+            <state relative-caret-position="101">
+              <caret line="86" column="42" lean-forward="true" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Indent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -101,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="196" selection-start-line="196" selection-end-line="196" />
+            <state relative-caret-position="210">
+              <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
@@ -141,8 +152,8 @@
       <find>88</find>
       <find>obj</find>
       <find>member_del</find>
-      <find>批量</find>
       <find>datadel</find>
+      <find>批量</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,13 +210,13 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/VideoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/VideoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VideoController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/change-password.html" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/CommentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/CommodityMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/MarkMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VtypeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" />
       </list>
     </option>
   </component>
@@ -295,6 +306,30 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="exam" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,7 +426,7 @@
       <workItem from="1568527870712" duration="9063000" />
       <workItem from="1568549164565" duration="7245000" />
       <workItem from="1568594371751" duration="34684000" />
-      <workItem from="1568680466877" duration="15902000" />
+      <workItem from="1568680466877" duration="17514000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1568357777426</created>
@@ -435,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568727398866</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="aaaa">
+      <created>1568727896742</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568727896742</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91350000" />
+    <option name="totallyTimeSpent" value="92962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -528,13 +570,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="aaaa" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="897" column="14" selection-start-line="897" selection-start-column="14" selection-end-line="897" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/AnswerMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PageController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java">
@@ -770,21 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#9;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#9;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#9;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -911,10 +931,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="94" column="47" lean-forward="true" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+        <state relative-caret-position="101">
+          <caret line="86" column="42" lean-forward="true" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/po/Indent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#u#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#9;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#9;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#9;n#tr#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
