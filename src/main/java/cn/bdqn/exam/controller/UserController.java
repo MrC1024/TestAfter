@@ -1,7 +1,7 @@
 package cn.bdqn.exam.controller;
 
-import cn.bdqn.exam.po.Dept;
-import cn.bdqn.exam.po.User;
+import cn.bdqn.exam.entity.Dept;
+import cn.bdqn.exam.entity.User;
 import cn.bdqn.exam.server.UserService;
 import com.alibaba.fastjson.JSON;
 import com.sun.org.apache.xpath.internal.operations.Mod;
@@ -14,7 +14,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static java.lang.System.out;
 import static java.lang.System.setOut;
@@ -32,7 +34,7 @@ public class UserController {
         return JSON.toJSONString(list);
     }
 
-    @RequestMapping("del/{id}")
+   @RequestMapping("del/{id}")
     @ResponseBody
     public String del(@PathVariable("id") Integer id, HttpServletRequest request){
         int res =  userService.del(id);
@@ -66,11 +68,8 @@ public class UserController {
         int res = userService.add(user);
         return JSON.toJSONString(res);
     }
-   /* @RequestMapping("change-password/{id}")
-    public String changepassword1(@PathVariable("id") int id, Model model){
-        model.addAttribute("id",id);
-        return "change-password";
-    }*/
+
+
 
     @RequestMapping("change-password/{id}")
     public String a(HttpServletRequest request, @PathVariable("id")int id,Model model){
@@ -99,6 +98,23 @@ public class UserController {
         int res = userService.upd(user);
         out.println(res);
         return  JSON.toJSONString(res);
+    }
+
+    @RequestMapping("/del2")
+    @ResponseBody
+    public void del2(HttpServletRequest request){
+        String items = request.getParameter("delitems");// System.out.println(items);
+        System.out.println(items);
+        String[] strs = items.split(",");
+        for (int i = 0; i < strs.length; i++) {
+            try {
+                int b = Integer.parseInt(strs[i]);
+                System.out.println(b);
+                userService.del(b);
+            } catch (Exception e) {
+            }
+        }
+        System.out.println(1);
     }
 
 }

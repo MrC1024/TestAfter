@@ -31,7 +31,7 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 会员管理 <span class="c-gray en">&gt;</span> 会员列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 
-	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="batchDeletes()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="member_add('添加用户','member-add','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加用户</a></span> <span class="r count">共有数据：<strong>88</strong> 条</span> </div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="member_add('添加用户','member-add','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加用户</a></span> <span class="r count">共有数据：<strong>88</strong> 条</span> </div>
 	<div class="mt-20">
 		<table class="table table-border table-bordered table-hover table-bg table-sort">
 			<thead>
@@ -159,7 +159,7 @@
 				$(".count").html("");
 				for (var i=0; i<result.length; i++){
 					$(".cha").append("<tr class=\"text-c \">" +
-							"<td><input type=\"checkbox\" value=\""+result[i].userId+"\" name=\"piliang\"></td>\n" +
+							"<td><input type=\"checkbox\" value=\""+result[i].userId+"\" name=\"subcheck\"></td>\n" +
 							"\t\t\t\t<td>"+(i+1)+"</td>\n" +
 							"\t\t\t\t<td><u style=\"cursor:pointer\" class=\"text-primary\" onclick=\"member_show('','/user/member-show/"+result[i].userId+"','"+result[i].userId+"','360','400')\">"+result[i].username+"</u></td>\n" +
 							"\t\t\t\t<td>"+result[i].sex+"</td>\n" +
@@ -195,32 +195,34 @@ function del(id) {
 	}
 }
 
-    function batchDeletes(){
-        //判断至少写了一项
-        var checkedNum = $("input[name='subcheck']:checked").length;
-        if(checkedNum==0){
-            alert("请至少选择一项!");
-            return false;
-        }
-        if(confirm("确定删除所选项目?")){
-            var checkedList = new Array();
-            $("input[name='subcheck']:checked").each(function(){
-                checkedList.push($(this).val());
-            });
-            $.ajax({
-                type:"POST",
-                url:"del",
-                data:{"delitems":checkedList.toString()},
-                datatype:"html",
-                success:function(data){
-                    $("[name='checkbox2']:checkbox").attr("checked",false);
-                    location.reload();//页面刷新
-                },
-                error:function(data){
-                    art.dialog.tips('删除失败!');
-                }
-            });
-        }
-    }
+
+	function datadel(){
+		var checkedNum = $("input[name='subcheck']:checked").length;
+		if(checkedNum==0){
+			alert("请至少选择一项!");
+			return false;
+		}
+		if(confirm("确定删除所选项目?")){
+			var checkedList = new Array();
+			$("input[name='subcheck']:checked").each(function(){
+				checkedList.push($(this).val());
+			});
+			$.ajax({
+				"url":"/user/del2",
+				"type":"POST",
+				"data":{"delitems":checkedList.toString()},
+				"dataType":"html",
+				"success":function(data){
+					$("[name='checkbox2']:checkbox").attr("checked",false);
+					a();
+				},
+				error:function(data){
+					art.dialog.tips('删除失败!');
+				}
+			});
+		}
+	}
+
+
 
 </script>

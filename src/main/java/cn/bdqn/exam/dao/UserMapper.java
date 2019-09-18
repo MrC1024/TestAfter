@@ -5,8 +5,8 @@ package cn.bdqn.exam.dao;
 import java.util.List;
 
 
-import cn.bdqn.exam.po.Dept;
-import cn.bdqn.exam.po.User;
+import cn.bdqn.exam.entity.Dept;
+import cn.bdqn.exam.entity.User;
 
 
 public interface UserMapper {
@@ -35,4 +35,9 @@ public interface UserMapper {
       查询全部部门
     */
    List<Dept> getALL();
+
+   /*
+      批量删除
+    */
+
 }

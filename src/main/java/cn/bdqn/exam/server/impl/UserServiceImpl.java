@@ -1,8 +1,8 @@
 package cn.bdqn.exam.server.impl;
 
 import cn.bdqn.exam.dao.UserMapper;
-import cn.bdqn.exam.po.Dept;
-import cn.bdqn.exam.po.User;
+import cn.bdqn.exam.entity.Dept;
+import cn.bdqn.exam.entity.User;
 import cn.bdqn.exam.server.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -36,5 +36,6 @@ public class UserServiceImpl implements UserService {
     public int upd(User user) {
         return userMapper.upd(user);
     }
+
 
 }

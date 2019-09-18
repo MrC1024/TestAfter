@@ -100,61 +100,22 @@
 		-
 		<input type="text" onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'datemin\')}',maxDate:'%y-%M-%d' })" id="datemax" class="input-text Wdate" style="width:120px;">
 		<input type="text" class="input-text" style="width:250px" placeholder="输入关键词" id="" name="">
-		<button type="submit" class="btn btn-success radius" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜意见</button>
+		<button type="submit" class="btn btn-success radius"  name=""><i class="Hui-iconfont">&#xe665;</i> 搜意见</button>
 	</div>
-	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> </span> <span class="r">共有数据：<strong>88</strong> 条</span> </div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"> </span> <span class="r">共有数据：<strong>8</strong> 条</span> </div>
 	<div class="mt-20">
-		<table class="table table-border table-bordered table-hover table-bg table-sort">
+		<table class="table table-border table-bordered table-hover table-bg table-sort table1" >
 			<thead>
 				<tr class="text-c">
-					<th width="25"><input type="checkbox" name="" value=""></th>
+					<th width="60">选择</th>
 					<th width="60">ID</th>
-					<th width="60">用户名</th>
+					<th>用户名</th>
 					<th>留言内容</th>
 					<th width="100">操作</th>
 				</tr>
 			</thead>
-			<tbody>
-				<tr class="text-c">
-					<td><input type="checkbox" value="1" name=""></td>
-					<td>1</td>
-					<td><a href="javascript:;" onclick="member_show('张三','member-show.html','10001','360','400')"><i class="avatar size-L radius"><img alt="" src="static/h-ui/images/ucnter/avatar-default-S.gif"></i></a></td>
-					<td class="text-l"><div class="c-999 f-12">
-							<u style="cursor:pointer" class="text-primary" onclick="member_show('张三','member-show.html','10001','360','400')">张三</u> <time title="2014年8月31日 下午3:20" datetime="2014-08-31T03:54:20">2014-8-31 15:20</time> <span class="ml-20">13000000000</span> <span class="ml-20">admin@mail.com</span></div>
-							<div class="f-12 c-999">试题标题</div>
-						<div>留言内容</div></td>
-					<td class="td-manage"><a title="回复" href="javascript:;" onclick="modaldemo()" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-				</tr>
-				<tr class="text-c">
-					<td><input type="checkbox" value="1" name=""></td>
-					<td>1</td>
-					<td><a href="javascript:;" onclick="member_show('张三','member-show.html','10001','360','400')"><i class="avatar size-L radius"><img alt="" src="static/h-ui/images/ucnter/avatar-default-S.gif"></i></a></td>
-					<td class="text-l"><div class="c-999 f-12">
-							<u style="cursor:pointer" class="text-primary" onclick="member_show('张三','member-show.html','10001','360','400')">张三</u> <time title="2014年8月31日 下午3:20" datetime="2014-08-31T03:54:20">2014-8-31 15:20</time> <span class="ml-20">13000000000</span> <span class="ml-20">admin@mail.com</span></div>
-							<div class="f-12 c-999"><a href="http://www.h-ui.net/Hui-4.22-comment.shtml" target="_blank">http://www.h-ui.net/Hui-4.22-comment.shtml</a></div>
-						<div>留言内容</div></td>
-					<td class="td-manage"><a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-				</tr>
-				<tr class="text-c">
-					<td><input type="checkbox" value="1" name=""></td>
-					<td>1</td>
-					<td><a href="javascript:;" onclick="member_show('张三','member-show.html','10001','360','400')"><i class="avatar size-L radius"><img alt="" src="static/h-ui/images/ucnter/avatar-default-S.gif"></i></a></td>
-					<td class="text-l"><div class="c-999 f-12">
-							<u style="cursor:pointer" class="text-primary" onclick="member_show('张三','member-show.html','10001','360','400')">张三</u> <time title="2014年8月31日 下午3:20" datetime="2014-08-31T03:54:20">2014-8-31 15:20</time> <span class="ml-20">13000000000</span> <span class="ml-20">admin@mail.com</span></div>
-							<div class="f-12 c-999"><a href="http://www.h-ui.net/Hui-4.22-comment.shtml" target="_blank">http://www.h-ui.net/Hui-4.22-comment.shtml</a></div>
-						<div>留言内容</div></td>
-					<td class="td-manage"><a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-				</tr>
-				<tr class="text-c">
-					<td><input type="checkbox" value="1" name=""></td>
-					<td>1</td>
-					<td><a href="javascript:;" onclick="member_show('张三','member-show.html','10001','360','400')"><i class="avatar size-L radius"><img alt="" src="static/h-ui/images/ucnter/avatar-default-S.gif"></i></a></td>
-					<td class="text-l"><div class="c-999 f-12">
-							<u style="cursor:pointer" class="text-primary" onclick="member_show('张三','member-show.html','10001','360','400')">张三</u> <time title="2014年8月31日 下午3:20" datetime="2014-08-31T03:54:20">2014-8-31 15:20</time> <span class="ml-20">13000000000</span> <span class="ml-20">admin@mail.com</span></div>
-							<div class="f-12 c-999"><a href="http://www.h-ui.net/Hui-4.22-comment.shtml" target="_blank">http://www.h-ui.net/Hui-4.22-comment.shtml</a></div>
-						<div>留言内容</div></td>
-					<td class="td-manage"><a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-				</tr>
+			<tbody id="Hui-msgs">
+
 			</tbody>
 		</table>
 	</div>
@@ -164,11 +125,12 @@
 	<div class="modal-dialog">
 		<div class="modal-content radius">
 			<div class="modal-header">
-				<h3 class="modal-title">这儿传标题</h3>
+				<h3 class="modal-title">管理员回复</h3>
 				<a class="close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">×</a>
 			</div>
 			<div class="modal-body">
-				<textarea class="tex">这儿写回复内容</textarea>
+				<input type="text" id="Hui-msge">
+				<textarea class="tex" id="Hui-text" placeholder="这儿写回复内容"></textarea>
 			</div>
 			<div class="modal-footer">
 				<button class="btn btn-primary">确定</button>
@@ -187,6 +149,29 @@
 <script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
 <script type="text/javascript" src="/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="/static/lib/laypage/1.2/laypage.js"></script>
+<script type="application/javascript">
+	$(function () {
+		$.ajax({
+			"url":"/problems/finaByProblems",
+			"type":"post",
+			"dataType":"json",
+			"success":function (result) {
+				$("#Hui-msgs").html("")
+				$(result).each(function () {
+					$("#Hui-msgs").append("<tr class=\"text-c\">\n" +
+							"\t\t\t\t<td><input type=\"checkbox\" value=\"1\" name=\"\"></td>\n" +
+							"\t\t\t\t<td id=\"hi-Id\">"+this.pro_id+"</td>\n" +
+							"\t\t\t\t<td><a href=\"javascript:;\" >"+this.user.account+"<i class=\"avatar ize-L radiuss\"></i></a></td>\n" +
+							"\t\t\t\t<td class=\"text-l\"><div class=\"c-999 f-12\">\n" +
+							"\t\t\t\t\t<u style=\"cursor:pointer\" id=\"hi-username\" class=\"text-primary\"  >"+this.pro_name+"</u> <time title=\"2014年8月31日 下午3:20\" datetime=\"2014-08-31T03:54:20\">"+this.pro_phone+"</time></div>\n" +
+							"\t\t\t\t\t<div id=\"hi-commnet\">"+this.pro_question+"</div></td>\n" +
+							"\t\t\t\t<td class=\"td-manage\"><a title=\"回复\" href=\"javascript:;\" onclick=\"modaldemo("+this.pro_id+")\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a> <a title=\"删除\" href=\"javascript:;\" onclick=\"member_del(this,'1')\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
+							"\t\t\t</tr>");
+				})
+			}
+		})
+	})
+</script>
 <script type="text/javascript" th:inline="none">
 $(function(){
 	$('.table-sort').dataTable({
@@ -230,9 +215,25 @@ function member_start(obj,id){
 function member_edit(title,url,id,w,h){
 	layer_show(title,url,w,h);
 }
-function modaldemo(){
-	$("#modal-demo").modal("show")
+function modaldemo(id){
+	alert(id);
+	$("#Hui-msge").text(""+id+"");
+	$("#modal-demo").modal("show");
 }
+
+function form () {
+	var commentId=$("#Hui-msge").text()
+	$.ajax({
+		"url":"/comment/updByComment",
+		"type":"post",
+		"data":"commentid="+commentId+"&comment",
+		"":"",
+		"":function (res) {
+
+		}
+	})
+}
+
 /*密码-修改*/
 function change_password(title,url,id,w,h){
 	layer_show(title,url,w,h);

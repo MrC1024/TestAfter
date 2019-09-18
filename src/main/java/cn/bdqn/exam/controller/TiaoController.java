@@ -1,6 +1,5 @@
 package cn.bdqn.exam.controller;
 
-import cn.bdqn.exam.po.User;
 import javafx.scene.shape.Path;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

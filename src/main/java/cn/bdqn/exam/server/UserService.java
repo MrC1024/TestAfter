@@ -1,7 +1,7 @@
 package cn.bdqn.exam.server;
 
-import cn.bdqn.exam.po.Dept;
-import cn.bdqn.exam.po.User;
+import cn.bdqn.exam.entity.Dept;
+import cn.bdqn.exam.entity.User;
 
 import java.util.List;
 
@@ -32,5 +32,7 @@ public interface UserService {
      修改密码
    */
    int upd(User user);
+
+
 }
 
