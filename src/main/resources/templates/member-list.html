@@ -22,33 +22,28 @@
 <title>订单管理</title>
 </head>
 <body>
-<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 角色管理 <span class="c-gray en"></span><a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 考试系用户 <span class="c-gray en">&gt;</span> 试卷管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+
 <div class="page-container">
-	<div class="text-c"> 日期范围：
-		<input type="text" onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'datemax\')||\'%y-%M-%d\'}' })" id="datemin" class="input-text Wdate" style="width:120px;">
-		-
-		<input type="text" onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'datemin\')}',maxDate:'%y-%M-%d' })" id="datemax" class="input-text Wdate" style="width:120px;">
-		<input type="text" class="input-text" style="width:250px" placeholder="输入会员名称、电话、邮箱" id="" name="">
-		<button type="submit" class="btn btn-success radius" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜角色</button>
-	</div>
-	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加角色</a></span> <span class="r">共有数据：<strong>88</strong> 条</span> </div>
+
+	<div class="text-c">
+		<input type="text" class="input-text" style="width:250px; float: right" placeholder="输入会员名称、电话、邮箱" id="" name="tName">
+		<button type="submit" class="btn btn-success radius" style="display: inline; float: right" id="" name="" onclick="mohu()"><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
+	</div><br><br>
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel();" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="member_add('添加用户','b','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加用户</a></span> <span class="r">共有数据：<strong>88</strong> 条</span> </div>
 	<div class="mt-20">
-	<table class="table table-border table-bordered table-hover table-bg table-sort">
+	<table class="table table-border table-bordered table-hover table-bg ">
 		<thead>
 			<tr class="text-c">
 				<th width="25"><input type="checkbox" name="" value=""></th>
-				<th width="80">ID</th>
-				<th width="100">用户名</th>
-				<th width="40">性别</th>
-				<th width="90">手机</th>
-				<th width="150">邮箱</th>
-				<th width="">地址</th>
-				<th width="130">加入时间</th>
-				<th width="70">状态</th>
+				<th width="80">试卷ID</th>
+				<th width="100">试卷名称</th>
+				<th width="100">试卷分类</th>
+				<th width="100">试卷地址</th>
 				<th width="100">操作</th>
 			</tr>
 		</thead>
-		<tbody id="selByAll">
+		<tbody class="cha">
 			<tr class="text-c">
 				<td><input type="checkbox" value="1" name=""></td>
 				<td>1</td>
@@ -64,7 +59,27 @@
 		</tbody>
 	</table>
 	</div>
-</div>
+<input type="hidden" name="aaa" value="">
+	<div id="modal-demo" class="modal fade kuang" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content radius">
+				<div class="modal-header">
+					<h3 class="modal-title">编辑试卷</h3>
+					<a class="close" data-dismiss="modal" aria-hidden="true" href=\"javascript:void();\">×</a>
+				</div>
+				<input type="hidden" id="tid">
+				<div class="modal-body">
+					试卷名称:<input  type="text" class="ntitle" id="tname" name="tname"/><br>
+					试卷类型:<input  type="text" class="ntitle" id="testpaperstepId" name="testpaperstepId"/><br>
+					试卷地址:<input  type="text" class="ntitle" id="testpaperstepSite" name="testpaperstepSite"/>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-primary" onclick="testUpd()">确定</button>
+					<button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+				</div>
+			</div>
+		</div>
+	</div>
 <!--_footer 作为公共模版分离出去-->
 <script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
@@ -134,6 +149,10 @@ function member_start(obj,id){
 		});
 	});
 }
+function modaldemo(){
+	$("#modal-demo").modal("show")
+}
+
 /*用户-编辑*/
 function member_edit(title,url,id,w,h){
 	layer_show(title,url,w,h);
@@ -142,20 +161,6 @@ function member_edit(title,url,id,w,h){
 function change_password(title,url,id,w,h){
 	layer_show(title,url,w,h);	
 }
-/*角色-查询*/
-$(function () {
-	$("#selByAll").html()
-	$.ajax({
-		"url":"/role/finaBy",
-		"type":"post",
-		"data":"",
-		"dataType":"json",
-		"success":function (result) {
-
-		}
-			}
-	)
-})
 /*用户-删除*/
 function member_del(obj,id){
 	layer.confirm('确认要删除吗？',function(index){
@@ -173,6 +178,215 @@ function member_del(obj,id){
 		});		
 	});
 }
-</script> 
+</script>
+<script>
+	var index = 1;
+	a();
+	function shang(){
+		if(index>1){
+			index = index-1;
+			a();
+		}
+	}
+	function xia() {
+		var count = $(".strong").text();
+		var zong1 = $(".zong").text();
+		index = index+1;
+		if(index>zong1){
+			alert("请返回上一页");
+			index = zong1;
+
+			a();
+		}else{
+			a();
+		}
+		return false;
+	}
+	function shouye(){
+		index = 1;
+		a();
+	}
+	function weiye() {
+		var zong1 = $(".zong").text();
+		index = zong1;
+		a();
+	}
+	function getCounts(){
+		$.ajax({
+			"url":"/Test2/getCounts",
+			"type":"post",
+			"dataType":"json",
+			"success":function(result){
+				$("strong").text(result);
+			}
+		});
+	}
+	function a(){
+		$(".cha").html(" ");
+		getCounts();
+		$.ajax({
+			"url":"/Test2/getPages",
+			"data":{
+				"index":index
+			},
+			"type":"post",
+			"dataType":"json",
+			"success":function(result){
+				$(".dangqian").text(index);
+				$(".zong").text(result.pageSum);
+				$(".gong").text(result.count);
+
+				$(result.content).each(function(){
+					$(".cha").append("<tr class=\"text-c\">" +
+							"<td><input type=\"checkbox\" value='"+ this.tid +"' name=\"subcheck\"></td>" +
+							"<td>" + this.tid + "</td>" +
+							"<td>" + this.tname + "</td>" +
+							"<td>" + this.testpaperstepName + "</td>" +
+							"<td>" + this.testpaperstepSite + "</td>" +
+							"<td class=\"td-manage\"><a title=\"编辑\" href=\"javascript:void(0);\" onclick=\"modaldemo();testUpdId("+this.tid+")\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a> <a href=\"javascript:void(0)\" onclick=\"testDel("+this.tid+")\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>" +
+							"</tr>")
+
+				})
+
+			}
+		});
+	}
+	function mohu(){
+		var tName=$("input[name=tName]").val();
+		if (tName==""||testpaperstepId==""){
+			a();
+		}else {
+			$.ajax({
+				"url":"/Test/mohucha/"+tName,
+				"type":"post",
+				"dataType":"json",
+				"success":function(result){
+					$(".cha").html(" ");
+					$(result).each(function(){
+						$(".cha").append("<tr class=\"text-c\">" +
+								"<td><input type=\"checkbox\" value='"+ this.tid +"' name=\"subcheck\"></td>" +
+								"<td>" + this.tid + "</td>" +
+								"<td>" + this.tname + "</td>" +
+								"<td>" + this.testpaperstepName + "</td>" +
+								"<td>" + this.testpaperstepSite + "</td>" +
+								"<td class=\"td-manage\"><a title=\"编辑\" href=\"javascript:void(0);\" onclick=\"modaldemo();testUpdId("+this.tid+")\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a> <a href=\"javascript:void(0)\" onclick=\"testDel("+this.tid+")\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>" +
+								"</tr>")
+
+					})
+
+				}
+			});
+		}
+
+	}
+	function testDel(tid) {
+		var a = confirm("确定要删除嘛?");
+		if (a){
+			$.ajax({
+				"url": "/Test/testDel/" + tid,
+				"type": "post",
+				"dataType": "json",
+				"success": function (result) {
+					if (result) {
+						alert("删除成功!")
+					} else {
+						alert("删除失败!")
+					}
+					location.reload();
+				}
+			})
+		}
+	}
+	function testUpdId(tid) {
+		$(".kuang").show();
+		$("input[name=tname]").val();
+		$("input[name=testpaperstepId]").val();
+		$("input[name=testpaperstepSite]").val();
+		$.ajax({
+			"url":"/Test/testUpdId/"+tid,
+			"type":"post",
+			"dataType":"json",
+			"success":function (result) {
+				$("input[name=tname]").val(result.tname);
+				$("input[name=testpaperstepId]").val(result.testpaperstepId);
+				$("input[name=testpaperstepSite]").val(result.testpaperstepSite);
+				$("input[name=aaa]").val(result.tid);
+			}
+		})
+	}
+	function testUpd() {
+		var tid = $("input[name=aaa]").val();
+		var tname = $("input[name=tname]").val();
+		var testpaperstepId = $("input[name=testpaperstepId]").val();
+		var testpaperstepSite = $("input[name=testpaperstepSite]").val();
+		$.ajax({
+			"url":"/Test/testUpd/",
+			"data":"tid="+tid+"&tname="+tname+"&testpaperstepId="+testpaperstepId+"&testpaperstepSite="+testpaperstepSite,
+			"type":"post",
+			"dataType":"json",
+			"success":function (res) {
+				if(res>0){
+					alert("修改成功!");
+					$(".kuang").hide();
+					a();
+				}else{
+					alert("修改失败");
+				}
+			}
+		})
+	}
+
+	function datadel(){
+		var checkedNum = $("input[name='subcheck']:checked").length;
+		if(checkedNum==0){
+			alert("请至少选择一项!");
+			return false;
+		}
+		if(confirm("确定删除所选项目?")){
+			var checkedList = new Array();
+			$("input[name='subcheck']:checked").each(function(){
+				checkedList.push($(this).val());
+			});
+			$.ajax({
+				"url":"Test/del2",
+				"type":"POST",
+				"data":{"delitems":checkedList.toString()},
+				"dataType":"html",
+				"success":function(data){
+					$("[name='subcheck']:checkbox").attr("checked",false);
+					a();
+				},
+				error:function(data){
+					art.dialog.tips('删除失败!');
+				}
+			});
+		}
+	}
+	b();
+
+	function b() {
+		$.ajax({
+			"url":"/Test/getStepAll",
+			"type":"post",
+			"dataType":"json",
+			"success":function (result) {
+				$(".c").html("");
+				$(".c").append("<option value='0'>请选择</option>")
+				$(result).each(function () {
+					$(".c").append("<option value='"+this.testpaperstepId+"'>"+this.testpaperstepName+"</option>")
+				})
+			}
+		})
+	}
+
+</script>
+	<div class="ye " style="float: right">
+		<div><p>当前 <span class="dangqian"></span> 页,总 <span class="zong"></span> 页,共 <span class="gong"></span> 条记录</p>
+		<a onclick="shouye()">首页</a>
+		<a onclick="shang()">上一页</a>
+		<a onclick="return xia()">下一页</a>
+		<a onclick="weiye()">尾页</a>
+		</div>
+	</div>
 </body>
 </html>

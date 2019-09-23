@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bdqn.exam.dao.IntegralMapper" >
+      <select id="getAll" resultType="cn.bdqn.exam.entity.Integral">
+            SELECT * FROM `commodity` WHERE `addfen` = 0
+      </select>
+        <delete id="delect" parameterType="Integer">
+            DELETE FROM  `commodity` WHERE commodityId = #{commodityId}
+        </delete>
+        <insert id="add" parameterType="cn.bdqn.exam.entity.Integral">
+    	insert into  `commodity` values(null,#{commodityName},#{comTotal},0,1)
+       </insert>
+        <select id="getidAll" parameterType="cn.bdqn.exam.entity.Integral" resultType="cn.bdqn.exam.entity.Integral">
+                SELECT * from   `commodity` where commodityId=#{commodityId}
+        </select>
+        <update id="update" parameterType="cn.bdqn.exam.entity.Integral">
+                update  `commodity` set commodityName=#{commodityName},comTotal=#{comTotal},addfen=#{addfen},state=#{state}
+                where commodityId=#{commodityId}
+        </update>
+        <update id="updatezt" parameterType="cn.bdqn.exam.entity.Integral">
+                update  `commodity` set state=#{state}
+                where commodityId=#{commodityId}
+        </update>
+
+</mapper>

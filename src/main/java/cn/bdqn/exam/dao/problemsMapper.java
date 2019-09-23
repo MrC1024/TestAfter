@@ -1,6 +1,7 @@
 package cn.bdqn.exam.dao;
 
 import cn.bdqn.exam.entity.Problems;
+import org.apache.ibatis.annotations.Param;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.stereotype.Repository;
 
@@ -18,4 +19,18 @@ public interface problemsMapper {
      * @return
      */
     List<Problems> finaByproblems();
+
+    /**
+     * 问题反馈回复
+     * @param problems
+     * @return
+     */
+    int upd(Problems problems);
+
+    /**
+     * 问题反馈模糊查
+     * @return
+     */
+    List<Problems> finaByProQuery(@Param("pro_question")String pro_question);
+
 }

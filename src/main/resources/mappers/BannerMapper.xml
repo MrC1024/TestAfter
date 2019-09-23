@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.bdqn.exam.dao.BannerMapper">
+
+    <select id="getAll" resultType="cn.bdqn.exam.entity.Banner">
+        select * from banner where ifSel = 1
+    </select>
+
+    <select id="byban" resultType="cn.bdqn.exam.entity.Banner">
+        select * from banner where banPath = #{banPath} and ifSel = 1
+    </select>
+
+    <select id="getPage" resultType="cn.bdqn.exam.entity.Banner" parameterType="Integer">
+        SELECT * FROM banner WHERE ifSel = 1 LIMIT #{num1},#{num2}
+    </select>
+
+    <insert id="add">
+       INSERT INTO `banner` VALUES(null,#{banPath},#{banName},'1')
+    </insert>
+
+    <update id="upd" parameterType="cn.bdqn.exam.entity.Banner">
+        UPDATE `banner` SET banPath=#{banPath},banName=#{banName} WHERE banId = #{banId}
+    </update>
+
+    <update id="del" parameterType="cn.bdqn.exam.entity.Banner">
+        UPDATE `banner` SET ifSel=0 WHERE banId = #{banId}
+    </update>
+
+    <select id="count" resultType="int">
+        SELECT COUNT(*) FROM banner WHERE ifSel=1
+    </select>
+
+
+
+
+
+</mapper>

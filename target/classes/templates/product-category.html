@@ -88,16 +88,103 @@
 .modal-alert-info{padding:30px; text-align:center; font-size:14px; background-color:#fff}
 </style>
 
+<script src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+	$(function(){
+		$(".table1").hide();
+		$(".table2").hide();
+		show();
+	});
+	function tianjia(){
+		if($(".table1").css("display")=="none"){
+			$(".table1").css("display","block")
+		}else{
+			$(".table1").css("display","none")
+		}
+	}
+	function upd(id){
+		$.ajax({
+			"url":"/CurriculumController/idSel",
+			"data":"id="+id,
+			"dataType":"json",
+			"type":"post",
+			"success":function(result){
+				$("input[name=theId]").val(result.curriculumId);
+				$("input[name=product]").val(result.curriculumName);
+			}
+		});
+		$(".table2").show();
+	}
+	function upd1(){
+		var id = $("input[name=theId]").val();
+		var name = $("input[name=product]").val();
+		if(name==""||name==null){
+			alert("类型不能为空");
+			return;
+		}else{
+			$.ajax({
+				"url":"/CurriculumController/upd",
+				"data":"id="+id+"&name="+name,
+				"dataType":"json",
+				"type":"post",
+				"success":function(result){
+					if(result>0){
+						show();
+						$(".table2").hide();
+					}else{
+						alert("修改失败");
+					}
+				}
+			});
+		}
+
+	}
+
+
+	function show(){
+		var count = 0;
+		$.ajax({
+			"url":"/CurriculumController/getAll",
+			"dataType":"json",
+			"type":"post",
+			"success":function(result){
+				$(".zhuye").html(" ");
+				$(".zhuye").append("<thead>\n" +
+						"\t\t\t\t<tr class=\"text-c\">\n" +
+						"\t\t\t\t\t<th width=\"25\"><input type=\"checkbox\" name=\"\" value=\"\"></th>\n" +
+						"\t\t\t\t\t<th width=\"80\">ID</th>\n" +
+						"\t\t\t\t\t<th>课程类型</th>\n" +
+						"\t\t\t\t\t<th width=\"100\">操作</th>\n" +
+						"\t\t\t\t</tr>\n" +
+						"\t\t\t</thead>");
+				$(result).each(function () {
+					$(".zhuye").append("<tbody class=\"zhuye1\">" +
+							"<tr class=\"text-c\">\n" +
+							"\t\t\t\t\t<td><input type=\"checkbox\" name=\"subcheck\" value='"+this.curriculumId+"'></td>\n" +
+							"\t\t\t\t\t<td>"+this.curriculumId+"</td>\n" +
+							"\t\t\t\t\t<td class=\"text-l\">"+this.curriculumName+"</td>\n" +
+							"\t\t\t\t\t<td class=\"f-14\"><a title=\"编辑\" href=\"javascript:;\" onclick=\"upd("+this.curriculumId+")\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a>\n" +
+							"\t\t\t\t\t\t<a title=\"删除\" href=\"javascript:;\" onclick=\"system_category_del("+this.curriculumId+")\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
+							"\t\t\t\t</tr>" +
+							"</tbody>");
+					count++;
+				});
+				$("strong").text(count)
+			}
+		});
+	}
+
+
+</script>
+
 </head>
 
 <body>
 
-<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 课程系统 <span class="c-gray en">&gt;</span> 课程类型管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 课程系统 <span class="c-gray en"></span> 课程类型管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
-	<div class="text-c">
-		<input type="text" name="" id="" placeholder="栏目名称、id" style="width:250px" class="input-text">
-		<button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
-	</div>
+	<input style="display:none" name="theId" />
+
 	<div class="cl pd-5 bg-1 bk-gray mt-20">
 		<span class="l">
 		<a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>
@@ -106,42 +193,9 @@
 		<span class="r">共有数据：<strong>54</strong> 条</span>
 	</div>
 	<div class="mt-20">
-		<table class="table table-border table-bordered table-hover table-bg table-sort">
-			<thead>
-				<tr class="text-c">
-					<th width="25"><input type="checkbox" name="" value=""></th>
-					<th width="80">ID</th>
-					<th width="80">排序</th>
-					<th>课程类型</th>
-					<th width="100">操作</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class="text-c">
-					<td><input type="checkbox" name="" value=""></td>
-					<td>1</td>
-					<td>1</td>
-					<td class="text-l">一级栏目</td>
-					<td class="f-14"><a title="编辑" href="javascript:;" onclick="modaldemo()" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a>
-						<a title="删除" href="javascript:;" onclick="system_category_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-				</tr>
-				<tr class="text-c">
-					<td><input type="checkbox" name="" value=""></td>
-					<td>2</td>
-					<td>2</td>
-					<td class="text-l">&nbsp;&nbsp;├&nbsp;二级栏目</td>
-					<td class="f-14"><a title="编辑" href="javascript:;" onclick="modaldemo()" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a>
-						<a title="删除" href="javascript:;" onclick="system_category_del(this,'2')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-				</tr>
-				<tr class="text-c">
-					<td><input type="checkbox" name="" value=""></td>
-					<td>3</td>
-					<td>3</td>
-					<td class="text-l">&nbsp;&nbsp;├&nbsp;二级栏目</td>
-					<td class="f-14"><a title="编辑" href="javascript:;" onclick="system_category_edit('栏目编辑','system-category-add.html','3','700','480')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a>
-						<a title="删除" href="javascript:;" onclick="system_category_del(this,'3')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-				</tr>
-			</tbody>
+		<table class="table table-border table-bordered table-hover table-bg table-sort zhuye">
+
+
 		</table>
 	</div>
 </div>
@@ -151,6 +205,24 @@
 		<td class="va-t"><iframe ID="testIframe" Name="testIframe" FRAMEBORDER=0 SCROLLING=AUTO width=100%  height=390px SRC="product-category-add.html"></iframe></td>
 	</tr>
 </table>
+<div class="page-container table2">
+	<form action="" method="post" class="form form-horizontal" id="form-user-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">
+				<span class="c-red">*</span>
+				修改课程名称：</label>
+			<div class="formControls col-xs-6 col-sm-6">
+				<input type="text" class="input-text" value="" placeholder="" id="user-name" name="product">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<div class="col-9 col-offset-2">
+				<input class="btn btn-primary radius" onclick="return upd1()" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</div>
 <div id="modal-demo" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content radius">
@@ -180,9 +252,7 @@
 <script type="text/javascript" th:inline="none">
 
 
-	$(document).ready(function(){
-		$(".table1").hide();
-	});
+
 
 var setting = {
 	view: {
@@ -222,33 +292,53 @@ function showCode(str) {
 	code.append("<li>"+str+"</li>");
 }
 
-$(document).ready(function(){
-	var t = $("#treeDemo");
-	t = $.fn.zTree.init(t, setting, zNodes);
-	demoIframe = $("#testIframe");
-	//demoIframe.on("load", loadReady);
-	var zTree = $.fn.zTree.getZTreeObj("tree");
-	//zTree.selectNode(zTree.getNodeByParam("id",'11'));
-});
-function tianjia(){
-	$(".table1").show();
-}
+
+
 /*系统-栏目-删除*/
-function system_category_del(obj,id){
-	layer.confirm('确认要删除吗？',function(index){
+function system_category_del(id){
+	if(confirm("确定删除吗")){
 		$.ajax({
+			url: '/CurriculumController/del',
+			"data":"id="+id,
 			type: 'POST',
-			url: '',
 			dataType: 'json',
-			success: function(data){
-				$(obj).parents("tr").remove();
-				layer.msg('已删除!',{icon:1,time:1000});
-			},
-			error:function(data) {
-				console.log(data.msg);
+			success: function(result){
+				if(result>0){
+					show();
+				}else{
+					alert("删除失败");
+				}
 			},
 		});
-	});
+	}else{
+		location.href="/product-category.html";
+	}
+}
+function datadel(){
+	var checkedNum = $("input[name='subcheck']:checked").length;
+	if(checkedNum==0){
+		alert("请至少选择一项!");
+		return false;
+	}
+	if(confirm("确定删除所选项目?")){
+		var checkedList = new Array();
+		$("input[name='subcheck']:checked").each(function(){
+			checkedList.push($(this).val());
+		});
+		$.ajax({
+			"url":"/CurriculumController/del2",
+			"type":"POST",
+			"data":{"delitems":checkedList.toString()},
+			"dataType":"html",
+			"success":function(data){
+				$("[name='checkbox2']:checkbox").attr("checked",false);
+				show();
+			},
+			error:function(data){
+				art.dialog.tips('删除失败!');
+			}
+		});
+	}
 }
 </script>
 </body>

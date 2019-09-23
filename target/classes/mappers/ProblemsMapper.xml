@@ -4,6 +4,7 @@
   <resultMap id="BaseDate" type="cn.bdqn.exam.entity.Problems" >
     <id column="pro_id" property="pro_id" jdbcType="INTEGER" />
     <result column="pro_question" property="pro_question" jdbcType="VARCHAR" />
+    <result column="proAdminContext" property="proAdminContext" jdbcType="VARCHAR" />
     <result column="pro_name" property="pro_name" jdbcType="VARCHAR" />
     <result column="pro_phone" property="pro_phone" jdbcType="VARCHAR" />
     <association property="user" javaType="cn.bdqn.exam.entity.User">
@@ -12,7 +13,12 @@
     </association>
   </resultMap>
     <select id="finaByproblems" resultMap="BaseDate">
-    SELECT  p.`pro_id`,p.`pro_question`,u.`account`,p.`pro_name`,p.`pro_phone` FROM `problems` AS p,`user` AS u WHERE p.`user_id`=u.`user_id`
+    SELECT  p.`pro_id`,p.`pro_question`,p.proAdminContext,u.`account`,p.`pro_name`,p.`pro_phone` FROM `problems` AS p,`user` AS u WHERE p.`user_Id`=u.`userid`
     </select>
-
+  <update id="upd" parameterType="cn.bdqn.exam.entity.Problems">
+          UPDATE problems SET proAdminContext=#{proAdminContext} where pro_id=#{pro_id}
+    </update>
+  <select id="finaByProQuery" resultMap="BaseDate">
+   SELECT  p.`pro_id`,p.`pro_question`,p.proAdminContext,u.`account`,p.`pro_name`,p.`pro_phone` FROM `problems` AS p,`user` AS u WHERE p.`user_Id`=u.`userid` AND p.`pro_question` LIKE CONCAT('%',#{pro_question},'%')
+    </select>
 </mapper>

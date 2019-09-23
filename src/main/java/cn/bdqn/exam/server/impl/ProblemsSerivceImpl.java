@@ -15,4 +15,12 @@ public class ProblemsSerivceImpl  implements ProblemsService {
     public List<Problems> finaByproblems() {
         return problemsMapper.finaByproblems();
     }
+
+    public int upd(Problems problems) {
+        return problemsMapper.upd(problems);
+    }
+
+    public List<Problems> finaByProQuery(String pro_question) {
+        return problemsMapper.finaByProQuery(pro_question);
+    }
 }

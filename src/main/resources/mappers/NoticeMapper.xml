@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bdqn.exam.dao.NoticeMapper" >
+      <select id="selectByExample" resultType="cn.bdqn.exam.entity.Notice">
+            SELECT * FROM `notice` ORDER BY nTime DESC LIMIT 1
+      </select>
+      <select id="getAll" resultType="cn.bdqn.exam.entity.Notice">
+            SELECT * FROM `notice`
+      </select>
+      <delete id="delect" parameterType="Integer">
+		DELETE FROM notice WHERE noticeId = #{noticeid}
+	</delete>
+      <insert id="add" parameterType="cn.bdqn.exam.entity.Notice">
+    	insert into notice values(null,#{ntitle},#{nContent},#{nueser},#{nTime})
+       </insert>
+      <select id="getidAll" parameterType="cn.bdqn.exam.entity.Notice" resultType="cn.bdqn.exam.entity.Notice">
+		select * from notice where noticeId=#{noticeid}
+      </select>
+      <update id="update" parameterType="cn.bdqn.exam.entity.Notice">
+		update notice set ntitle=#{ntitle},nContent=#{nContent},nueser=#{nueser},nTime=#{nTime}
+		where noticeId=#{noticeid}
+	</update>
+    <select id="countAll" parameterType="Integer">
+            SELECT COUNT(*) FROM `notice`
+    </select>
+</mapper>

@@ -1,9 +1,12 @@
 package cn.bdqn.exam.entity;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
+    private static final long serialVersionUID = 1177112687964920573L;
     private Integer userId;
 
-    private String username;
+    private String userName;
 
     private String account;
 
@@ -39,6 +42,15 @@ public class User {
     public User() {
     }
 
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     public Dept getDept() {
         return dept;
     }
@@ -55,14 +67,6 @@ public class User {
         this.userId = userId;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
-    }
-
     public String getAccount() {
         return account;
     }
@@ -73,6 +77,21 @@ public class User {
 
     public String getPassword() {
         return password;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", account='" + account + '\'' +
+                ", password='" + password + '\'' +
+                ", sex='" + sex + '\'' +
+                ", deptid=" + deptid +
+                ", points=" + points +
+                ", dept=" + dept +
+                ", mark=" + mark +
+                '}';
     }
 
     public void setPassword(String password) {

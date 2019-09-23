@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bdqn.exam.dao.MarkMapper" >
+      <select id="getAll" resultType="cn.bdqn.exam.entity.Mark">
+            SELECT * FROM  mark  LEFT JOIN dept ON mark.`deptId`=dept.`deptID` LEFT JOIN `user` ON mark.`userId`=`user`.`userId` LEFT JOIN testpaperstep ON mark.`testpaperstepId`=testpaperstep.`testpaperstepId`
+      </select>
+        <insert id="add" parameterType="cn.bdqn.exam.entity.Mark">
+            insert into mark values(null,#{ntitle},#{nContent},#{nueser},#{nTime})
+           </insert>
+        <select id="getidAll" parameterType="cn.bdqn.exam.entity.Mark" resultType="cn.bdqn.exam.entity.Mark">
+            SELECT a.`deptId`,a.`markId`,a.`mScore`,a.`testpaperstepId`,a.`userId`,b.`userName` FROM mark AS a,`user` AS b WHERE a.`markId`=#{markid} AND a.`userId`=b.`markId`
+          </select>
+        <update id="update" parameterType="cn.bdqn.exam.entity.Mark">
+            update mark set mScore=#{mscore},deptId=#{deptid},userId=#{userId},testpaperstepId=#{testpaperstepid}
+            where markId=#{markid}
+        </update>
+        <select id="deptAll" resultType="cn.bdqn.exam.entity.Dept">
+            select * from dept
+          </select>
+        <select id="userAll" resultType="cn.bdqn.exam.entity.User">
+            select * from 'user'
+          </select>
+        <select id="testpaperstepAll" resultType="cn.bdqn.exam.entity.testpaperstep">
+            select * from testpaperstep
+          </select>
+</mapper>

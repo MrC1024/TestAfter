@@ -99,6 +99,20 @@ public class TiaoController {
         return "picture-add.html";
     }
 
+    @RequestMapping("/picture-upd")
+    public String pictureupd() {
+        return "picture-upd.html";
+    }
+
+    @RequestMapping("/video-add")
+    public String videoadd() {
+        return "video-add.html";
+    }
+
+    @RequestMapping("/product-category-add.html")
+    public String productCategory() {
+        return "product-category-add.html";
+    }
 
     @RequestMapping("/change-password")
     public String  changepassword() {
@@ -111,5 +125,43 @@ public class TiaoController {
         return "member-show.html";
     }
 
+    @RequestMapping("/admin-list.html")
+    public String  admin_list() {
+        return "admin-list.html";
+    }
+
+    @RequestMapping("/a")
+    public  String a(){
+        return "a.html";
+    }
+
+    @RequestMapping("/b")
+    public  String b(){
+        return "b.html";
+    }
+
+    @RequestMapping("/charts-7.html")
+    public  String charts7(){
+        return "charts-7.html";
+    }
+    @RequestMapping("/picture-list3.html")
+    public String list3() {
+        return "picture-list3.html";
+    }
+
+    @RequestMapping("/admin-permission.html")
+
+    public String permission() {
+        return "admin-permission.html";
+    }
+
+    @RequestMapping("/guanliyuan")
+    public String guanliyuan() {
+        return "guanliyuan.html";
+    }
+    @RequestMapping("/system-base")
+    public String systembase() {
+        return "system-base.html";
+    }
 }
 

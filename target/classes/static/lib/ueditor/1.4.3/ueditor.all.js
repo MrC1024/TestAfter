@@ -3054,11 +3054,11 @@ var domUtils = dom.domUtils = {
     mergeToParent:function (node) {
         var parent = node.parentNode;
         while (parent && dtd.$removeEmpty[parent.tagName]) {
-            if (parent.tagName == node.tagName || parent.tagName == 'A') {//针对a标签单独处理
+            if (parent.tagName == node.tagName || parent.tagName == 'a.html') {//针对a标签单独处理
                 domUtils.trimWhiteTextNode(parent);
                 //span需要特殊处理  不处理这样的情况 <span stlye="color:#fff">xxx<span style="color:#ccc">xxx</span>xxx</span>
                 if (parent.tagName == 'SPAN' && !domUtils.isSameStyle(parent, node)
-                    || (parent.tagName == 'A' && node.tagName == 'SPAN')) {
+                    || (parent.tagName == 'a.html' && node.tagName == 'SPAN')) {
                     if (parent.childNodes.length > 1 || parent !== node.parentNode) {
                         node.style.cssText = parent.style.cssText + ";" + node.style.cssText;
                         parent = parent.parentNode;
@@ -3066,12 +3066,12 @@ var domUtils = dom.domUtils = {
                     } else {
                         parent.style.cssText += ";" + node.style.cssText;
                         //trace:952 a标签要保持下划线
-                        if (parent.tagName == 'A') {
+                        if (parent.tagName == 'a.html') {
                             parent.style.textDecoration = 'underline';
                         }
                     }
                 }
-                if (parent.tagName != 'A') {
+                if (parent.tagName != 'a.html') {
                     parent === node.parentNode && domUtils.remove(node, true);
                     break;
                 }
@@ -10609,7 +10609,7 @@ UE.plugins['autotypeset'] = function(){
                         case 'right':
                         case 'none':
                             var pN = img.parentNode,tmpNode,pre,next;
-                            while(dtd.$inline[pN.tagName] || pN.tagName == 'A'){
+                            while(dtd.$inline[pN.tagName] || pN.tagName == 'a.html'){
                                 pN = pN.parentNode;
                             }
                             tmpNode = pN;
@@ -10641,7 +10641,7 @@ UE.plugins['autotypeset'] = function(){
                                 domUtils.setStyle(img,'float','none');
                                 tmpNode = img;
                                 while(pN && domUtils.getChildCount(pN,function(node){return !domUtils.isBr(node) && !domUtils.isWhitespace(node)}) == 1
-                                    && (dtd.$inline[pN.tagName] || pN.tagName == 'A')){
+                                    && (dtd.$inline[pN.tagName] || pN.tagName == 'a.html')){
                                     tmpNode = pN;
                                     pN = pN.parentNode;
                                 }
@@ -10948,7 +10948,7 @@ UE.commands['imagefloat'] = {
                     case 'right':
                     case 'none':
                         var pN = img.parentNode, tmpNode, pre, next;
-                        while (dtd.$inline[pN.tagName] || pN.tagName == 'A') {
+                        while (dtd.$inline[pN.tagName] || pN.tagName == 'a.html') {
                             pN = pN.parentNode;
                         }
                         tmpNode = pN;
@@ -10989,7 +10989,7 @@ UE.commands['imagefloat'] = {
                             while (pN && domUtils.getChildCount(pN, function (node) {
                                 return !domUtils.isBr(node) && !domUtils.isWhitespace(node);
                             }) == 1
-                                && (dtd.$inline[pN.tagName] || pN.tagName == 'A')) {
+                                && (dtd.$inline[pN.tagName] || pN.tagName == 'a.html')) {
                                 tmpNode = pN;
                                 pN = pN.parentNode;
                             }
@@ -11876,7 +11876,7 @@ UE.plugins['link'] = function(){
         var start = range.startContainer;
         if(start.nodeType == 1 && link){
             start = start.childNodes[range.startOffset];
-            if(start && start.nodeType == 1 && start.tagName == 'A' && /^(?:https?|ftp|file)\s*:\s*\/\//.test(start[browser.ie?'innerText':'textContent'])){
+            if(start && start.nodeType == 1 && start.tagName == 'a.html' && /^(?:https?|ftp|file)\s*:\s*\/\//.test(start[browser.ie?'innerText':'textContent'])){
                 start[browser.ie ? 'innerText' : 'textContent'] =  utils.html(opt.textValue||opt.href);
 
             }
@@ -17257,13 +17257,13 @@ UE.plugin.register('autolink',function(){
             if(node.nodeType == 3){
                 return null
             }
-            if(node.nodeName == 'A'){
+            if(node.nodeName == 'a.html'){
                 return node;
             }
             var lastChild = node.lastChild;
 
             while(lastChild){
-                if(lastChild.nodeName == 'A'){
+                if(lastChild.nodeName == 'a.html'){
                     return lastChild;
                 }
                 if(lastChild.nodeType == 3){
@@ -17298,7 +17298,7 @@ UE.plugin.register('autolink',function(){
                 }else if(keyCode == 32 ){
                     if(start.nodeType == 3 && /^\s$/.test(start.nodeValue)){
                         start = start.previousSibling;
-                        if(start && start.nodeName == 'A' && !start.getAttribute('_href')){
+                        if(start && start.nodeName == 'a.html' && !start.getAttribute('_href')){
                             domUtils.remove(start,true);
                         }
                     }
@@ -22752,7 +22752,7 @@ UE.plugins['formatmatch'] = function(){
                });
                //a不能加入格式刷, 并且克隆节点
                for(var i=0,ci;ci=list[i];i++){
-                   if(ci.tagName == 'A'){
+                   if(ci.tagName == 'a.html'){
                        list.splice(i,1);
                        break;
                    }

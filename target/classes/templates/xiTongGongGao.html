@@ -94,55 +94,9 @@
 <body>
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 系统管理 <span class="c-gray en">&gt;</span> 系统公告 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
-	<div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" href="javascript:;" onclick="modaldemo1()"><i class="Hui-iconfont">&#xe600;</i> 添加公告</a> </span> <span class="r">共有数据：<strong>54</strong> 条</span> </div>
-	<table class="table table-border table-bordered table-hover table-bg">
-		<thead>
-			<tr>
-				<th scope="col" colspan="6">角色管理</th>
-			</tr>
-			<tr class="text-c">
-				<th width="25"><input type="checkbox" value="" name=""></th>
-				<th width="40">ID</th>
-				<th width="200">角色名</th>
-				<th>系统公告</th>
-				<th width="300">发表时间</th>
-				<th width="70">操作</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class="text-c">
-				<td><input type="checkbox" value="" name=""></td>
-				<td>1</td>
-				<td>超级管理员</td>
-				<td><a href="#">admin</a></td>
-				<td>拥有至高无上的权利</td>
-				<td class="f-14"><a title="编辑" href="javascript:;" onClick="modaldemo()" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_role_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-			</tr>
-			<tr class="text-c">
-				<td><input type="checkbox" value="" name=""></td>
-				<td>2</td>
-				<td>总编</td>
-				<td><a href="#">张三</a></td>
-				<td>具有添加、审核、发布、删除内容的权限</td>
-				<td class="f-14"><a title="编辑" href="javascript:;" onClick="modaldemo()" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_role_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-			</tr>
-			<tr class="text-c">
-				<td><input type="checkbox" value="" name=""></td>
-				<td>3</td>
-				<td>栏目主辑</td>
-				<td><a href="#">李四</a>，<a href="#">王五</a></td>
-				<td>只对所在栏目具有添加、审核、发布、删除内容的权限</td>
-				<td class="f-14"><a title="编辑" href="javascript:;" onclick="admin_role_edit('角色编辑','admin-role-add.html','3')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_role_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-			</tr>
-			<tr class="text-c">
-				<td><input type="checkbox" value="" name=""></td>
-				<td>4</td>
-				<td>栏目编辑</td>
-				<td><a href="#">赵六</a>，<a href="#">钱七</a></td>
-				<td>只对所在栏目具有添加、删除草稿等权利。</td>
-				<td class="f-14"><a title="编辑" href="javascript:;" onclick="admin_role_edit('角色编辑','admin-role-add.html','4')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_role_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-			</tr>
-		</tbody>
+	<div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" href="javascript:;" onclick="modaldemo1()"><i class="Hui-iconfont">&#xe600;</i> 添加公告</a> </span> <span class="r">共有数据：<strong id="r">0</strong>条</span> </div>
+	<table class="table table-border table-bordered table-hover table-bg" id="GGtable">
+
 	</table>
 </div>
 <div id="modal-demo" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -152,11 +106,21 @@
 				<h3 class="modal-title">修改系统公告</h3>
 				<a class="close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">×</a>
 			</div>
+			<input type="hidden" id="noticeid">
 			<div class="modal-body">
-				<textarea class="tex">系统公告123123</textarea>
+				公告标题:<input  type="text" class="ntitle" id="ntitle"/>
+			</div>
+			<div class="modal-body">
+				公告内容:<textarea class="tex" id="tex">填写公告内容</textarea>
+			</div>
+			<div class="modal-body">
+				公告发布者:<input  type="text" class="nueser"  id="nueser"/>
+			</div>
+			<div class="modal-body">
+				公告时间:<input  type="date" class="nTime" id="nTime"/>
 			</div>
 			<div class="modal-footer">
-				<button class="btn btn-primary">确定</button>
+				<button class="btn btn-primary" onclick="update()">确定</button>
 				<button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
 			</div>
 		</div>
@@ -170,10 +134,19 @@
 				<a class="close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">×</a>
 			</div>
 			<div class="modal-body">
-				<textarea class="tex">填写公告内容</textarea>
+				公告标题:<input  type="text" class="ntitle"/>
+			</div>
+			<div class="modal-body">
+				公告内容:<textarea class="tex" >填写公告内容</textarea>
+			</div>
+			<div class="modal-body">
+				公告发布者:<input  type="text" class="nueser"/>
+			</div>
+			<div class="modal-body">
+				公告时间:<input  type="date" class="nTime"/>
 			</div>
 			<div class="modal-footer">
-				<button class="btn btn-primary">确定</button>
+				<button class="btn btn-primary" onclick="add()">确定</button>
 				<button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
 			</div>
 		</div>
@@ -196,29 +169,162 @@ function admin_role_add(title,url,w,h){
 function admin_role_edit(title,url,id,w,h){
 	layer_show(title,url,w,h);
 }
-/*管理员-角色-删除*/
-function admin_role_del(obj,id){
-	layer.confirm('角色删除须谨慎，确认要删除吗？',function(index){
-		$.ajax({
-			type: 'POST',
-			url: '',
-			dataType: 'json',
-			success: function(data){
-				$(obj).parents("tr").remove();
-				layer.msg('已删除!',{icon:1,time:1000});
-			},
-			error:function(data) {
-				console.log(data.msg);
-			},
-		});
-	});
-}
 /*修改公告模态框*/
 function modaldemo(){
 	$("#modal-demo").modal("show")
 }
 function modaldemo1(){
 	$("#modal-demo1").modal("show")
+}
+$(function getAll() {
+	$.ajax({
+		"url":"/NoticeController/getAll",
+		"Type":"post",
+		"dateType":"JSON",
+		"success":function (result) {
+			var count = 0;
+			$("#GGtable").html("<thead>\n" +
+					"\t\t\t<tr>\n" +
+					"\t\t\t\t<th scope=\"col\" colspan=\"6\">角色管理</th>\n" +
+					"\t\t\t</tr>\n" +
+					"\t\t\t<tr class=\"text-c\">\n" +
+					"\t\t\t\t<th width=\"25\"><input type=\"checkbox\" value=\"\" name=\"\"></th>\n" +
+					"\t\t\t\t<th width=\"40\">ID</th>\n" +
+					"\t\t\t\t<th width=\"200\">角色名</th>\n" +
+					"\t\t\t\t<th>系统标题</th>\n" +
+					"\t\t\t\t<th>系统公告</th>\n" +
+					"\t\t\t\t<th width=\"300\">发表时间</th>\n" +
+					"\t\t\t\t<th width=\"70\">操作</th>\n" +
+					"\t\t\t</tr>\n" +
+					"\t\t</thead>");
+			$(result).each(function(){
+				count++;
+				$("#GGtable").append("<tbody>\n" +
+						"\t\t\t<tr class=\"text-c\">\n" +
+						"\t\t\t\t<td><input type=\"checkbox\" value="+this.noticeid+" name=\"subcheck\"></td>\n" +
+						"\t\t\t\t<td>"+count+"</td>\n" +
+						"\t\t\t\t<td>"+this.nueser+"</td>\n" +
+						"\t\t\t\t<td>"+this.ntitle+"</td>\n" +
+						"\t\t\t\t<td><a href=\"#\">"+this.nContent+"</a></td>\n" +
+						"\t\t\t\t<td>"+this.nTime+"</td>\n" +
+						"\t\t\t\t<td class=\"f-14\"><a title=\"编辑\" href=\"javascript:;\" onclick=\"modaldemo();getidAll("+this.noticeid+")\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a> <a title=\"删除\" href=\"javascript:;\" onclick=\"return del("+this.noticeid+")\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
+						"\t\t\t</tr>\n" +
+						"\t\t</tbody>");
+
+			})
+			$("#r").text(count);
+		}
+	})
+})
+	function  del(noticeid) {
+		var a=confirm("确定要删除吗?");
+		if(a){
+			$.ajax({
+				"url":"/NoticeController/delect/"+noticeid,
+				"type":"get",
+				"dataType":"JSON",
+				"success":function(res){
+					if(res>0){
+						alert("删除成功");
+					}else{
+						alert("删除失败");
+					}
+					location.reload();
+				}
+			})
+		}else{
+			return false;
+		}
+	}
+$(".nTime").change(function(){
+	$(".nTime").attr("value",$(this).val()); //赋值
+});
+$(".ntitle").change(function(){
+	$(".ntitle").attr("value",$(this).val()); //赋值
+});
+$(".nueser").change(function(){
+	$(".nueser").attr("value",$(this).val()); //赋值
+});
+function add(){
+	var ntitle=$(".ntitle").val();
+	var nContent=$(".tex").val();
+	var nueser=$(".nueser").val();
+	var nTime=$(".nTime").val();
+	$.ajax({
+		"url":"/NoticeController/add",
+		"data":"ntitle="+ntitle+"&nContent="+nContent+"&nueser="+nueser+"&nTime="+nTime,
+		"dataType":"json",
+		"type":"post",
+		"success":function(res){
+			if(res>0){
+				alert("添加成功");
+				location.reload();
+			}else{
+				alert("添加失败");
+			}
+		}
+	})
+}
+function getidAll(noticeid) {
+	$.ajax({
+		"url": "NoticeController/getidAll/"+noticeid,
+		"type": "POST",
+		"dataType": "JSON",
+		"success": function (result) {
+			$("#ntitle").val(result.ntitle);
+			$("#tex").val(result.nContent);
+			$("#nueser").val(result.nueser);
+			$("#nTime").val(result.nTime);
+			$("#noticeid").val(result.noticeid);
+		}
+	})
+}
+function update() {
+	var noticeid=$("#noticeid").val();
+	var ntitle=$("#ntitle").val();
+	var nContent=$("#tex").val();
+	var nueser=$("#nueser").val();
+	var nTime=$("#nTime").val();
+	$.ajax({
+		"url":"NoticeController/update",
+		"data":"ntitle="+ntitle+"&nContent="+nContent+"&nueser="+nueser+"&nTime="+nTime+"&noticeid="+noticeid,
+		"type":"get",
+		"dataType":"json",
+		"success":function(result){
+			if(result>0){
+				alert("修改成功 ");
+				location.reload();
+			}else {
+				alert("修改失败");
+			}
+		}
+	})
+}
+function datadel(){
+	var checkedNum = $("input[name='subcheck']:checked").length;
+	if(checkedNum==0){
+		alert("请至少选择一项!");
+		return false;
+	}
+	if(confirm("确定删除所选项目?")){
+		var checkedList = new Array();
+		$("input[name='subcheck']:checked").each(function(){
+			checkedList.push($(this).val());
+		});
+		$.ajax({
+			"url":"/NoticeController/del2/",
+			"type":"POST",
+			"data":{"delitems":checkedList.toString()},
+			"dataType":"html",
+			"success":function(data){
+				$("[name='subcheck']:checkbox").attr("checked",false);
+				location.reload();
+			},
+			error:function(data){
+				alt.dialog.tips('删除失败!');
+			}
+		});
+	}
 }
 </script>
 </body>

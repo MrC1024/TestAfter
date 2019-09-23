@@ -4,29 +4,19 @@ package cn.bdqn.exam.dao;
 import java.util.List;
 
 import cn.bdqn.exam.entity.Dept;
-import cn.bdqn.exam.entity.DeptExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface DeptMapper {
-    int countByExample(DeptExample example);
+    List<Dept> getAll();
 
-    int deleteByExample(DeptExample example);
+    int getAdd(Dept dept);
 
-    int deleteByPrimaryKey(Integer deptid);
+    int del(@Param("deptid") int deptid);
 
-    int insert(Dept record);
+    Dept updId(@Param("deptid") int deptid);
 
-    int insertSelective(Dept record);
+    int upd(Dept dept);
 
-    List<Dept> selectByExample(DeptExample example);
 
-    Dept selectByPrimaryKey(Integer deptid);
 
-    int updateByExampleSelective(@Param("record") Dept record, @Param("example") DeptExample example);
-
-    int updateByExample(@Param("record") Dept record, @Param("example") DeptExample example);
-
-    int updateByPrimaryKeySelective(Dept record);
-
-    int updateByPrimaryKey(Dept record);
 }

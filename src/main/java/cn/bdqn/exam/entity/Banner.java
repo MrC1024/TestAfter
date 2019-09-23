@@ -1,33 +1,54 @@
 package cn.bdqn.exam.entity;
 
+import org.springframework.web.multipart.MultipartFile;
+
+import java.awt.image.MultiPixelPackedSampleModel;
+import java.net.MulticastSocket;
+
 public class Banner {
-    private Integer banid;
+    private Integer banId;
+    private String banPath;
+    private String banName;
+    private MultipartFile file;
+    private  Integer ifSel;
 
-    private String banpath;
-
-    private String banname;
-
-    public Integer getBanid() {
-        return banid;
+    public Integer getIfSel() {
+        return ifSel;
     }
 
-    public void setBanid(Integer banid) {
-        this.banid = banid;
+    public void setIfSel(Integer ifSel) {
+        this.ifSel = ifSel;
     }
 
-    public String getBanpath() {
-        return banpath;
+    public Integer getBanId() {
+        return banId;
     }
 
-    public void setBanpath(String banpath) {
-        this.banpath = banpath == null ? null : banpath.trim();
+    public void setBanId(Integer banId) {
+        this.banId = banId;
     }
 
-    public String getBanname() {
-        return banname;
+    public String getBanPath() {
+        return banPath;
     }
 
-    public void setBanname(String banname) {
-        this.banname = banname == null ? null : banname.trim();
+    public void setBanPath(String banPath) {
+        this.banPath = banPath;
+    }
+
+    public String getBanName() {
+        return banName;
+    }
+
+    public void setBanName(String banName) {
+        this.banName = banName;
+    }
+
+    public MultipartFile getFile() {
+        return file;
+    }
+
+    public void setFile(MultipartFile file) {
+        this.file = file;
     }
 }

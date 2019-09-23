@@ -5,10 +5,19 @@ import java.io.Serializable;
 public class Problems  implements Serializable {
     private  Integer pro_id;
     private  String  pro_question;
+    private String  proAdminContext;
     private  String pro_name;
     private String pro_phone;
-
     private  User user;
+
+    public String getProAdminContext() {
+        return proAdminContext;
+    }
+
+    public void setProAdminContext(String proAdminContext) {
+        this.proAdminContext = proAdminContext;
+    }
+
     public String getPro_phone() {
         return pro_phone;
     }

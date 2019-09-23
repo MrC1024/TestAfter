@@ -1,23 +1,31 @@
 package cn.bdqn.exam.entity;
 
 public class Vtype {
-    private Integer vtypeid;
-
-    private String vtypename;
-
-    public Integer getVtypeid() {
-        return vtypeid;
+    private Integer curriculumId;
+    private String curriculumName;
+    private Integer ifSel;
+    public Integer getIfSel() {
+        return ifSel;
+    }
+    public void setIfSel(Integer ifSel) {
+        this.ifSel = ifSel;
     }
 
-    public void setVtypeid(Integer vtypeid) {
-        this.vtypeid = vtypeid;
+    public String getCurriculumName() {
+        return curriculumName;
     }
 
-    public String getVtypename() {
-        return vtypename;
+    public void setCurriculumName(String curriculumName) {
+        this.curriculumName = curriculumName;
     }
 
-    public void setVtypename(String vtypename) {
-        this.vtypename = vtypename == null ? null : vtypename.trim();
+    public Integer getCurriculumId() {
+        return curriculumId;
     }
+
+    public void setCurriculumId(Integer curriculumId) {
+        this.curriculumId = curriculumId;
+    }
+
+
 }

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.bdqn.exam.dao.SelMXMapper">
+
+    <select id="getAll" resultType="cn.bdqn.exam.entity.SelMX">
+          SELECT a.`indentId`,b.`commodityName`,c.userName,b.`comTotal`,c.points FROM indent AS a,commodity AS b,`user` AS c
+WHERE a.`studentName`=c.userID AND a.`indentName` = b.`commodityId` AND a.`costIntegral` = b.`commodityId` AND a.ifSel=1
+    </select>
+
+    <update id="del" parameterType="cn.bdqn.exam.entity.SelMX">
+        update indent set ifSel=0 where indentId = #{indentId}
+    </update>
+
+    <select id="count" resultType="int">
+        SELECT COUNT(*) FROM indent WHERE ifSel=1
+    </select>
+
+    <select id="getPage" resultType="cn.bdqn.exam.entity.SelMX" parameterType="Integer">
+        SELECT a.`indentId`,b.`commodityName`,c.userName,b.`comTotal`,c.points FROM indent AS a,commodity AS b,`user` AS c
+WHERE a.`studentName`=c.userid AND a.`indentName` = b.`commodityId` AND a.`costIntegral` = b.`commodityId` AND a.ifSel=1
+LIMIT #{num1},#{num2}
+    </select>
+
+    <select id="cha" resultType="cn.bdqn.exam.entity.SelMX">
+        SELECT a.`indentId`,b.`commodityName`,c.userName,b.`comTotal`,c.points FROM indent AS a,commodity AS b,`user` AS c
+WHERE a.`studentName`=c.userid AND a.`indentName` = b.`commodityId` AND a.`costIntegral` = b.`commodityId` AND a.ifSel=1 AND c.userName=#{c.userName}
+    </select>
+
+
+</mapper>

@@ -1599,7 +1599,7 @@ if(!Array.prototype.indexOf){
 							if (ctx != null) ctx.quadraticCurveTo(cntrl.x, cntrl.y, cp.x, cp.y);
 						}
 						break;
-					case 'A':
+					case 'a.html':
 						while (!pp.isCommandOrEnd()) {
 						    var curr = pp.current;
 							var rx = pp.getScalar();

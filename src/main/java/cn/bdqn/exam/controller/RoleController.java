@@ -21,7 +21,7 @@ public class RoleController {
         List<Role> roles=roleService.finaByRole();
         return JSON.toJSONString(roles);
     }
-    @RequestMapping("/delByRoleId/{rid}")
+    @RequestMapping(value = "/delByRoleId/{rid}",produces="application/json;charset=UTF-8")
     public String delByRoleId(Integer rid){
         Integer res=roleService.delByRoleId(rid);
         return JSON.toJSONString(res);

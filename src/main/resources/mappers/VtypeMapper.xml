@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.bdqn.exam.dao.VtypeMapper">
+
+    <select id="getAll" resultType="cn.bdqn.exam.entity.Vtype">
+        select * from vtype where ifSel=0
+    </select>
+
+    <insert id="add" >
+        INSERT INTO vtype VALUES(NULL,#{curriculumName},'0')
+    </insert>
+
+    <update id="upd" parameterType="cn.bdqn.exam.entity.Vtype">
+        update vtype set curriculumName = #{curriculumName} where curriculumId = #{curriculumId}
+    </update>
+
+    <select id="idSel" resultType="cn.bdqn.exam.entity.Vtype">
+        select * from vtype where curriculumId = #{curriculumId}
+    </select>
+
+    <update id="del" parameterType="cn.bdqn.exam.entity.Vtype">
+        update vtype set ifSel=0 where curriculumId = #{curriculumId}
+    </update>
+
+
+
+
+</mapper>

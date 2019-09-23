@@ -2,17 +2,31 @@ server:
   port: 8888
 #数据源
 spring:
+  server:
+    MaxFileSize: 300MB
+    MaxRequestSize: 500MB
+
+  servlet:
+    multipart:
+      max-request-size: 100000000000000000
+      max-file-size: 100000000000000
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/exam?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT
     username: root
     password: root
+
   #这个开发配置为false，避免改了模板还要重启服务器
   thymeleaf:
     cache: false
   #配置文件下加配置静态资源地址：
   resources:
     static-locations: classpath:/
+  redis:
+    port: 6379
+    host: localhost
+
+
 
 
 
@@ -21,4 +35,14 @@ mybatis:
   mapper-locations: classpath:/mappers/*.xml
   #设置别名
   type-aliases-package: cn.bdqn.exam.entity
+pic:
+  savePath: D:\新建文件夹\项目\src\main\resources\image\
+
+
+pagehelper:
+  helper-dialect: mysql
+  params: count= countsql
+  reasonable: true
+  support-methods-arguments: true
+
 

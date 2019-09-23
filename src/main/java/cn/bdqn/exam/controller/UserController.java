@@ -27,21 +27,21 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @RequestMapping("getAll")
+    @RequestMapping(value = "getAll",produces="application/json;charset=UTF-8")
     @ResponseBody
     public String getAll(){
         List<User> list = userService.getAll();
         return JSON.toJSONString(list);
     }
 
-   @RequestMapping("del/{id}")
+    @RequestMapping("del/{id}")
     @ResponseBody
     public String del(@PathVariable("id") Integer id, HttpServletRequest request){
         int res =  userService.del(id);
         return JSON.toJSONString(res);
     }
 
-    @RequestMapping("/getBuMen")
+    @RequestMapping(value = "/getBuMen",produces="application/json;charset=UTF-8")
     @ResponseBody
     public String getBuMen(HttpServletRequest request){
         List<Dept> list = userService.getALL();
@@ -52,19 +52,6 @@ public class UserController {
     @RequestMapping("/add")
     @ResponseBody
     public String add(User user,HttpServletRequest request){
-        int deptid = Integer.parseInt(request.getParameter("deptid"));
-        out.println(deptid);
-        int points = Integer.parseInt(request.getParameter("points"));
-        String username = request.getParameter("username");
-        String account = request.getParameter("account");
-        String password = request.getParameter("password");
-        String sex = request.getParameter("sex");
-        user.setUsername(username);
-        user.setPassword(password);
-        user.setAccount(account);
-        user.setSex(sex);
-        user.setDeptid(deptid);
-        user.setPoints(points);
         int res = userService.add(user);
         return JSON.toJSONString(res);
     }
@@ -93,7 +80,7 @@ public class UserController {
     public String update(User user,HttpServletRequest request){
         String newpassword = request.getParameter("newpassword");
         out.println(newpassword);
-       user.setPassword(newpassword);
+        user.setPassword(newpassword);
         out.println(user.getPassword());
         int res = userService.upd(user);
         out.println(res);

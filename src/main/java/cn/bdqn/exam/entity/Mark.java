@@ -11,6 +11,36 @@ public class Mark {
 
     private Integer testpaperstepid;
 
+    private String userName;
+
+    private String deptName;
+
+    private String testpaperstepName;
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getDeptName() {
+        return deptName;
+    }
+
+    public void setDeptName(String deptName) {
+        this.deptName = deptName;
+    }
+
+    public String getTestpaperstepName() {
+        return testpaperstepName;
+    }
+
+    public void setTestpaperstepName(String testpaperstepName) {
+        this.testpaperstepName = testpaperstepName;
+    }
+
     public Integer getMarkid() {
         return markid;
     }

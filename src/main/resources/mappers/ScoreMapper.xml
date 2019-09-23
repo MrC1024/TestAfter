@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bdqn.exam.dao.ScoreMapper" >
+      <select id="scoreGetAll" resultType="cn.bdqn.exam.entity.Score">
+           SELECT * FROM `score`
+      </select>
+    <delete id="delect" parameterType="Integer">
+		DELETE FROM score WHERE ScoreId = #{Scoreid}
+	</delete>
+    <insert id="add" parameterType="cn.bdqn.exam.entity.Score">
+    	insert into score values(null,#{ScoreName},#{ScoreNumber})
+       </insert>
+    <select id="getidAll" parameterType="cn.bdqn.exam.entity.Score" resultType="cn.bdqn.exam.entity.Score">
+		select * from score where ScoreId=#{Scoreid}
+      </select>
+    <update id="update" parameterType="cn.bdqn.exam.entity.Score">
+		update score set ScoreName=#{ScoreName},ScoreNumber=#{ScoreNumber}
+		where ScoreId=#{Scoreid}
+	</update>
+</mapper>

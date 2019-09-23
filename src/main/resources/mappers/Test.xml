@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.bdqn.exam.dao.TestMapper">
+
+    <select id="getAll" resultType="cn.bdqn.exam.entity.Test">
+        select * from test where testState = 0
+    </select>
+
+    <update id="updTestStatus" parameterType="java.lang.Integer">
+        update test set testState = 1 where aid = #{id}
+    </update>
+
+    <select id="QueryTestNameByLike" resultType="cn.bdqn.exam.entity.Test">
+        select * from test
+        <where>
+
+            <if test="testname!=null and testname!=''">
+                aname like concat("%",#{testname},"%")
+            </if>
+        </where>
+
+    </select>
+
+    <select id="QueryDeptAll" resultType="cn.bdqn.exam.entity.Dept">
+        select * from dept
+    </select>
+
+    <insert id="addTest" parameterType="cn.bdqn.exam.entity.Test">
+       insert into test (aName,testpaperstepName,`key`,testDates,testState,Aoption,Boption,Coption,Doption)
+            values(#{aname},#{testpaperstepName},#{key},now(),0,#{Aoption},#{Boption},#{Coption},#{Doption});
+    </insert>
+
+    <select id="QueryTestById" resultType="cn.bdqn.exam.entity.Test">
+        select * from test where aid = #{id}  and testState = 0
+    </select>
+
+    <select id="testCount" resultType="java.lang.Integer">
+        select count(*) from test
+    </select>
+
+    <update id="updTest" parameterType="cn.bdqn.exam.entity.Test">
+        update test set aName = #{aname},testpaperstepName=#{testpaperstepName},
+        `key` = #{key},testDates = #{testDates}, Aoption = #{Aoption},
+        Boption = #{Boption},Coption = #{Coption},Doption = #{Doption}
+        where aid = #{aid}
+    </update>
+</mapper>

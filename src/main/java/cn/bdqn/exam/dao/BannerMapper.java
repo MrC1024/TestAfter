@@ -1,30 +1,20 @@
 package cn.bdqn.exam.dao;
 
 import cn.bdqn.exam.entity.Banner;
-import cn.bdqn.exam.entity.BannerExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+
+import java.util.List;
+
 public interface BannerMapper {
-    int countByExample(BannerExample example);
+    List<Banner> getAll();//查全部
+    int del(int ifSel);  //删除  状态改为0
+    int add(Banner banner);
+    int upd(Banner banner);
+    List<Banner> getPage(@Param("num1") Integer num1, @Param("num2") Integer num2); //分页
+    int count();   //查count(*)
+    List<Banner> byban(String banPath);
 
-    int deleteByExample(BannerExample example);
 
-    int deleteByPrimaryKey(Integer banid);
 
-    int insert(Banner record);
-
-    int insertSelective(Banner record);
-
-    List<Banner> selectByExample(BannerExample example);
-
-    Banner selectByPrimaryKey(Integer banid);
-
-    int updateByExampleSelective(@Param("record") Banner record, @Param("example") BannerExample example);
-
-    int updateByExample(@Param("record") Banner record, @Param("example") BannerExample example);
-
-    int updateByPrimaryKeySelective(Banner record);
-
-    int updateByPrimaryKey(Banner record);
 }

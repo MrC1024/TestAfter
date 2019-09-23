@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bdqn.exam.dao.TestPaperMapper" >
+  <select id="getAll1" resultType="cn.bdqn.exam.entity.testpaper">
+   SELECT a.`tId`,a.`tName`,b.`testpaperstepName`,a.`testpaperstepSite` FROM `testpaper` AS a,`testpaperstep` AS b WHERE a.`testpaperstepId` = b.`testpaperstepId`
+  </select>
+  <insert id="testAdd" parameterType="cn.bdqn.exam.entity.testpaper">
+		insert into testpaper values(null,#{tname},#{testpaperstepId},#{testpaperstepSite})
+  </insert>
+
+  <select id="getStepAll" resultType="cn.bdqn.exam.entity.testpaper">
+    select * from testpaperstep
+  </select>
+  <delete id="testDel">
+    delete from testpaper where tid = #{tid}
+  </delete>
+
+  <select id="testUpdId" resultType="cn.bdqn.exam.entity.testpaper">
+    select * from testpaper where tid = #{tid}
+  </select>
+  
+  <update id="testUpd" parameterType="cn.bdqn.exam.entity.testpaper">
+    update testpaper set tname = #{tname},testpaperstepId = #{testpaperstepId},testpaperstepSite = #{testpaperstepSite} where tid = #{tid}
+  </update>
+  <select id="mohucha" resultType="cn.bdqn.exam.entity.testpaper">
+           SELECT a.`tId`,a.`tName`,b.`testpaperstepName`,a.`testpaperstepSite` FROM `testpaper` AS a,`testpaperstep` AS b WHERE a.`testpaperstepId` = b.`testpaperstepId` AND a.tName LIKE CONCAT ('%',#{tName},'%')
+
+  </select>
+
+
+</mapper>

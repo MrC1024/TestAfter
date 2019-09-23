@@ -1,0 +1,383 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="/static/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>角色管理</title>
+    <style type="text/css">
+        .fade {opacity: 0;
+            -webkit-transition: opacity .15s linear;
+            -o-transition: opacity .15s linear;
+            transition: opacity .15s linear}
+        .fade.in {opacity: 1}
+        .modal-open {overflow: hidden}
+        .modal{ position:fixed; left:0; top:0; right:0; bottom:0; z-index:1040; display:none; overflow:hidden;-webkit-overflow-scrolling:touch; outline:0}
+        .modal.fade .modal-dialog{
+            -webkit-transition: -webkit-transform .3s ease-out;
+            -o-transition: -o-transform .3s ease-out;
+            transition: transform .3s ease-out;
+            -webkit-transform: translate(0,-50%);
+            -ms-transform: translate(0,-50%);
+            -o-transform: translate(0,-50%);
+            transform: translate(0,-50%)}
+        .modal.in .modal-dialog {
+            -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            -o-transform: translate(0, 0);
+            transform: translate(0, 0)}
+        .modal-open .modal {overflow-x: hidden;overflow-y: auto}
+        .modal-backdrop {position: fixed;top: 0;right: 0;bottom: 0;left: 0;background-color: #000}
+        .modal-backdrop.fade {filter: alpha(opacity=0);opacity: 0}
+        .modal-backdrop.in {filter: alpha(opacity=50);opacity: .5}
+        .modal-dialog {position: relative;width: auto;margin: 10px}
+        .modal-content{position: relative;background-color: #fff;border: 1px solid #999;border: 1px solid rgba(0,0,0,.2);outline: 0;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+            box-shadow: 0 3px 9px rgba(0,0,0,.5)}
+
+        .modal-header {min-height: 16.42857143px;padding: 15px;border-bottom: 1px solid #eee; position:relative}
+        .modal-header .close{position:absolute; right:10px; top:10px}
+        .modal-header h3,.modal-header .modal-title{margin:0; padding:10px 0; font-size:16px}
+
+        .modal-body {position:relative;padding: 15px;overflow-y:visible;word-break:break-all}
+        .modal-form {margin-bottom: 0}
+
+        .modal-footer {padding:15px;margin-bottom: 0;text-align: right;background-color: #f5f5f5;border-top: 1px solid #eee;*zoom: 1}
+        .modal-footer:before,.modal-footer:after {display: table;content: ""}
+        .modal-footer:after {clear: both}
+        .modal-footer .btn + .btn {margin-left: 5px;margin-bottom: 0}
+        .modal-footer .btn-group .btn + .btn {margin-left: -1px}
+        .modal-footer .btn-block + .btn-block {margin-left: 0}
+
+        .modal-scrollbar-measure {position: absolute;top: -9999px;width: 50px;height: 50px;overflow: scroll}
+
+        .radius .modal-content{ border-radius:6px}
+        .radius .modal-footer{ border-bottom-left-radius:6px; border-bottom-right-radius:6px}
+        @media (min-width: 768px) {
+            .modal-dialog {width: 600px;margin: 30px auto}
+            .modal-content {-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);box-shadow: 0 5px 15px rgba(0, 0, 0, .5)}
+            .modal-sm {width: 300px}
+        }
+        @media (min-width: 992px) {
+            .modal-lg {width: 900px}
+        }
+
+        .modal-alert{position:fixed; right:auto; bottom:auto; width:300px; left:50%;margin-left:-150px; top:50%;margin-top:-30px; z-index:9999;background-color: #fff;border: 1px solid #999;border: 1px solid rgba(0,0,0,.2);outline: 0;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+            box-shadow: 0 3px 9px rgba(0,0,0,.5)}
+        .modal-alert-info{padding:30px; text-align:center; font-size:14px; background-color:#fff}
+        .tex{
+            width:565px;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 系统管理 <span class="c-gray en">&gt;</span> 积分管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+    <div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" href="javascript:;" onclick="modaldemo1()"><i class="Hui-iconfont">&#xe600;</i> 添加公告</a> </span> <span class="r">共有数据：<strong id="r">0</strong>条</span> </div>
+    <table class="table table-border table-bordered table-hover table-bg" id="JJtable">
+
+    </table>
+</div>
+<div id="modal-demo" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content radius">
+            <div class="modal-header">
+                <h3 class="modal-title">修改加分项</h3>
+                <a class="close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">×</a>
+            </div>
+            <input type="hidden" id="integralId">
+            <input type="hidden" id="integralstate" th:value="1">
+            <input type="hidden" id="comTotal" th:value="0">
+            <div class="modal-body">
+                加积分内容:<input  type="text" id="integralName1"/>
+            </div>
+            <div class="modal-body">
+                积分:<input  type="text" id="integralNumber1"/>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="update()">确定</button>
+                <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal-demo1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content radius">
+            <div class="modal-header">
+                <h3 class="modal-title">添加加分项</h3>
+                <a class="close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">×</a>
+            </div>
+            <div class="modal-body">
+                加积分内容:<input  type="text" id="integralName"/>
+            </div>
+            <div class="modal-body">
+                积分:<input  type="text" id="integralNumber"/>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="add()">确定</button>
+                <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" th:inline="none">
+
+    $('.table-sort').dataTable({
+        "aaSorting": [[ 1, "desc" ]],//默认第几个排序
+        "bStateSave": true,//状态保存
+        "aoColumnDefs": [
+            //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+            {"orderable":false,"aTargets":[0,8]}// 制定列不参与排序
+        ]
+    });
+
+    /*图片-添加*/
+    function picture_add(title,url){
+        var index = layer.open({
+            type: 2,
+            title: title,
+            content: url
+        });
+        layer.full(index);
+    }
+    /*图片-下架*/
+    function picture_stop(obj,id){
+        layer.confirm('确认要禁用吗？',function(index){
+            $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="picture_start(this,id)" href="javascript:;" title="发布"><i class="Hui-iconfont">&#xe603;</i></a>');
+            $(obj).parents("tr").find(".td-status").html('<span class="label label-defaunt radius" style="background: red">已禁用</span>');
+            $(obj).remove();
+            layer.msg('已禁用!',{icon: 5,time:1000});
+        });
+    }
+    /*图片-发布*/
+    function picture_start(obj,id){
+        layer.confirm('确认要发布吗？',function(index){
+            $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="picture_stop(this,id)" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a>');
+            $(obj).parents("tr").find(".td-status").html('<span class="label label-success radius">已启用</span>');
+            $(obj).remove();
+            layer.msg('已启用!',{icon: 6,time:1000});
+        });
+    }
+    /*图片-申请上线*/
+    function picture_shenqing(obj,id){
+        $(obj).parents("tr").find(".td-status").html('<span class="label label-default radius">待审核</span>');
+        $(obj).parents("tr").find(".td-manage").html("");
+        layer.msg('已提交申请，耐心等待审核!', {icon: 1,time:2000});
+    }
+    /*管理员-角色-添加*/
+    function admin_role_add(title,url,w,h){
+        layer_show(title,url,w,h);
+    }
+    /*管理员-角色-编辑*/
+    function admin_role_edit(title,url,id,w,h){
+        layer_show(title,url,w,h);
+    }
+    /*修改公告模态框*/
+    function modaldemo(){
+        $("#modal-demo").modal("show")
+    }
+    function modaldemo1(){
+        $("#modal-demo1").modal("show")
+    }
+    $(function getAll() {
+        $.ajax({
+            "url":"/Integral/getAll",
+            "Type":"post",
+            "dateType":"JSON",
+            "success":function (result) {
+                var count = 0;
+                $("#JJtable").html("<thead>\n" +
+                    "                <tr class=\"text-c\">\n" +
+                    "                    <th width=\"40\"><input name=\"subcheck\" " +
+                    "type=\"checkbox\" value=\"\"></th>\n" +
+                    "                    <th width=\"80\">ID</th>\n" +
+                    "                    <th width=\"100\">加分项</th>\n" +
+                    "                    <th width=\"100\">积分</th>\n" +
+                    "                    <th width=\"60\">状态</th>\n" +
+                    "                    <th width=\"100\">操作</th>\n" +
+                    "                </tr>\n" +
+                    "            </thead>");
+                $(result).each(function(){
+                    count++;
+                        $("#JJtable").append("  <tbody>\n" +
+                            "                <tr class=\"text-c\">\n" +
+                            "                    <td><input name=\"subcheck\" type=\"checkbox\" value="+this.commodityId+"></td>\n" +
+                            "                    <td>"+count+"</td>\n" +
+                            "                    <td>"+this.commodityName+"</td>\n" +
+                            "                    <td>"+this.comTotal+"</td>\n" +
+                            "                    <td class=\"td-status\"><span class=\"label label-success radius\">已启用</span></td>\n" +
+                            "                    <td class=\"td-manage\"><a style=\"text-decoration:none\" onClick=\"picture_stop(this,'10001')\" href=\"javascript:;\" title=\"下架\"><i class=\"Hui-iconfont\">&#xe6de;</i></a> <a style=\"text-decoration:none\" class=\"ml-5\" onClick=\"modaldemo();getidAll("+this.commodityId+")\" href=\"javascript:;\" title=\"编辑\"><i class=\"Hui-iconfont\">&#xe6df;</i></a> <a style=\"text-decoration:none\" class=\"ml-5\" onClick=\"del("+this.commodityId+")\" href=\"javascript:;\" title=\"删除\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
+                            "                </tr>\n" +
+                            "            </tbody>");
+                })
+                $("#r").text(count);
+            }
+        })
+    })
+    function  del(commodityId) {
+        var a=confirm("确定要删除吗?");
+        if(a){
+            $.ajax({
+                "url":"/Integral/delect/"+commodityId,
+                "type":"get",
+                "dataType":"JSON",
+                "success":function(res){
+                    if(res>0){
+                        alert("删除成功");
+                    }else{
+                        alert("删除失败");
+                    }
+                    location.reload();
+                }
+            })
+        }else{
+            return false;
+        }
+    }
+    function add(){
+        var commodityName=$("#integralName").val();
+        var addfen=$("#integralNumber").val();
+        $.ajax({
+            "url":"/Integral/add",
+            "data":"commodityName="+commodityName+"&comTotal="+addfen,
+            "dataType":"json",
+            "type":"post",
+            "success":function(res){
+                if(res>0){
+                    alert("添加成功");
+                    location.reload();
+                }else{
+                    alert("添加失败");
+                }
+            }
+        })
+    }
+    function getidAll(commodityId) {
+        $.ajax({
+            "url": "Integral/getidAll/"+commodityId,
+            "type": "POST",
+            "dataType": "JSON",
+            "success": function (result) {
+                $("#integralName1").val(result.commodityName);
+                $("#integralNumber1").val(result.comTotal);
+                $("#integralId").val(result.commodityId);
+                $("#integralstate").val(result.state);
+            }
+        })
+    }
+    function update() {
+        var commodityName=$("#integralName1").val();
+        var addfen=$("#integralNumber1").val();
+        var commodityId=$("#integralId").val();
+        var comTotal = $("#comTotal").val()
+        var state = $("#integralstate").val()
+        $.ajax({
+            "url":"Integral/update",
+            "data":"commodityName="+commodityName+"&addfen="+comTotal+"&commodityId="+commodityId+"&comTotal="+addfen+"&state="+state,
+            "type":"get",
+            "dataType":"json",
+            "success":function(result){
+                if(result>0){
+                    alert("修改成功 ");
+                    location.reload();
+                }else {
+                    alert("修改失败");
+                }
+            }
+        })
+    }
+    function datadel(){
+        var checkedNum = $("input[name='subcheck']:checked").length;
+        if(checkedNum==0){
+            alert("请至少选择一项!");
+            return false;
+        }
+        if(confirm("确定删除所选项目?")){
+            var checkedList = new Array();
+            $("input[name='subcheck']:checked").each(function(){
+                checkedList.push($(this).val());
+            });
+            $.ajax({
+                "url":"/Integral/del2/",
+                "type":"POST",
+                "data":{"delitems":checkedList.toString()},
+                "dataType":"html",
+                "success":function(data){
+                    $("[name='subcheck']:checkbox").attr("checked",false);
+                    location.reload();
+                },
+                error:function(data){
+                    alt.dialog.tips('删除失败!');
+                }
+            });
+        }
+    }
+    // function update1() {
+    //     var state = 1;
+    //     var commodityId=$("#integralId").val();
+    //     $.ajax({
+    //         "url":"Integral/upda1",
+    //         "data":"state="+state+"&commodityId="+commodityId,
+    //         "type":"get",
+    //         "dataType":"json",
+    //         "success":function(result){
+    //             if(result>0){
+    //                 alert("修改成功 ");
+    //                 location.reload();
+    //             }else {
+    //                 alert("修改失败");
+    //             }
+    //         }
+    //     })
+    // }
+    // function update2() {
+    //     var state = 0;
+    //     var commodityId=$("#integralId").val();
+    //     $.ajax({
+    //         "url":"Integral/upda2",
+    //         "data":"state="+state+"&commodityId="+commodityId,
+    //         "type":"get",
+    //         "dataType":"json",
+    //         "success":function(result){
+    //             if(result>0){
+    //                 alert("修改成功 ");
+    //                 location.reload();
+    //             }else {
+    //                 alert("修改失败");
+    //             }
+    //         }
+    //     })
+    // }
+</script>
+</body>
+</html>

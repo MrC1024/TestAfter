@@ -1442,7 +1442,7 @@ input[type="radio"],input[type="checkbox"] {line-height: normal; margin-top:-4px
 .iradio-blue.checked.disabled{background-position: -180px 0}
 
 /* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),  only screen and (-moz-min-device-pixel-ratio: 1.5),  only screen and (-o-min-device-pixel-ratio: 1.5),  only screen and (min-device-pixel-ratio: 1.5){.icheckbox-blue,.iradio-blue{background-image: url(../images/iCheck/blue@2x.png);
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),  only screen and ( -moz-min-device-pixel-ratio: 1.5),  only screen and (-o-min-device-pixel-ratio: 1.5),  only screen and (min-device-pixel-ratio: 1.5){.icheckbox-blue,.iradio-blue{background-image: url(../images/iCheck/blue@2x.png);
 	-webkit-background-size: 200px 20px;
 	background-size: 200px 20px}
 }

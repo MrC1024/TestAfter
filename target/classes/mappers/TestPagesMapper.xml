@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bdqn.exam.dao.TestPagesMapper" >
+  <select id="getPages" resultType="cn.bdqn.exam.entity.testpaper" parameterType="Integer">
+   SELECT a.`tId`,a.`tName`,b.`testpaperstepName`,a.`testpaperstepSite` FROM `testpaper` AS a,`testpaperstep` AS b WHERE a.`testpaperstepId` = b.`testpaperstepId` LIMIT #{num1},#{num2}
+	 </select>
+
+	<select id="counts" resultType="int">
+		SELECT COUNT(*) FROM testpaper
+	 </select>
+</mapper>

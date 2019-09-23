@@ -25,28 +25,21 @@
 <div class="cl pd-30" style=" background-color:#5bacb6">
 	<dl style="margin-left:90px; color:#fff">
 		<dt>
-			<span class="f-20">姓名:</span><span class="f-20" th:text="${us.username}"></span>
+			<span class="f-20">姓名:</span><span class="f-20" th:text="${yh.username}"></span>
 		</dt>
 	</dl>
 </div>
 <div class="pd-40">
 	<table class="table">
 		<tbody>
+
 			<tr>
-				<th class="text-r" width="80">性别：</th>
-				<td th:text="${us.sex}"></td>
+				<th class="text-r">密码：</th>
+				<td th:text="${yh.password}"></td>
 			</tr>
 			<tr>
-				<th class="text-r">账号：</th>
-				<td th:text="${us.account}"></td>
-			</tr>
-			<tr>
-				<th class="text-r">部门：</th>
-				<td th:text="${us.dept.deptname}"></td>
-			</tr>
-			<tr>
-				<th class="text-r">积分：</th>
-				<td th:text="${us.points}"></td>
+				<th class="text-r">角色名称：</th>
+				<td th:text="${yh.role.rname}"></td>
 			</tr>
 		</tbody>
 	</table>

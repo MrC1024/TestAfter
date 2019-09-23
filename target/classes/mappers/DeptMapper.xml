@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bdqn.exam.dao.DeptMapper" >
+  <select id="getAll" resultType="cn.bdqn.exam.entity.Dept">
+    select * from Dept
+  </select>
+  <insert id="getAdd" parameterType="cn.bdqn.exam.entity.Dept">
+		insert into dept values(null,#{deptname})
+  </insert>
+  <delete id="del" >
+        delete from Dept where deptid = #{deptid}
+  </delete>
+    <select id="updId" resultType="cn.bdqn.exam.entity.Dept">
+        select * from Dept where deptid = #{deptid}
+    </select>
+
+    <update id="upd" parameterType="cn.bdqn.exam.entity.Dept">
+        update Dept set deptname = #{deptname} where deptid = #{deptid}
+    </update>
+</mapper>

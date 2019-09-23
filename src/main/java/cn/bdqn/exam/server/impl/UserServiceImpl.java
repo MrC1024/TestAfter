@@ -13,6 +13,11 @@ public class UserServiceImpl implements UserService {
     @Autowired
     UserMapper userMapper;
 
+    @Override
+    public User Login(String account, String password) {
+        return userMapper.Login(account,password);
+    }
+
     public List<User> getAll() {
         return userMapper.getAll();
     }

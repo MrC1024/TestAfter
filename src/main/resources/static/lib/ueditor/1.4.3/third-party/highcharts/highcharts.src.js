@@ -3861,7 +3861,7 @@ SVGRenderer.prototype = {
 				M,
 				x + radius * cosStart,
 				y + radius * sinStart,
-				'A', // arcTo
+				'a.html', // arcTo
 				radius, // x radius
 				radius, // y radius
 				0, // slanting
@@ -3872,7 +3872,7 @@ SVGRenderer.prototype = {
 				open ? M : L,
 				x + innerRadius * cosEnd,
 				y + innerRadius * sinEnd,
-				'A', // arcTo
+				'a.html', // arcTo
 				innerRadius, // x radius
 				innerRadius, // y radius
 				0, // slanting
