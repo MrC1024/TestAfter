@@ -67,7 +67,7 @@ public class UserHandler {
         response.setHeader("Cache-Control", "no-store");
         response.setHeader("Pragma", "no-cache");
         response.setDateHeader("Expires", 0);
-        response.setContentType("image/jpeg");
+        response.setContentType("static/image/jpeg");
         ServletOutputStream responseOutputStream =
                 response.getOutputStream();
         responseOutputStream.write(captchaChallengeAsJpeg);

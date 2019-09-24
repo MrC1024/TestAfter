@@ -40,7 +40,7 @@
 				"type":"post",
 				"dataType":"json",
 				"success":function(result){
-					$("strong").text(result);
+					$("strong").text(result-1);
 				},
 			});
 		}
@@ -72,6 +72,13 @@
 		index = zong1;
 		show();
 	}
+	function quanxuan(){
+		if($('.quanxuan').is(':checked')){
+			$("#table input[name=subcheck]").prop("checked", true);
+		}else{
+			$("#table input[name=subcheck]").prop("checked", false);
+		}
+	}
 		function show() {
 			getCount();
 			$.ajax({
@@ -84,14 +91,14 @@
 					$(".r").show();
 					$(".dangqian").text(index);
 					$(".zong").text(result.pageSum);
-					$(".gong").text(result.count);
+					$(".gong").text(result.count-1);
 					$("#table").html(" ");
 					$("#table").append("<thead>\n" +
 							"\t\t\t<tr>\n" +
 							"\t\t\t\t<th scope=\"col\" colspan=\"9\">用户明细</th>\n" +
 							"\t\t\t</tr>\n" +
 							"\t\t\t<tr class=\"text-c\">\n" +
-							"\t\t\t\t<th width=\"25\">ID</th>\n" +
+							"\t\t\t\t\t<th width=\"40\"><input name=\"\" type=\"checkbox\" value=\"\" onclick='quanxuan()' class='quanxuan'></th>\n" +
 							"\t\t\t\t<th width=\"150\">用户名称</th>\n" +
 							"\t\t\t\t<th width=\"90\">使用情况</th>\n" +
 							"\t\t\t\t<th width=\"150\">操作积分</th>\n" +
