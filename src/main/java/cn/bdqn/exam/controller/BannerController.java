@@ -72,41 +72,44 @@ public class BannerController {
 
 
     @RequestMapping("/add")
-    public String add(@RequestParam("uploadFile") MultipartFile file) throws IOException {
+    public String add(@RequestParam("uploadFile") MultipartFile file,HttpServletRequest request,Banner banner) throws IOException {
         String fileName = file.getOriginalFilename();   //获取文件名
         System.out.println(fileName);
         String suffixName  = fileName.substring(fileName.lastIndexOf(".")); //获取后缀名
         System.out.println(suffixName);
-        String filePath = "E:\\项目\\项目\\src\\main\\resources\\image";        //文件上传路径
+        String filePath = "F:\\KaoShiXT2\\src\\main\\resources\\image";        //文件上传路径
         fileName = UUID.randomUUID()+suffixName;
         File dest = new File(filePath+fileName);
         file.transferTo(dest);
-        Banner banner = new Banner();
         banner.setBanName("/static/"+fileName);
         banner.setBanPath(suffixName);
+        banner.setLink(banner.getLink());
         bannerService.add(banner);
         return "redirect:/Banner.html";
     }
 
     @RequestMapping("/upd")
     public String upd(@RequestParam("uploadFile") MultipartFile file,Banner banner) throws IOException {
+
         String fileName = file.getOriginalFilename();   //获取文件名
         System.out.println(fileName);
         String suffixName  = fileName.substring(fileName.lastIndexOf(".")); //获取后缀名
         System.out.println(suffixName);
-        String filePath = "F:\\KaoShiXT\\exam\\src\\main\\resources\\static\\realAuthImageUpload\\";        //文件上传路径
+        String filePath = "F:\\KaoShiXT2\\src\\main\\resources\\image";        //文件上传路径
         fileName = UUID.randomUUID()+suffixName;
         File dest = new File(filePath+fileName);
         file.transferTo(dest);
         System.out.println(banner.getBanId()); //输出id
         banner.setBanName("/static/"+fileName);
         banner.setBanPath(suffixName);
+        banner.setLink(banner.getLink());
         bannerService.upd(banner);
         return "redirect:/Banner.html";
     }
-    @RequestMapping("/updSel/{id}")
-    public String updSel(@PathVariable Integer id, Map<String,Integer> map){
+    @RequestMapping("/updSel/{id}/{link}")
+    public String updSel(@PathVariable Integer id,@PathVariable String link,Map<String,Object> map){
         map.put("banId",id);
+        map.put("link1",link+".com");
         return "forward:/picture-upd.html";
     }
 

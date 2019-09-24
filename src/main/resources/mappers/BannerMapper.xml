@@ -17,11 +17,11 @@
     </select>
 
     <insert id="add">
-       INSERT INTO `banner` VALUES(null,#{banPath},#{banName},'1')
+       INSERT INTO `banner` VALUES(null,#{banPath},#{banName},'1',#{link})
     </insert>
 
     <update id="upd" parameterType="cn.bdqn.exam.entity.Banner">
-        UPDATE `banner` SET banPath=#{banPath},banName=#{banName} WHERE banId = #{banId}
+        UPDATE `banner` SET banPath=#{banPath},banName=#{banName},link=#{link} WHERE banId = #{banId}
     </update>
 
     <update id="del" parameterType="cn.bdqn.exam.entity.Banner">

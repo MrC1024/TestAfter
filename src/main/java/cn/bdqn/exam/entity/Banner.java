@@ -11,6 +11,15 @@ public class Banner {
     private String banName;
     private MultipartFile file;
     private  Integer ifSel;
+    private String link;
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
 
     public Integer getIfSel() {
         return ifSel;

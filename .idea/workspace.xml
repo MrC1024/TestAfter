@@ -2,367 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4e4348-7110-48cd-a5d6-0fdb17ae6957" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/IntegralController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/MarkController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/NoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PagesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/ScoreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/SelMXController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/TestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/TestPagesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/TestPaperController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserEachertsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VtypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/yonghuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/IntegralMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/PageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/ScoreMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/SelMXMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/TestPagesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/TestPaperMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/YonghuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/userEachartsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Integral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/SelMX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Yonghu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/testpaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/testpaperstep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/BannerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/IntegralService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/MarkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/PageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/ScoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/SelMXService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/TestPagesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/TestPaperService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserEachartsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/VideoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/VtypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/YonghuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/BannerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/IntegralServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/MarkServiceoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/NoticeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/PageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/ScoreServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/SelMXServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/TestPagesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/TestPaperServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/TestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserEachartsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/VideoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/VtypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/YonghuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/util/CaptchaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/util/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/util/Page1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/util/Pages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/util/TestPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/util/intercepors/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/util/intercepors/WebConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/IntegralMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/MarkMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/NoticeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/PageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/ScoreMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/SelMXMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/Test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TestPagesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TestPaperMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserEachartsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/VideoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/VtypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lib/video.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/057c212f-c577-4852-bd0e-a164c2babaeb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/1024c040-51c2-462d-a45d-b93cd689597d.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/13fd689e-c4d9-487b-8c1e-b9bf9753b5dd.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/21ba8c9b-8327-4928-b401-89022dbdfe7a.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/2b09319c-d43a-4600-bfe8-bb24393ea6de.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/2b34cb02-4ff4-42e1-8d9d-be776b4b56c5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/35a6831b-404c-4dca-af38-e7b14f47adf9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/445f5720-5d16-4cde-a9af-1eece2f560c1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/4a21fbcf-255f-405f-91e6-75cf6958d16c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/4a7e0744-dac6-468f-a8e9-106118301f73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/68ec4bb4-0f23-416e-9d06-190db979cbf2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/6cc4095d-2563-4e13-964c-5990b7241ab1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/70c974e7-2abd-4dc3-aff3-d4a6695220ea.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/73d1fab2-92f0-4113-a4aa-a377dd5c098f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/8ed83cc3-e015-4dd5-806d-2ca60f14e61f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/a1309bf0-7af6-4e1a-8bac-c16f31fb6866.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/ade5f68a-cf43-4f17-b0be-bb2d6cbd258b.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/b7b7b085-7eec-417e-815b-f04562cc8aeb.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/c1a14842-0bdb-4400-8329-5ee45fb195b4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/dc109693-73f8-40d7-b43a-03e1e8ec7521.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/realAuthImageUpload/df11aa80-ffb8-447b-b510-c0aae7ba2e9d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/guanliyuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-upd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product-upd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/video-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/KaoShiXT2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2019_9_13_15_24__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2019_9_13_15_24__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2019_9_13_15_28__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2019_9_13_15_28__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2019_9_13_15_34__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2019_9_13_15_34__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/ProblemsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/ProblemsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/TiaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/TiaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/AnswerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BadanswerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BannerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BannerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/BecommentedMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/CommodityMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/DeptMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/IndentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/MarkMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/MarkMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/NoticeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/NoticeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/OptionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VideoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VideoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VtypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/VtypeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/commentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/problemsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/problemsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Answer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/AnswerExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Badanswer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/BadanswerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Banner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/BannerExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Becommented.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/BecommentedExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/CommentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Commodity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/CommodityExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/DeptExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Indent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/IndentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Mark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Mark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/MarkExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Notice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/NoticeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Option.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/OptionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Problems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Problems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/UserExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/VideoExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Vtype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Vtype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/VtypeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/ProblemsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/ProblemsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/ProblemsSerivceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/ProblemsSerivceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/RoleSerivceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/RoleSerivceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProblemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProblemsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/DD_belatedPNG_0.0.8a-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/DD_belatedPNG_0.0.8a-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/echarts/3.4.0/echarts.common.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/echarts/3.4.0/echarts.common.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/hcharts/Highcharts/5.0.6/js/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/hcharts/Highcharts/5.0.6/js/highcharts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/jquery.validation/1.14.0/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/jquery.validation/1.14.0/additional-methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/highcharts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/video-js/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/third-party/video-js/video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/ueditor.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/ueditor.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/ueditor.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/ueditor.all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin-permission.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin-permission.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/change-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/change-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/charts-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/charts-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/jueseguanli.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/jueseguanli.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member-show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member-show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-brand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-category-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-category-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wenTiFanKui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/ProblemsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/ProblemsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/TiaoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/TiaoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/AnswerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BadanswerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BannerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BannerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/BecommentedMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/CommodityMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/DeptMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/IndentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/MarkMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/MarkMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/NoticeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/NoticeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/OptionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VideoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VideoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VtypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/VtypeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/problemsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/problemsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/roleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/dao/roleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Answer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/AnswerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Badanswer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BadanswerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Banner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Banner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BannerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Becommented.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/BecommentedExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Commodity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/CommodityExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Dept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/DeptExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Indent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/IndentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Mark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Mark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/MarkExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Notice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/NoticeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Option.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/OptionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Problems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Problems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Video.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VideoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Vtype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/Vtype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/entity/VtypeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/ProblemsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/ProblemsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/RoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/impl/ProblemsSerivceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/impl/ProblemsSerivceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/impl/RoleSerivceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/impl/RoleSerivceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/server/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ProblemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/ProblemsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/DD_belatedPNG_0.0.8a-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/DD_belatedPNG_0.0.8a-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/echarts/3.4.0/echarts.common.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/echarts/3.4.0/echarts.common.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/hcharts/Highcharts/5.0.6/js/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/hcharts/Highcharts/5.0.6/js/highcharts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/jquery.validation/1.14.0/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/jquery.validation/1.14.0/additional-methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/highcharts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/video-js/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/third-party/video-js/video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/ueditor.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/ueditor.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/ueditor.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/ueditor.all.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin-permission.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin-permission.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/change-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/change-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/charts-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/charts-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/charts-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/charts-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/charts-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/charts-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/charts-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/charts-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/huiYuanGuanLi2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-upd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-upd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/exam.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/UserHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/UserHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/aContr.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/jueseguanli.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/jueseguanli.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/member-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/member-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/member-show.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/member-show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-brand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-category-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-category-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/system-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/wenTiFanKui.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wenTiFanKui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/xiTongGongGao.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/xiTongGongGao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/bdqn/exam/ExamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/bdqn/exam/ExamTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="D:\新建文件夹\项目\.idea\shelf/" />
+    <ignored path="F:\KaoShiXT2\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,49 +51,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PageController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="426">
+              <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#5;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1061">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="124">
+              <caret line="111" column="37" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-upd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="137" column="16" lean-forward="true" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+            <state relative-caret-position="322">
+              <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="69" column="28" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="28" />
+            <state relative-caret-position="253">
+              <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -448,11 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>添加用户</find>
-      <find>myfilepat</find>
-      <find>修改密码</find>
-      <find>没有数据</find>
-      <find>没有</find>
       <find>dataTables_info</find>
       <find>layer_close</find>
       <find>file</find>
@@ -478,6 +133,11 @@
       <find>用户</find>
       <find>ad</find>
       <find>username</find>
+      <find>add</find>
+      <find>picture_edit</find>
+      <find>dianji</find>
+      <find>编辑</find>
+      <find>updSel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -493,12 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/MarkServiceoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/ScoreMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/MarkMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/MarkMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/ScoreMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/NoticeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.min.css" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
@@ -511,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/mappers/yonghuMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/SelMXMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/IntegralController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/NoticeController.java" />
@@ -542,8 +195,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/change-password.html" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Banner.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/Banner.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-upd.html" />
       </list>
     </option>
   </component>
@@ -592,73 +252,77 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -681,7 +345,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -723,7 +387,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="KaoShiXT2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bdqn.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bdqn.exam.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="exam" />
       <extension name="coverage">
@@ -739,6 +416,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
@@ -768,6 +446,8 @@
       <workItem from="1569042897403" duration="20551000" />
       <workItem from="1569153543157" duration="8597000" />
       <workItem from="1569199092267" duration="10944000" />
+      <workItem from="1569241113754" duration="4020000" />
+      <workItem from="1569285520174" duration="6922000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1568357777426</created>
@@ -836,12 +516,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223104000" />
+    <option name="totallyTimeSpent" value="234046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33042896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2386059" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -851,7 +532,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3555241" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39093485" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -860,11 +541,10 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.30169973" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.26203966" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" visible="true" weight="0.26203966" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -876,9 +556,10 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
       <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33042896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33512065" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -888,7 +569,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3555241" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.5368272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -912,6 +593,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
       <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -943,376 +625,136 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/xiTongGongGao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1406">
-          <caret line="198" column="36" selection-start-line="198" selection-start-column="36" selection-end-line="198" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/member-list3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/NoticeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Integral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/IntegralMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/ScoreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/yonghuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/MarkMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/ScoreController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/yonghuController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/MarkMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ScoreMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-permission.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/MarkController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list3.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProblemsMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/ProblemsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/userEachartsMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserEachartsServiceImpl.java" />
+    <entry file="file://D:/张乐凯/userEachartsMapper.java" />
+    <entry file="file://D:/张乐凯/UserEachartsServiceImpl.java" />
+    <entry file="file://D:/张乐凯/UserEachertsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserEachartsService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserEachertsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/IntegralController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PagesController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-6.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-7.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-4.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article-list.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-add.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/member-add.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Mark.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/TiaoController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system-base.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/change-password.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/user.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PageController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ScoreMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="48" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-permission.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="183" column="40" selection-start-line="183" selection-start-column="40" selection-end-line="183" selection-end-column="40" />
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/MarkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-list3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="289" column="42" selection-start-line="289" selection-start-column="42" selection-end-line="289" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#5;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#5;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProblemsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/ProblemsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/userEachartsMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserEachartsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/张乐凯/userEachartsMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/张乐凯/UserEachartsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/张乐凯/UserEachertsController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserEachartsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserEachertsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="30" column="79" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/IntegralController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311">
-          <caret line="20" column="79" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PagesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="220" column="33" selection-start-line="220" selection-start-column="26" selection-end-line="220" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#3;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#3;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1728" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="239" selection-start-line="239" selection-end-line="239" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/charts-4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="53" column="55" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/article-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3821">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-add.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/member-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3036" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Mark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/TiaoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="163" column="27" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
-          <folding>
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2411#2412#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-            <element signature="e#3089#3090#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="155" column="216" selection-start-line="155" selection-start-column="208" selection-end-line="155" selection-end-column="216" />
-          <folding>
-            <element signature="e#1378#1382#1" expanded="true" />
-            <element signature="e#1419#1423#1" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#td#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#7;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system-base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="180" column="52" lean-forward="true" selection-start-line="180" selection-start-column="52" selection-end-line="180" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/change-password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/user.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="805">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1061">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="53">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Banner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207" />
+        <state relative-caret-position="184">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="137" column="16" lean-forward="true" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+        <state relative-caret-position="23">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#5;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="111" column="37" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-upd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
         </state>
       </provider>
     </entry>
