@@ -52,6 +52,15 @@
             </nav>
             <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
                 <ul class="cl">
+                    <li><span class="span">最新公告：</span></li>>
+                    <li><div id="scroll_div" class="fl">
+                        <div id="scroll_begin">
+                            <span>尊敬的用户，您好:</span>
+                            <span class="pad_right">感谢您的长期支持，本平台目前提供的通道带积分，支持大部分银行，欢迎您的使用！</span>
+                        </div>
+                        <div id="scroll_end"></div>
+                    </div>
+                    </li>>
                     <li>超级管理员</li>
                     <li class="dropDown dropDown_hover">
                         <a href="#" class="dropDown_A">admin <i class="Hui-iconfont">&#xe6d5;</i></a>
@@ -98,7 +107,7 @@
             <dd>
                 <ul>
                     <li><a data-href="picture-list.html" data-title="试题管理" href="javascript:void(0)">试题管理</a></li>
-                    <li><a data-href="picture-list1.html" data-title="试卷管理" href="javascript:void(0)">试卷管理</a></li>
+                    <li><a data-href="member-list.html" data-title="试卷管理" href="javascript:void(0)">试卷管理</a></li>
                     <li><a data-href="picture-list2.html" data-title="考试管理" href="javascript:void(0)">考试管理</a></li>
                 </ul>
             </dd>
@@ -121,15 +130,18 @@
                 <ul>
                     <li><a data-href="member-list.html" data-title="订单列表" href="javascript:;">订单列表</a></li>
                     <li><a data-href="feedback-list.html" data-title="换购信息" href="javascript:void(0)">换购信息</a></li>
+                    <li><a data-href="picture-list3.html" data-title="积分管理" href="javascript:void(0)">积分管理</a></li>
                 </ul>
             </dd>
         </dl>
         <dl id="menu-member">
-            <dt><i class="Hui-iconfont">&#xe60d;</i> 会员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dt><i class="Hui-iconfont">&#xe60d;</i> 部门管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
                     <li><a data-href="huiYuanGuanLi.html" data-title="会员列表" href="javascript:;">会员列表</a></li>
-                    <li><a data-href="huiYuanGuanLi2.html" data-title="删除的会员" href="javascript:;">删除的会员</a></li>
+                    <li><a data-href="huiYuanGuanLi2.html" data-title="部门管理" href="javascript:;">部门列表</a></li>
+                    <li><a data-href="guanliyuan.html" data-title="部门管理" href="javascript:;">管理员列表</a></li>
+
                 </ul>
             </dd>
         </dl>
@@ -137,12 +149,12 @@
             <dt><i class="Hui-iconfont">&#xe62d;</i> 管理员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
-                    <li><a data-href="admin-role.html" data-title="角色管理" href="javascript:void(0)">角色管理</a></li>
-                    <li><a data-href="admin-permission.html" data-title="权限管理" href="javascript:void(0)">权限管理</a></li>
+                    <li><a data-href="admin-permission.html" data-title="分值管理" href="javascript:void(0)">分值管理</a></li>
                     <li><a data-href="admin-list.html" data-title="管理员列表" href="javascript:void(0)">管理员列表</a></li>
+                    <li><a data-href="charts-7.html" data-title="成绩管理" href="javascript:void(0)">成绩管理</a></li>
                 </ul>
             </dd>
-            
+
         </dl>
         <dl id="menu-tongji">
             <dt><i class="Hui-iconfont">&#xe61a;</i> 系统统计<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
@@ -211,6 +223,46 @@
 <!--请在下方写此页面业务相关的脚本-->
 <script type="text/javascript" src="../static/lib/jquery.contextmenu/jquery.contextmenu.r2.js"></script>
 <script type="text/javascript" th:inline="none">
+    //文字横向滚动
+    function ScrollImgLeft(){
+        var speed=50;//初始化速度 也就是字体的整体滚动速度
+        var MyMar = null;//初始化一个变量为空 用来存放获取到的文本内容
+        var scroll_begin = document.getElementById("scroll_begin");//获取滚动的开头id
+        var scroll_end = document.getElementById("scroll_end");//获取滚动的结束id
+        var scroll_div = document.getElementById("scroll_div");//获取整体的开头id
+        scroll_end.innerHTML=scroll_begin.innerHTML;//滚动的是html内部的内容,原生知识!
+//定义一个方法
+        function Marquee(){
+            if(scroll_end.offsetWidth-scroll_div.scrollLeft<=0)
+                scroll_div.scrollLeft-=scroll_begin.offsetWidth;
+            else
+                scroll_div.scrollLeft++;
+        }
+        MyMar=setInterval(Marquee,speed);//给上面的方法设置时间  setInterval
+//鼠标点击这条公告栏的时候,清除上面的方法,让公告栏暂停
+        scroll_div.onmouseover = function(){
+            clearInterval(MyMar);
+        }
+//鼠标点击其他地方的时候,公告栏继续运动
+        scroll_div.onmouseout = function(){
+            MyMar = setInterval(Marquee,speed);
+        }
+    }
+    ScrollImgLeft();
+    $(function getAll() {
+        $.ajax({
+            "url":"/NoticeController/selectByExample",
+            "Type":"post",
+            "dateType":"JSON",
+            "success":function (result) {
+                $(".pad_right").html("");
+                $(result).each(function(){
+                    $(".pad_right").text(this.nContent);
+                })
+            }
+        })
+    })
+
 </script>
 
 

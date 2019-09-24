@@ -159,6 +159,7 @@ public class TiaoController {
     public String guanliyuan() {
         return "guanliyuan.html";
     }
+
     @RequestMapping("/system-base")
     public String systembase() {
         return "system-base.html";

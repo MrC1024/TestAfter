@@ -36,7 +36,7 @@ mybatis:
   #设置别名
   type-aliases-package: cn.bdqn.exam.entity
 pic:
-  savePath: D:\新建文件夹\项目\src\main\resources\image\
+  savePath: D:\新建文件夹\项目\src\main\resources\video\
 
 
 pagehelper:
