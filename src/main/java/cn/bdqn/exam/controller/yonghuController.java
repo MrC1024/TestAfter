@@ -39,7 +39,7 @@ public class yonghuController {
         return JSON.toJSONString(res);
     }
 
-   @RequestMapping("/getJiaose")
+    @RequestMapping(value="/getJiaose",produces="application/json;charset=UTF-8")
     @ResponseBody
     public String getBuMen(HttpServletRequest request){
         List<Role> list = yonghuService.getJiaose();

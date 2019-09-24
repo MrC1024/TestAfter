@@ -37,6 +37,7 @@ public class UploadController {
             file.transferTo(fileSave);
             resultMap.put("resCode","1");
             resultMap.put("webShowPath", savePaths+newVidoeName);
+            System.out.println(savePaths+newVidoeName);
             return  resultMap;
 
         }catch (Exception e){
