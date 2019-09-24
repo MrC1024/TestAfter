@@ -25,13 +25,16 @@
 <script>
 function a(){
 	var a = $("input[name=uploadFile]").val();
+	var link = $("input[name=link]").val();
 	if(a==""||a==null){
 		alert("未选择任何图片");
+		return false;
+	}else if(link==""||link==null){
+		alert("请添加链接");
 		return false;
 	}else{
 		return  true;
 	}
-
 	return false;
 }
 
@@ -40,7 +43,8 @@ function a(){
 <body>
 
 <form enctype="multipart/form-data"  action="/banner/add"  method="post">
-	<input type="file" name="uploadFile" id="upload_file" style="margin-bottom:10px;">
+	添加图片：<input type="file" name="uploadFile" id="upload_file" style="margin-bottom:10px;"><br>
+	添加链接：<input name="link">
 	<input type="submit" id="uploadPicButton" value="上传" onclick="return a()">
 </form>
 

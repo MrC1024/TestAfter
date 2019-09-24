@@ -56,7 +56,7 @@ public class UserHandler {
         ByteArrayOutputStream jpegOutputStream = new ByteArrayOutputStream();
         try {
             String createText = defaultKaptcha.createText();
-            redisTemplate.opsForValue().set("verifyCode", createText, 20, TimeUnit.SECONDS);
+            redisTemplate.opsForValue().set("verifyCode", createText, 60, TimeUnit.SECONDS);
             BufferedImage challenge = defaultKaptcha.createImage(createText);
             ImageIO.write(challenge, "jpg", jpegOutputStream);
         } catch (IllegalArgumentException e) {

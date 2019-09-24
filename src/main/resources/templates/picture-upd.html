@@ -34,8 +34,9 @@
 </script>
 <body>
 <form enctype="multipart/form-data"  action='/banner/upd' method="post">
-	<input type="file" name="uploadFile" id="upload_file" style="margin-bottom:10px;">
-	<input name="banId" type="hidden" th:value="${banId}" value="">
+	修改图片：<input type="file" name="uploadFile" id="upload_file" style="margin-bottom:10px;">
+	<input name="banId" type="hidden" th:value="${banId}" value=""><br>
+	修改链接：<input name="link" type="text" th:value="${link1}" value="">
 	<input type="submit" id="uploadPicButton" value="上传" >
 </form>
 
