@@ -4,16 +4,6 @@
     <list default="true" id="8c4e4348-7110-48cd-a5d6-0fdb17ae6957" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/target/classes/video/02b2b2863d6f47278c2a914764a9d5f5.wmv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/TiaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/TiaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/yonghuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/yonghuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/47b09210da224dd98da444a985e291ce.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/6778bd5d420a4e009da1686e0c07bd58.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/ca8c78eea66743f8a3983c345643fbff.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/d8571001aded4249b43ae4ca84a02708.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/e731b5e0ea194257adf99a44ea891d7e.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/TiaoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/TiaoController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/UploadController.class" afterDir="false" />
@@ -305,6 +295,24 @@
               <item name="项目" type="b2602c69:ProjectViewProjectNode" />
               <item name="项目" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -421,7 +429,7 @@
       <workItem from="1569042897403" duration="20551000" />
       <workItem from="1569153543157" duration="8597000" />
       <workItem from="1569199092267" duration="18038000" />
-      <workItem from="1569285509419" duration="7821000" />
+      <workItem from="1569285509419" duration="8104000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1568357777426</created>
@@ -493,11 +501,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569227781972</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="aaa">
+      <created>1569307258326</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569307258326</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238019000" />
+    <option name="totallyTimeSpent" value="238302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
