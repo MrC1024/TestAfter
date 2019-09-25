@@ -2,61 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4e4348-7110-48cd-a5d6-0fdb17ae6957" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/KaoShiXT2_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/11f786b5-e43a-42c8-8880-de4f5f57e8b2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/2052aa52-164b-4277-a15c-ce2c6d7484df.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/24085217-ee29-4416-b0ec-0ed8205c39b0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/3013a7e9-ab85-4153-a2b5-b3da59ed7211.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/34a65b27-db32-43ce-a8a6-2f3b0e2be98d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/3c0c8f30-8fa7-4b2a-bd2c-fdfb27900150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/421f1009-6182-44ea-8b99-6968b266d4d9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/4585c5d8-57ec-4a37-abc0-6e92d1e22a0e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/464b4be2-102d-4e2a-a9e8-1c71c54aadad.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/4c690d5e-9c4f-4da1-860a-56471bb7de33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/8513ef5e-fe50-4e9d-a016-2b9c6273459a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/89893081-2cc1-42bc-a6c4-eaaa24bd71b8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/9e7d3e73-4be6-430a-a29b-74c402398764.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/ad009d62-d67a-4ca2-879a-e907b394eecc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/b77478c4-c793-4420-aafd-c41450cd9460.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d126350e-5d3d-4ab3-a092-30430257625f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d87d2297-3b39-4e2a-99f4-c8c3609cab6f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/f0310e23-4b4a-4d76-afff-6d13375c8146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/fac6dc8e-9188-4cec-9e8b-004dfc06f8eb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/11f786b5-e43a-42c8-8880-de4f5f57e8b2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/2052aa52-164b-4277-a15c-ce2c6d7484df.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/24085217-ee29-4416-b0ec-0ed8205c39b0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/3013a7e9-ab85-4153-a2b5-b3da59ed7211.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/34a65b27-db32-43ce-a8a6-2f3b0e2be98d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/3c0c8f30-8fa7-4b2a-bd2c-fdfb27900150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/421f1009-6182-44ea-8b99-6968b266d4d9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/4585c5d8-57ec-4a37-abc0-6e92d1e22a0e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/464b4be2-102d-4e2a-a9e8-1c71c54aadad.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/4c690d5e-9c4f-4da1-860a-56471bb7de33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/8513ef5e-fe50-4e9d-a016-2b9c6273459a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/89893081-2cc1-42bc-a6c4-eaaa24bd71b8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/9e7d3e73-4be6-430a-a29b-74c402398764.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/ad009d62-d67a-4ca2-879a-e907b394eecc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/b77478c4-c793-4420-aafd-c41450cd9460.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d126350e-5d3d-4ab3-a092-30430257625f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d87d2297-3b39-4e2a-99f4-c8c3609cab6f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/f0310e23-4b4a-4d76-afff-6d13375c8146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/fac6dc8e-9188-4cec-9e8b-004dfc06f8eb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/KaoShiXT2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KaoShiXT2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VtypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VtypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/47b09210da224dd98da444a985e291ce.wmv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/image/47b09210da224dd98da444a985e291ce.wmv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/6778bd5d420a4e009da1686e0c07bd58.wmv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/image/6778bd5d420a4e009da1686e0c07bd58.wmv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/ca8c78eea66743f8a3983c345643fbff.wmv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/image/ca8c78eea66743f8a3983c345643fbff.wmv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/d8571001aded4249b43ae4ca84a02708.wmv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/image/d8571001aded4249b43ae4ca84a02708.wmv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/e731b5e0ea194257adf99a44ea891d7e.wmv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/image/e731b5e0ea194257adf99a44ea891d7e.wmv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image0e2d0f01-537b-4b9b-8dc7-044d88dda697.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/image/1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image0fe68121-e035-4194-b367-1049a902a14c.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image438b592b-95f5-4937-b532-6a4895637855.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image4551c813-7a16-4c82-8375-9e40cab8089f.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image45c243fe-9af5-4017-ae93-ed3ce653c711.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image8251b21e-a743-4684-ae0f-6838caed4133.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image82ef646b-e0f6-433c-b9ee-a82acabbe196.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imageb3c07d49-8a25-4ff7-97d6-ff52888f58cc.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imaged087cb74-69e1-4f26-9005-f3d1c7517885.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imagedd840d41-ed57-4b25-ac81-d7ed7db7c9bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imagee4476ae6-45a0-46ad-8f0d-254df9e2f908.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imageef8421e8-b5a5-43f6-838c-09185b90cbd2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imagef9b625c9-ee58-4457-98d7-c2f462760c9c.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imagefc504e3d-ab87-4d0d-a462-72ff2c903705.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imagefe3e9047-77e3-40ec-8b31-d6f32f3b5faf.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/VtypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/VtypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/MIMEType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/MIMEType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/SelMXMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/SelMXMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/js/H-ui.admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui.admin/js/H-ui.admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/500.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Banner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/picture-upd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/picture-upd.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/BannerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/BannerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/UserHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/bdqn/exam/controller/UserHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/47b09210da224dd98da444a985e291ce.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/6778bd5d420a4e009da1686e0c07bd58.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/ca8c78eea66743f8a3983c345643fbff.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/d8571001aded4249b43ae4ca84a02708.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/e731b5e0ea194257adf99a44ea891d7e.wmv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image0e2d0f01-537b-4b9b-8dc7-044d88dda697.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image0fe68121-e035-4194-b367-1049a902a14c.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image438b592b-95f5-4937-b532-6a4895637855.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image4551c813-7a16-4c82-8375-9e40cab8089f.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image45c243fe-9af5-4017-ae93-ed3ce653c711.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image82ef646b-e0f6-433c-b9ee-a82acabbe196.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imageb3c07d49-8a25-4ff7-97d6-ff52888f58cc.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imaged087cb74-69e1-4f26-9005-f3d1c7517885.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imagedd840d41-ed57-4b25-ac81-d7ed7db7c9bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imagee4476ae6-45a0-46ad-8f0d-254df9e2f908.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imageef8421e8-b5a5-43f6-838c-09185b90cbd2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imagef9b625c9-ee58-4457-98d7-c2f462760c9c.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imagefc504e3d-ab87-4d0d-a462-72ff2c903705.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imagefe3e9047-77e3-40ec-8b31-d6f32f3b5faf.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/MIMEType.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/lib/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/MIMEType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/SelMXMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/SelMXMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/h-ui.admin/js/H-ui.admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/h-ui.admin/js/H-ui.admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/picture-upd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/picture-upd.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="D:\新建文件夹\项目\.idea\shelf/" />
@@ -92,12 +102,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="115" column="24" lean-forward="true" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="146" />
+            <state relative-caret-position="313">
+              <caret line="222" selection-start-line="222" selection-end-line="222" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#td#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#td#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#td#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#6;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
@@ -109,56 +119,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="80" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="110" column="54" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="54" />
+            <state relative-caret-position="382">
+              <caret line="152" column="106" selection-start-line="152" selection-start-column="106" selection-end-line="152" selection-end-column="106" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-category.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+            <state relative-caret-position="251">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#td#3;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#td#3;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/VtypeMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/SelMXMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+            <state relative-caret-position="207">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VtypeController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+            <state relative-caret-position="207">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -166,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+            <state relative-caret-position="-184">
+              <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -184,12 +181,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>uploadVidoe1</find>
-      <find>uploadVidoe</find>
-      <find>vtypeid</find>
-      <find>del2</find>
-      <find>member_edit</find>
-      <find>button</find>
       <find>管理员管理</find>
       <find>管理员列表</find>
       <find>考试管理</find>
@@ -207,13 +198,19 @@
       <find>add</find>
       <find>picture_edit</find>
       <find>dianji</find>
-      <find>编辑</find>
       <find>updSel</find>
       <find>datadel</find>
       <find>课程类型</find>
       <find>gong</find>
       <find>system_category_del</find>
       <find>1.jp</find>
+      <find>uploadFile</find>
+      <find>link</find>
+      <find>管理员</find>
+      <find>查看用户明细</find>
+      <find>编辑</find>
+      <find>用户名称</find>
+      <find>count</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -229,14 +226,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/user.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/RoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/charts-5.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi(1).html" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/yonghuMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/SelMXMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/IntegralController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
@@ -267,19 +262,21 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/change-password.html" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/entity/Banner.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-upd.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VtypeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/VtypeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/Banner.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin-list.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/product-category.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/error/500.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-add.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/picture-upd.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/Banner.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/SelMXMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin-list.html" />
       </list>
     </option>
   </component>
@@ -316,10 +313,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="307" />
-    <option name="y" value="82" />
-    <option name="width" value="1553" />
-    <option name="height" value="1103" />
+    <option name="x" value="240" />
+    <option name="y" value="7" />
+    <option name="width" value="1554" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectId" id="1QlZ5oGClEV8msKHILb6INdybd9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -328,7 +325,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,66 +332,11 @@
               <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
               <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoShiXT2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoShiXT2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -407,7 +348,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -415,11 +356,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -430,11 +371,11 @@
       <recent name="D:\新建文件夹\项目\src\main\java\cn\bdqn\exam\controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\KaoShiXT2\src\main\webapp" />
+      <recent name="F:\KaoShiXT2\src\main\webapp\WEB-INF\static" />
+      <recent name="F:\KaoShiXT2\.idea\webapp\WEB-INF" />
+      <recent name="F:\KaoShiXT2\src\main\resources\templates\error" />
       <recent name="F:\KaoShiXT2\src\main\resources\image" />
-      <recent name="D:\新建文件夹\项目\src\main\resources\templates" />
-      <recent name="D:\新建文件夹\项目\src\main\java\cn\bdqn\exam\controller" />
-      <recent name="D:\新建文件夹\项目\src\main\java\cn\bdqn\exam\server\impl" />
-      <recent name="D:\新建文件夹\项目\src\main\java\cn\bdqn\exam\dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.bdqn.exam.server.impl" />
@@ -553,6 +494,8 @@
       <workItem from="1569241113754" duration="4020000" />
       <workItem from="1569285520174" duration="10672000" />
       <workItem from="1569317527717" duration="11103000" />
+      <workItem from="1569336200785" duration="778000" />
+      <workItem from="1569372495582" duration="9632000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1568357777426</created>
@@ -628,13 +571,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248899000" />
+    <option name="totallyTimeSpent" value="259309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23324397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28485253" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -642,10 +584,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.21388102" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.18413597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -658,6 +599,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -738,12 +680,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/张乐凯/userEachartsMapper.java" />
-    <entry file="file://D:/张乐凯/UserEachartsServiceImpl.java" />
-    <entry file="file://D:/张乐凯/UserEachertsController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/dao/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/server/UserEachartsService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserEachertsController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/IntegralController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/PagesController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/huiYuanGuanLi2.html" />
@@ -806,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -827,23 +756,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/image0e2d0f01-537b-4b9b-8dc7-044d88dda697.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-upd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/image0e2d0f01-537b-4b9b-8dc7-044d88dda697.jpeg" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/image/52aab765-ec13-4f10-82c1-4df81cb5434b.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -868,62 +781,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/VtypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/VtypeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        <state relative-caret-position="1334">
+          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#3;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#3;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-upd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/picture-add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        <state relative-caret-position="644">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/exam/controller/BannerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        <state relative-caret-position="-184">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="110" column="54" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/VtypeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/1.jpeg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Banner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="115" column="24" lean-forward="true" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="146" />
+        <state relative-caret-position="313">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#td#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#6;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#td#4;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
@@ -933,13 +874,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-category.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+        <state relative-caret-position="382">
+          <caret line="152" column="106" selection-start-line="152" selection-start-column="106" selection-end-line="152" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/guanliyuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
           <folding>
-            <element signature="n#style#0;n#a#0;n#td#3;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#3;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#u#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#5;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/BannerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/SelMXMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -950,10 +927,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>KaoShiXT2:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -994,12 +973,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>exam</last-edited>
+          <last-edited>Web|KaoShiXT2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -26,8 +26,13 @@
 function a(){
 	var a = $("input[name=uploadFile]").val();
 	var link = $("input[name=link]").val();
+	var strs = new Array();
+	strs = a.split(".");
 	if(a==""||a==null){
 		alert("未选择任何图片");
+		return false;
+	}else if(strs[1] !== 'png' && strs[1] !== 'jpg' && strs[1] !== 'jpeg' && strs[1] !== 'gif'){
+		alert("图片格式不正确，格式必须为[PNG/JPG/JPEG/GIF]");
 		return false;
 	}else if(link==""||link==null){
 		alert("请添加链接");
@@ -45,7 +50,7 @@ function a(){
 <form enctype="multipart/form-data"  action="/banner/add"  method="post">
 	添加图片：<input type="file" name="uploadFile" id="upload_file" style="margin-bottom:10px;"><br>
 	添加链接：<input name="link">
-	<img src="">
+<!--	<img src="">-->
 	<input type="submit" id="uploadPicButton" value="上传" onclick="return a()">
 </form>
 

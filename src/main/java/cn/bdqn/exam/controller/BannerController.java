@@ -27,7 +27,6 @@ import java.util.UUID;
 public class BannerController {
     @Autowired
     private BannerService bannerService;
-
     @RequestMapping(value = "/getAll",produces="application/json;charset=UTF-8")
     @ResponseBody
     public String getAll(){
