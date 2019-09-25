@@ -1,9 +1,7 @@
 package cn.bdqn.exam.controller;
 
-import cn.bdqn.exam.entity.Dept;
 import cn.bdqn.exam.entity.Video;
 import cn.bdqn.exam.entity.Vtype;
-import cn.bdqn.exam.entity.Yonghu;
 import cn.bdqn.exam.server.VideoService;
 import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -28,8 +28,8 @@
     </select>
 
     <insert id="addTest" parameterType="cn.bdqn.exam.entity.Test">
-       insert into test (aName,testpaperstepName,`key`,testDates,testState,Aoption,Boption,Coption,Doption)
-            values(#{aname},#{testpaperstepName},#{key},now(),0,#{Aoption},#{Boption},#{Coption},#{Doption});
+       insert into test (aName,testpaperstepName,`key`,testDates,testState,Aoption,Boption,Coption,Doption,Score,Analysis)
+            values(#{aname},#{testpaperstepName},#{key},now(),0,#{Aoption},#{Boption},#{Coption},#{Doption},#{Score},#{Analysis});
     </insert>
 
     <select id="QueryTestById" resultType="cn.bdqn.exam.entity.Test">
@@ -43,7 +43,9 @@
     <update id="updTest" parameterType="cn.bdqn.exam.entity.Test">
         update test set aName = #{aname},testpaperstepName=#{testpaperstepName},
         `key` = #{key},testDates = #{testDates}, Aoption = #{Aoption},
-        Boption = #{Boption},Coption = #{Coption},Doption = #{Doption}
+        Boption = #{Boption},Coption = #{Coption},Doption = #{Doption},
+        Score = #{Score},Analysis = #{Analysis}
         where aid = #{aid}
     </update>
+
 </mapper>

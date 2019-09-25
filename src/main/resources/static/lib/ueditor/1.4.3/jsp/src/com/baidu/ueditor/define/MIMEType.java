@@ -6,11 +6,11 @@ import java.util.Map;
 public class MIMEType {
 
 	public static final Map<String, String> types = new HashMap<String, String>(){{
-		put( "image/gif", ".gif" );
-		put( "image/jpeg", ".jpg" );
-		put( "image/jpg", ".jpg" );
-		put( "image/png", ".png" );
-		put( "image/bmp", ".bmp" );
+		put("static/image/gif", ".gif" );
+		put("static/image/jpeg", ".jpg" );
+		put("static/image/jpg", ".jpg" );
+		put("static/image/png", ".png" );
+		put("static/image/bmp", ".bmp" );
 	}};
 	
 	public static String getSuffix ( String mime ) {

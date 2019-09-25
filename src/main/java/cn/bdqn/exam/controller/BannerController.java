@@ -95,7 +95,7 @@ public class BannerController {
         System.out.println(fileName);
         String suffixName  = fileName.substring(fileName.lastIndexOf(".")); //获取后缀名
         System.out.println(suffixName);
-        String filePath = "F:\\KaoShiXT2\\src\\main\\resources\\image";        //文件上传路径
+        String filePath = "D:\\新建文件夹\\项目\\src\\main\\resources\\image\\";        //文件上传路径
         fileName = UUID.randomUUID()+suffixName;
         File dest = new File(filePath+fileName);
         file.transferTo(dest);

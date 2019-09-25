@@ -3,7 +3,6 @@ package cn.bdqn.exam.controller;
 import cn.bdqn.exam.entity.Dept;
 import cn.bdqn.exam.entity.Test;
 import cn.bdqn.exam.server.TestService;
-import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,11 +19,10 @@ public class TestHandler {
     @Autowired
     private TestService testService;
 
-    @GetMapping(value = "/getAll/{pageNum}/{pageSize}",produces="application/json;charset=UTF-8")
+    @GetMapping("/getAll/{pageNum}/{pageSize}")
     @ResponseBody
     public List<Test> getAll(@PathVariable("pageNum") Integer pageNum, @PathVariable("pageSize") Integer pageSize) {
-        Page<Test> objects = PageHelper.startPage(pageNum, pageSize);
-        objects.setOrderBy("aid");
+        PageHelper.startPage(pageNum, pageSize);
         return testService.getAll();
     }
 
@@ -51,7 +49,7 @@ public class TestHandler {
         return "picture-list";
     }
 
-    @GetMapping(value = "/QueryDeptAll",produces="application/json;charset=UTF-8")
+    @GetMapping("/QueryDeptAll")
     @ResponseBody
     public List<Dept> QueryDeptAll() {
         return testService.QueryDeptAll();
@@ -83,7 +81,7 @@ public class TestHandler {
     public @ResponseBody
     Integer updTest(Test test) {
         test.setTestDates(new Date());
-        System.out.println(test);
+//        System.out.println(test);
         int i = testService.updTest(test);
         return i;
     }

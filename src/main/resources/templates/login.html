@@ -32,7 +32,7 @@
         <div class="row cl">
             <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60d;</i></label>
             <div class="formControls col-xs-8">
-                <input id="account" name="" type="text" placeholder="账户" class="input-text size-L">
+                <input id="username" name="" type="text" placeholder="账户" class="input-text size-L">
             </div>
         </div>
         <div class="row cl">
@@ -66,11 +66,11 @@
 
 <script type="application/javascript">
     function login() {
-        var account = $("#account").val();
+        var username = $("#username").val();
         var password = $("#password").val();
         var verification = $("#verification").val();
-        // alert(username + password + verification)
-        if (account == "") {
+        //alert(username + password + verification)
+        if (username == "") {
             alert("账户不能为空");
             $("#username").focus();
             return false;
@@ -97,10 +97,10 @@
                         $.ajax({
                             url: "/user/doLogin",
                             type: "post",
-                            data: {account: account, password: password},
+                            data: {account: username, password: password},
                             dataType: "text",
                             success: function (result) {
-                                // alert(result)
+                                //alert(result)
                                 if (result == 1) {
                                     location.href = "/toIndex";
                                 } else {
@@ -111,7 +111,7 @@
                         });
                     } else {
                         alert("验证码错误,请重新输入!!!");
-                        // window.location.reload();
+                        window.location.reload();
                         $("#verification").val("");
                         $("#verification").focus();
                         return false;

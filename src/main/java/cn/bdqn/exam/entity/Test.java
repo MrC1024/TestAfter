@@ -20,6 +20,9 @@ public class Test {
     private String Coption;
     private String Doption;
 
+    private Float Score;
+
+    private String Analysis;
 
     @Override
     public String toString() {
@@ -47,6 +50,22 @@ public class Test {
 
     public String getAname() {
         return aname;
+    }
+
+    public Float getScore() {
+        return Score;
+    }
+
+    public void setScore(Float score) {
+        Score = score;
+    }
+
+    public String getAnalysis() {
+        return Analysis;
+    }
+
+    public void setAnalysis(String analysis) {
+        Analysis = analysis;
     }
 
     public void setAname(String aname) {

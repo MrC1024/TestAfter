@@ -41,8 +41,8 @@
         搜试题
     </button>
 
-    <div class="cl pd-5 bg-1 bk-gray mt-20"><span class="l"><a href="javascript:;" onclick="datadel()"
-                                                               class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a
+    <div class="cl pd-5 bg-1 bk-gray mt-20"><span class="l"><a href="/import/toAddMultiTest"
+                                                               class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i>批量添加试题</a> <a
             class="btn btn-primary radius" onclick="picture_add()" href="javascript:;"><i
             class="Hui-iconfont">&#xe600;</i> 添加试题</a></span> <span class="r">共有数据：<strong
             id="count">54</strong> 条</span></div>
@@ -70,35 +70,105 @@
 
 </div>
 </div>
-    <!--_footer 作为公共模版分离出去-->
-    <script type="text/javascript" src="../static/lib/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../static/lib/layer/2.4/layer.js"></script>
-    <script type="text/javascript" src="../static/h-ui/js/H-ui.min.js"></script>
-    <script type="text/javascript" src="../static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="../static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="../static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
 
-    <!--请在下方写此页面业务相关的脚本-->
-    <script type="text/javascript" src="../static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
-    <script type="text/javascript" src="../static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="../static/lib/laypage/1.2/laypage.js"></script>
-    <script type="text/javascript" th:inline="none">
-        $(document).ready(function () {
-            init();
-            gettest();
-            getCount();
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="../static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="../static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../static/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" th:inline="none">
+    $(document).ready(function () {
+        init();
+        gettest();
+        getCount();
+    });
+
+    var pageNum = 1;
+    var pageSize = 10;
+
+    function init() {	//页面加载显示所有试题
+        $.ajax({
+            url: "/test/getAll/" + pageNum + "/" + pageSize,
+            type: "get",
+            success: function (result) {
+                $("#showGetAll").html("");
+                $.each(result, function () {
+                    $("#showGetAll").append("<tr class=\"text-c\">\n" +
+                        "                " +
+                        "                <td>" + this.aid + "</td>\n" +
+                        "                <td>" + this.testpaperstepName + "</td>\n" +
+                        "                <td class=\"text-c\"><a href='javaScript:void(0)' onclick='view(" + this.aid + ")'>" + this.aname + "</a></td>\n" +
+                        "                <td>" + this.testDates + "</td>\n" +
+                        "                <td class=\"td-status\">" + this.key + "</td>\n" +
+                        "                <td class=\"td-manage\">\n" +
+                        "                   \n" +
+                        "                    <a style=\"text-decoration:none\" class=\"ml-5\" href='/test/upd1/" + this.aid + "' title=\"编辑\">\n" +
+                        "                        <i class=\"Hui-iconfont\">&#xe6df;</i></a>\n" +
+                        "                    <a style=\"text-decoration:none\" class=\"ml-5\" onclick='sold(" + this.aid + ")'  href=\"javascript:;\"\n" +
+                        "                       title=\"删除\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a>\n" +
+                        "                </td>\n" +
+                        "            </tr>");
+                });
+            }
         });
+    }
 
-        var pageNum = 1;
-        var pageSize = 10;
 
-        function init() {	//页面加载显示所有试题
+    $("#next").click(function () {
+        pageNum = pageNum + 1;
+        //alert(pageNum)
+        init();
+    });
+    $("#prev").click(function () {
+        pageNum = pageNum - 1;
+        //alert(pageNum)
+        init();
+    });
+
+
+    function sold(id) {
+        // alert(id)
+        var b = confirm("是否要删除该试题?");
+        if (b) {
             $.ajax({
-                url: "/test/getAll/" + pageNum + "/" + pageSize,
+                url: "/test/updTestStatus/" + id,
                 type: "get",
+                dataType: "text",
+                success: function (result) {
+                    if (result > 0) {
+                        alert("删除成功");
+                        location.reload();
+                    } else {
+                        alert("删除失败")
+                    }
+                }
+            });
+        }
+    }
+
+    function gettest() {
+        $("#getShiti").click(function () {
+            var testName = $("#testName").val();
+            //alert(testName);
+            $.ajax({
+                url: "/test/QueryTestNameByLike",
+                type: "post",
+                data: {testName: testName},
+                dataType: "JSON",
                 success: function (result) {
                     $("#showGetAll").html("");
                     $.each(result, function () {
+                        if (this.testState == 0) {
+                            testState = "已发布";
+                        } else {
+                            testState = "未发布";
+                        }
                         $("#showGetAll").append("<tr class=\"text-c\">\n" +
-                            "                " +
+                            "                \n" +
                             "                <td>" + this.aid + "</td>\n" +
                             "                <td>" + this.testpaperstepName + "</td>\n" +
                             "                <td class=\"text-c\"><a href='javaScript:void(0)' onclick='view(" + this.aid + ")'>" + this.aname + "</a></td>\n" +
@@ -108,112 +178,44 @@
                             "                   \n" +
                             "                    <a style=\"text-decoration:none\" class=\"ml-5\" href='/test/upd1/" + this.aid + "' title=\"编辑\">\n" +
                             "                        <i class=\"Hui-iconfont\">&#xe6df;</i></a>\n" +
-                            "                    <a style=\"text-decoration:none\" class=\"ml-5\" onclick='sold(" + this.aid + ")'  href=\"javascript:;\"\n" +
+                            "                   <a style=\"text-decoration:none\" class=\"ml-5\" onclick='sold(" + this.aid + ")'  href=\"javascript:;\"\n" +
                             "                       title=\"删除\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a>\n" +
                             "                </td>\n" +
                             "            </tr>");
                     });
                 }
             });
-        }
-
-
-        $("#next").click(function () {
-            pageNum = pageNum + 1;
-            //alert(pageNum)
-            init();
         });
-        $("#prev").click(function () {
-            pageNum = pageNum - 1;
-            //alert(pageNum)
-            init();
-        });
+    }
 
+    function picture_add() {
+        location.href = "/test/product-add";
+    }
 
-        function sold(id) {
-            // alert(id)
-            var b = confirm("是否要删除该试题?");
-            if (b) {
-                $.ajax({
-                    url: "/test/updTestStatus/" + id,
-                    type: "get",
-                    dataType: "text",
-                    success: function (result) {
-                        if (result > 0) {
-                            alert("删除成功");
-                            location.reload();
-                        } else {
-                            alert("删除失败")
-                        }
-                    }
-                });
+    function getCount() {
+        $.ajax({
+            url: "/test/testCount",
+            type: "get",
+            dataType: "text",
+            success: function (result) {
+                $("#count").html(result);
             }
-        }
-
-        function gettest() {
-            $("#getShiti").click(function () {
-                var testName = $("#testName").val();
-                //alert(testName);
-                $.ajax({
-                    url: "/test/QueryTestNameByLike",
-                    type: "post",
-                    data: {testName: testName},
-                    dataType: "JSON",
-                    success: function (result) {
-                        $("#showGetAll").html("");
-                        $.each(result, function () {
-                            if (this.testState == 0) {
-                                testState = "已发布";
-                            } else {
-                                testState = "未发布";
-                            }
-                            $("#showGetAll").append("<tr class=\"text-c\">\n" +
-                                "                \n" +
-                                "                <td>" + this.aid + "</td>\n" +
-                                "                <td>" + this.testpaperstepName + "</td>\n" +
-                                "                <td class=\"text-c\"><a href='javaScript:void(0)' onclick='view(" + this.aid + ")'>" + this.aname + "</a></td>\n" +
-                                "                <td>" + this.testDates + "</td>\n" +
-                                "                <td class=\"td-status\">" + this.key + "</td>\n" +
-                                "                <td class=\"td-manage\">\n" +
-                                "                   \n" +
-                                "                    <a style=\"text-decoration:none\" class=\"ml-5\" href='/test/upd1/" + this.aid + "' title=\"编辑\">\n" +
-                                "                        <i class=\"Hui-iconfont\">&#xe6df;</i></a>\n" +
-                                "                   <a style=\"text-decoration:none\" class=\"ml-5\" onclick='sold(" + this.aid + ")'  href=\"javascript:;\"\n" +
-                                "                       title=\"删除\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a>\n" +
-                                "                </td>\n" +
-                                "            </tr>");
-                        });
-                    }
-                });
-            });
-        }
-
-        function picture_add() {
-            location.href = "/test/product-add";
-        }
-
-        function getCount() {
-            $.ajax({
-                url: "/test/testCount",
-                type: "get",
-                dataType: "text",
-                success: function (result) {
-                    $("#count").html(result);
-                }
-            });
-        }
+        });
+    }
 
 
-        function view(id) {
-            $.ajax({
-                url: "/test/QueryTestById/" + id,
-                type: "get",
-                dataType: "JSON",
-                success: function (result) {
-                    alert(result.aoption + "\n" + result.boption + "\n" + result.coption + "\n" + result.doption);
-                }
-            });
-        }
-    </script>
+    function view(id) {
+        $.ajax({
+            url: "/test/QueryTestById/" + id,
+            type: "get",
+            dataType: "JSON",
+            success: function (result) {
+                alert(result.aoption + "\n" + result.boption + "\n"
+                    + result.coption + "\n" + result.doption + "\n"
+                    + "试题分数:" + result.score + "\n" +"解析:"+ result.analysis);
+            }
+        });
+    }
+</script>
 </body>
 </html>
