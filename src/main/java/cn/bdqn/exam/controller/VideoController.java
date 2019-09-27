@@ -1,12 +1,15 @@
 package cn.bdqn.exam.controller;
 
+import cn.bdqn.exam.entity.Author;
 import cn.bdqn.exam.entity.Video;
 import cn.bdqn.exam.entity.Vtype;
+import cn.bdqn.exam.entity.Yonghu;
 import cn.bdqn.exam.server.VideoService;
 import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -56,6 +59,13 @@ public class VideoController {
     @ResponseBody
     public String getBuMen(HttpServletRequest request){
         List<Vtype> list = videoService.getALL();
+        return JSON.toJSONString(list);
+    }
+
+    @RequestMapping(value = "/getZuo",produces="application/json;charset=UTF-8")
+    @ResponseBody
+    public String getZuo(HttpServletRequest request){
+        List<Author> list = videoService.getZuo();
         return JSON.toJSONString(list);
     }
 

@@ -3,12 +3,15 @@ package cn.bdqn.exam.controller;
 import cn.bdqn.exam.entity.Dept;
 import cn.bdqn.exam.entity.Test;
 import cn.bdqn.exam.server.TestService;
+import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -21,9 +24,11 @@ public class TestHandler {
 
     @GetMapping("/getAll/{pageNum}/{pageSize}")
     @ResponseBody
-    public List<Test> getAll(@PathVariable("pageNum") Integer pageNum, @PathVariable("pageSize") Integer pageSize) {
-        PageHelper.startPage(pageNum, pageSize);
-        return testService.getAll();
+    public PageInfo<Test> getAll(@PathVariable("pageNum") Integer pageNum, @PathVariable("pageSize") Integer pageSize) {
+        Page<Test> list = PageHelper.startPage(pageNum, pageSize);
+        List<Test> testAll = testService.getAll();
+        PageInfo<Test> pageInfo = new PageInfo<Test>(list);
+        return pageInfo;
     }
 
     @GetMapping("/updTestStatus/{id}")
@@ -34,10 +39,18 @@ public class TestHandler {
 
     @PostMapping("/QueryTestNameByLike")
     @ResponseBody
-    public List<Test> QueryTestNameByLike(@RequestParam("testName") String testName) {
-        PageHelper.startPage(1, 10);
-        return testService.QueryTestNameByLike(testName);
+    public PageInfo<Test> QueryTestNameByLike(@RequestParam("testName") String testName,
+                                              @RequestParam("pageNum") Integer pageNum,
+                                              @RequestParam("pageSize") Integer pageSize) {
+        PageHelper.startPage(pageNum, pageSize);
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("testName", testName);
+        List<Test> list = testService.QueryTestNameByLike(testName);
+        PageInfo<Test> pageInfo = new PageInfo<Test>(list);
+        return pageInfo;
+
     }
+
 
     @RequestMapping("/product-add")
     public String picture_add() {

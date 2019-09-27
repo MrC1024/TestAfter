@@ -1,7 +1,9 @@
 package cn.bdqn.exam.dao;
 
 import cn.bdqn.exam.entity.Role;
+import cn.bdqn.exam.entity.User;
 import cn.bdqn.exam.entity.Yonghu;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -28,4 +30,5 @@ public interface YonghuMapper {
  查询全部角色
 */
     List<Role> getJiaose();
+
 }

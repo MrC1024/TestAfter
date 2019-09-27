@@ -168,7 +168,7 @@
 							"\t\t\t\t\t<u style=\"cursor:pointer\" id=\"hi-username\" class=\"text-primary\"  >"+this.pro_name+"</u> <time title=\"2014年8月31日 下午3:20\" datetime=\"2014-08-31T03:54:20\">"+this.pro_phone+"</time></div>\n" +
 							"\t\t\t\t\t<div id=\"hi-commnet\">"+this.pro_question+"</div></td>\n" +
 							"\t\t\t\t<td class=\"td-manage\">"+this.proAdminContext+"</td>\n"+
-					"\t\t\t\t<td class=\"td-manage\"><a title=\"回复\" href=\"javascript:;\" onclick=\"modaldemo("+this.pro_id+",'"+this.pro_name+"')\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a> <a title=\"删除\" href=\"javascript:;\" onclick=\"member_del(this,'1')\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
+					"\t\t\t\t<td class=\"td-manage\"><a title=\"回复\" href=\"javascript:;\" onclick=\"modaldemo("+this.pro_id+",'"+this.pro_name+"')\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a> <a title=\"删除\" href=\"javascript:;\" onclick=\"member_del("+this.pro_id+")\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
 							"\t\t\t</tr>");
 				})
 			}
@@ -271,7 +271,7 @@ function change_password(title,url,id,w,h){
 								"\t\t\t\t\t<u style=\"cursor:pointer\" id=\"hi-username\" class=\"text-primary\"  >"+this.pro_name+"</u> <time title=\"2014年8月31日 下午3:20\" datetime=\"2014-08-31T03:54:20\">"+this.pro_phone+"</time></div>\n" +
 								"\t\t\t\t\t<div id=\"hi-commnet\">"+this.pro_question+"</div></td>\n" +
 								"\t\t\t\t<td class=\"td-manage\">"+this.proAdminContext+"</td>\n"+
-								"\t\t\t\t<td class=\"td-manage\"><a title=\"回复\" href=\"javascript:;\" onclick=\"modaldemo("+this.pro_id+",'"+this.pro_name+"')\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a> <a title=\"删除\" href=\"javascript:;\" onclick=\"member_del(this,'1')\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
+								"\t\t\t\t<td class=\"td-manage\"><a title=\"回复\" href=\"javascript:;\" onclick=\"modaldemo("+this.pro_id+",'"+this.pro_name+"')\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a> <a title=\"删除\" href=\"javascript:;\" onclick=\"member_del("+this.pro_id+")\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
 								"\t\t\t</tr>");
 					});
 					return true;
@@ -279,23 +279,31 @@ function change_password(title,url,id,w,h){
 				}
 		)
 	}
-/*用户-删除*/
-function member_del(obj,id){
-	layer.confirm('确认要删除吗？',function(index){
+	/*用户-删除*/
+	function member_del(pro_id){
+		var flag=confirm('确认要删除吗？');
+		if(flag==false){
+			alert("取消删除")
+			return false;
+		}
 		$.ajax({
 			type: 'POST',
-			url: '',
+			url: '/problems/del1',
+			data:'pro_id='+pro_id,
 			dataType: 'json',
 			success: function(data){
-				$(obj).parents("tr").remove();
-				layer.msg('已删除!',{icon:1,time:1000});
-			},
-			error:function(data) {
-				console.log(data.msg);
-			},
+				if (data>0){
+					alert("已成功删除！");
+					location.href='wenTiFanKui.html'
+				} else{
+					alert("删除失败!");
+				}
+				return true;
+			}
 		});
-	});
-}
+	}
+
+
 </script>
 </body>
 </html>

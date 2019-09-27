@@ -1,6 +1,7 @@
 package cn.bdqn.exam.server.impl;
 
 import cn.bdqn.exam.dao.VideoMapper;
+import cn.bdqn.exam.entity.Author;
 import cn.bdqn.exam.entity.Video;
 import cn.bdqn.exam.entity.Vtype;
 import cn.bdqn.exam.server.VideoService;
@@ -33,11 +34,21 @@ public class VideoServiceImpl implements VideoService {
         return videoMapper.getALL();
     }
 
+    @Override
+    public List<Author> getZuo() {
+        return videoMapper.getZuo();
+    }
+
     public List<Video> getById(int id) {
         return videoMapper.getById(id);
     }
 
     public Map<String, String> savaVideo(MultipartFile file) {
         return videoMapper.savaVideo(file);
+    }
+
+    @Override
+    public Author getJiang(int id) {
+        return videoMapper.getJiang(id);
     }
 }

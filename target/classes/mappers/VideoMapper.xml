@@ -10,9 +10,13 @@
         <association property="vtype" javaType="cn.bdqn.exam.entity.Vtype">
             <result column="curriculumName" property="curriculumName"></result>
         </association>
+        <association property="author" javaType="cn.bdqn.exam.entity.Author">
+            <result column="name" property="name"></result>
+            <result column="introduc" property="introduc"></result>
+        </association>
     </resultMap>
     <select id="getAll"  resultMap="VideoMap">
-        SELECT * FROM video v,vtype t  WHERE  v.`vTypeId` =t.`curriculumID` AND  if_del=0
+        SELECT * FROM video v,vtype t,author a WHERE v.`vTypeId`=t.`curriculumID` AND v.`authorId`=a.`authorId` AND v.`if_del`=0
     </select>
     <update id="del" parameterType="Integer">
         UPDATE video SET if_del=1 WHERE vid = #{vid}
@@ -20,11 +24,21 @@
     <select id="getALL" resultType="cn.bdqn.exam.entity.Vtype">
        SELECT  * FROM  vtype  WHERE ifsel=0
     </select>
+
     <insert id="add" parameterType="cn.bdqn.exam.entity.Video">
-        INSERT INTO video VALUES(NULL,#{vname},#{vtypeid},#{path},#{lengthoftime},0)
+        INSERT INTO video VALUES(NULL,#{vname},#{vtypeid},#{path},#{lengthoftime},0,#{authorId})
     </insert>
+
+    <select id="getZuo" resultType="cn.bdqn.exam.entity.Author">
+        select * from  author where if_del=0
+    </select>
+
     <select id="getById" resultMap="VideoMap">
-         SELECT * FROM video v,vtype t  WHERE v.vTypeId=#{vtypeid}  AND  v.if_del=0 AND v.`vTypeId` =t.`curriculumID`
+                SELECT * FROM video v,vtype t,author a WHERE v.`vTypeId`=t.`curriculumID` AND v.`authorId`=a.`authorId` AND v.`if_del`=0 AND v.`vTypeId`=#{vtypeid}
+    </select>
+
+    <select id="getJiang" resultType="cn.bdqn.exam.entity.Author">
+        select * from author where authorId=#{authorId}
     </select>
 
 

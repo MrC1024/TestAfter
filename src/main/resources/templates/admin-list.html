@@ -72,6 +72,13 @@
 		index = zong1;
 		show();
 	}
+	function quanxuan(){
+		if($('.quanxuan').is(':checked')){
+			$("#table input[name=subcheck]").prop("checked", true);
+		}else{
+			$("#table input[name=subcheck]").prop("checked", false);
+		}
+	}
 		function show() {
 			getCount();
 			$.ajax({
@@ -91,7 +98,7 @@
 							"\t\t\t\t<th scope=\"col\" colspan=\"9\">用户明细</th>\n" +
 							"\t\t\t</tr>\n" +
 							"\t\t\t<tr class=\"text-c\">\n" +
-							"\t\t\t\t<th width=\"25\">ID</th>\n" +
+							"\t\t\t\t\t<th width=\"40\"><input name=\"\" type=\"checkbox\" value=\"\" onclick='quanxuan()' class='quanxuan'></th>\n" +
 							"\t\t\t\t<th width=\"150\">用户名称</th>\n" +
 							"\t\t\t\t<th width=\"90\">使用情况</th>\n" +
 							"\t\t\t\t<th width=\"150\">操作积分</th>\n" +
@@ -154,7 +161,7 @@
 </script>
 </head>
 <body>
-<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 管理员管理 <span class="c-gray en">&gt;</span> 查看用户明细 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 管理员管理 <span class="c-gray en">&gt;</span> 员工积分明细 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 	<div class="text-c"> 用户名称：
 		<input type="text" name="mingzi" id="" placeholder="名字" style="width:250px" class="input-text">

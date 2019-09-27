@@ -8,7 +8,7 @@
             insert into mark values(null,#{ntitle},#{nContent},#{nueser},#{nTime})
            </insert>
         <select id="getidAll" parameterType="cn.bdqn.exam.entity.Mark" resultType="cn.bdqn.exam.entity.Mark">
-            SELECT a.`deptId`,a.`markId`,a.`mScore`,a.`testpaperstepId`,a.`userId`,b.`userName` FROM mark AS a,`user` AS b WHERE a.`markId`=#{markid} AND a.`userId`=b.`markId`
+            SELECT a.`deptId`,a.`markId`,a.`mScore`,a.`testpaperstepId`,a.`userId`,b.`userName` FROM mark AS a,`user` AS b WHERE a.`markId`=#{markid} AND a.`userId`=b.`userId`
           </select>
         <update id="update" parameterType="cn.bdqn.exam.entity.Mark">
             update mark set mScore=#{mscore},deptId=#{deptid},userId=#{userId},testpaperstepId=#{testpaperstepid}

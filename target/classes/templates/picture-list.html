@@ -28,16 +28,9 @@
                                               href="javascript:location.replace(location.href);" title="刷新"><i
         class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
-    <!-- <div class="text-c"> 日期范围：
-         <input type="text" onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}' })" id="logmin"
-                class="input-text Wdate" style="width:120px;">
-         -
-         <input type="text" onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d' })" id="logmax"
-                class="input-text Wdate" style="width:120px;">
-     </div>-->
 
     <input type="text" name="" id="testName" placeholder=" 试题名称" style="width:250px" class="input-text">
-    <button name="" id="getShiti" class="btn btn-success" type="button" value=""><i class="Hui-iconfont">&#xe665;</i>
+    <button name="" id="QueryTestNameByLike" class="btn btn-success" type="button" value=""><i class="Hui-iconfont">&#xe665;</i>
         搜试题
     </button>
 
@@ -50,7 +43,6 @@
         <table class="table table-border table-bordered table-bg table-hover table-sort">
             <thead>
             <tr class="text-c">
-
                 <th width="80">ID</th>
                 <th width="100">所属部门</th>
                 <th width="150">试题名称</th>
@@ -64,9 +56,11 @@
             </tbody>
         </table>
     </div>
+
+    <button type="button" id="first">首页</button>
     <button type="button" id="prev">上一页</button>
-    <br>
     <button type="button" id="next">下一页</button>
+    <button type="button" id="last">尾页</button>
 
 </div>
 </div>
@@ -80,15 +74,19 @@
 <script type="text/javascript" src="../static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
 <script type="text/javascript" src="../static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="../static/lib/laypage/1.2/laypage.js"></script>
+<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="../static/page/jquery.sPage.js"></script>
 <script type="text/javascript" th:inline="none">
     $(document).ready(function () {
         init();
-        gettest();
+        QueryTestNameByLike();
         getCount();
     });
 
+
     var pageNum = 1;
     var pageSize = 10;
+    var lastPage;
 
     function init() {	//页面加载显示所有试题
         $.ajax({
@@ -96,7 +94,7 @@
             type: "get",
             success: function (result) {
                 $("#showGetAll").html("");
-                $.each(result, function () {
+                $.each(result.list, function () {
                     $("#showGetAll").append("<tr class=\"text-c\">\n" +
                         "                " +
                         "                <td>" + this.aid + "</td>\n" +
@@ -113,22 +111,37 @@
                         "                </td>\n" +
                         "            </tr>");
                 });
+                lastPage = result.navigateLastPage;
             }
         });
     }
 
-
-    $("#next").click(function () {
-        pageNum = pageNum + 1;
-        //alert(pageNum)
+    $("#first").click(function () {
+        pageNum = 1;
         init();
     });
     $("#prev").click(function () {
         pageNum = pageNum - 1;
-        //alert(pageNum)
+        if (pageNum < 1) {
+            //alert("没有上一页了")
+            pageNum = 1;
+            init();
+        }
         init();
     });
-
+    $("#next").click(function () {
+        pageNum = pageNum + 1;
+        if (pageNum > lastPage) {
+            //alert("没有下一页了")
+            pageNum = lastPage;
+            init();
+        }
+        init();
+    });
+    $("#last").click(function () {
+        pageNum = lastPage;
+        init();
+    });
 
     function sold(id) {
         // alert(id)
@@ -150,23 +163,17 @@
         }
     }
 
-    function gettest() {
-        $("#getShiti").click(function () {
+    function QueryTestNameByLike() {
+        $("#QueryTestNameByLike").click(function () {
             var testName = $("#testName").val();
-            //alert(testName);
             $.ajax({
                 url: "/test/QueryTestNameByLike",
-                type: "post",
-                data: {testName: testName},
+                type: "POST",
+                data: {testName: testName,pageNum:pageNum,pageSize:pageSize},
                 dataType: "JSON",
                 success: function (result) {
                     $("#showGetAll").html("");
-                    $.each(result, function () {
-                        if (this.testState == 0) {
-                            testState = "已发布";
-                        } else {
-                            testState = "未发布";
-                        }
+                    $.each(result.list, function () {
                         $("#showGetAll").append("<tr class=\"text-c\">\n" +
                             "                \n" +
                             "                <td>" + this.aid + "</td>\n" +
@@ -183,10 +190,15 @@
                             "                </td>\n" +
                             "            </tr>");
                     });
+                    lastPage1 = result.navigateLastPage;
                 }
+
             });
+
         });
+
     }
+
 
     function picture_add() {
         location.href = "/test/product-add";
@@ -212,7 +224,7 @@
             success: function (result) {
                 alert(result.aoption + "\n" + result.boption + "\n"
                     + result.coption + "\n" + result.doption + "\n"
-                    + "试题分数:" + result.score + "\n" +"解析:"+ result.analysis);
+                    + "试题分数:" + result.score + "\n" + "解析:" + result.analysis);
             }
         });
     }

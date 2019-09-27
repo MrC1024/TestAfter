@@ -38,9 +38,8 @@
 			<tr class="text-c">
 				<th width="25"><input type="checkbox" name="" value=""></th>
 				<th width="80">ID</th>
-				<th width="100">姓名</th>
-				<th width="40">密码</th>
-				<th width="90">角色名称</th>
+				<th width="100">讲师</th>
+				<th width="40">简介</th>
 				<th width="100">操作</th>
 			</tr>
 			</thead>
@@ -147,7 +146,7 @@
 	a();
 	function a() {
 		$.ajax({
-			"url":"/yonghu/getAll",
+			"url":"/author/getAll",
 			"dataType":"json",
 			"type":"post",
 			"success":function (result) {
@@ -155,15 +154,14 @@
 				$(".count").html("");
 				for (var i=0; i<result.length; i++){
 					$(".cha").append("<tr class=\"text-c \">" +
-							"<td><input type=\"checkbox\" value=\""+result[i].gid+"\" name=\"subcheck\"></td>\n" +
+							"<td><input type=\"checkbox\" value=\""+result[i].authorId+"\" name=\"subcheck\"></td>\n" +
 							"\t\t\t\t<td>"+(i+1)+"</td>\n" +
-							"\t\t\t\t<td><u style=\"cursor:pointer\" class=\"text-primary\" onclick=\"member_show('','/yonghu/member-show/"+result[i].gid+"','"+result[i].gid+"','360','400')\">"+result[i].username+"</u></td>\n" +
-							"\t\t\t\t<td>"+result[i].password+"</td>\n" +
-							"\t\t\t\t<td>"+result[i].role.rname+"</td>\n" +
+							"\t\t\t\t<td><u style=\"cursor:pointer\" class=\"text-primary\" onclick=\"member_show('','/author/member-show/"+result[i].authorId+"','"+result[i].authorId+"','360','400')\">"+result[i].name+"</u></td>\n" +
+							"\t\t\t\t<td>"+result[i].introduc+"</td>\n" +
 							/*		"\t\t\t\t<td>"+result[i].password+"</td>\n" +
                                     "\t\t\t\t<td class=\"text-l\"><center>"+result[i].dept.deptname+"</center></td>\n" +
                                     "\t\t\t\t<td>"+result[i].points+"</td>\n" +*/
-							"\t\t\t\t<td class=\"td-manage\"></a> <a title=\"编辑\" href=\"javascript:;\" onclick=\"member_edit('编辑','member-add','4','','510')\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a>   <a title=\"删除\" href=\"javascript:;\" onclick=\"del("+result[i].gid+")\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>"
+							"\t\t\t\t<td class=\"td-manage\"></a> <a title=\"编辑\" href=\"javascript:;\" onclick=\"member_edit('编辑','member-add','4','','510')\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a>   <a title=\"删除\" href=\"javascript:;\" onclick=\"del("+result[i].authorId+")\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>"
 							+"<tr>")
 				}
 				$(".count").append("<span class=\"r\">共有数据：<strong>"+i+"</strong> 条</span>");

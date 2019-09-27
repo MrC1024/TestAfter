@@ -75,6 +75,27 @@
 		index = zong1;
 		show();
 	}
+	function quanxuan(){
+		if($('.quanxuan').is(':checked')){
+			$(".zhuye input[name=subcheck]").prop("checked", true);
+		}else{
+			$(".zhuye input[name=subcheck]").prop("checked", false);
+		}
+	}
+	$(".quanxuan").click(function () {
+		alert(1);
+		// 全选中
+		if (this.checked) {
+			$("input:checkbox").each(function () {
+				$(this).prop("checked", true);
+			});
+		} else {
+			// 全不选中
+			$("input:checkbox").each(function () {
+				$(this).prop("checked", false);
+			});
+		}
+	});
 
 	function show() {
 		getCount();
@@ -92,8 +113,9 @@
 				$(".zhuye").html(" ");
 				$(".zhuye").append("<thead>\n" +
 						"\t\t\t\t<tr class=\"text-c\">\n" +
-						"\t\t\t\t\t<th width=\"40\"><input name=\"\" type=\"checkbox\" value=\"\"></th>\n" +
+						"\t\t\t\t\t<th width=\"40\"><input name=\"\" type=\"checkbox\" value=\"\" onclick='quanxuan()' class='quanxuan'></th>\n" +
 						"\t\t\t\t\t<th width=\"80\">ID</th>\n" +
+						"\t\t\t\t\t<th>图片</th>\n" +
 						"\t\t\t\t\t<th>图片路径</th>\n" +
 						"\t\t\t\t\t<th>链接</th>\n" +
 						"\t\t\t\t\t<th width=\"150\">图片格式</th>\n" +
@@ -105,7 +127,8 @@
 							"\t\t\t\t<tr class=\"text-c\">\n" +
 							"\t\t\t\t\t<td><input name='subcheck' type=\"checkbox\" value='"+this.banId+"'></td>\n" +
 							"\t\t\t\t\t<td>"+this.banId+"</td>\n" +
-							"\t\t\t\t\t<td class=\"text-l\"><a class=\"maincolor\" href=\"javascript:;\" onClick=\"picture_edit('图库编辑','picture-show.html','10001')\">"+this.banName+"</a></td>\n" +
+							"\t\t\t\t\t<td><img src='"+this.banName+"' height=\"50\" width=\"50\"/></td>\n" +
+							"\t\t\t\t\t<td class=\"text-l\">"+this.banName+"</td>\n" +
 							"\t\t\t\t\t<td>"+this.link+"</td>\n" +
 							"\t\t\t\t\t<td class=\"text-c\">"+this.banPath+"</td>\n" +
 							"\n" +
@@ -160,6 +183,8 @@ function dianji(){
 </script>
 </head>
 <body>
+
+
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 系统管理 <span class="c-gray en">&gt;</span> Banner管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 	<div class="text-c"> 图片格式：
@@ -181,13 +206,19 @@ function dianji(){
 	<a onclick="weiye()">尾页</a>
 </div>
 
-
-
-
-
-
+<!--<img src="../static/image/1.jpeg" height="50" width="50"/>-->
+<!--<img src="file:///D:\头像\兮_剧名;少年歌行，愚人节快乐♡_卡通动漫头像_我要个性网_files\1.jpeg">-->
+<!--<img src="../../../../.idea/webapp/WEB-INF/image/4f132b5c-955d-4571-ad12-d3b2ce3ceabc.jpg"/>-->
+<!--<img src="../../../../.idea/webapp/WEB-INF/image/1.jpg"/>-->
+<!--<img src="../../webapp/WEB-INF/static/1.jpeg" height="400" width="400"/>-->
+<!--<img src="../static/image/1.jpg" height="400" width="400"/>-->
+<!--<img src="../static/image/1.jpeg" height="400" width="400"/>-->
+<!--<img src="../../webapp/static/1.jpeg" height="400" width="400"/>-->
 
 <!--_footer 作为公共模版分离出去-->
+
+
+
 <script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
 <script type="text/javascript" src="/static/h-ui/js/H-ui.min.js"></script>

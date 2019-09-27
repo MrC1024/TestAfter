@@ -204,7 +204,6 @@
 			"Type":"post",
 			"dateType":"JSON",
 			"success":function (result) {
-
 				var count= 0;
 				$("#CJselect").html("<option value = \"0\">请选择</option>");
 				$(result).each(function(){
@@ -222,8 +221,7 @@
 			"success":function (result) {
 				var count= 0;
 				$("#SJselect").html("<option value = \"0\">请选择</option>");
-				var data = JSON.parse(result);
-				$(data).each(function(){
+				$(result).each(function(){
 					count++;
 					$("#SJselect").append("<option value = "+count+">"+this.testpaperstepName+"</option>");
 				})
@@ -236,7 +234,6 @@
 			"type": "POST",
 			"dataType": "JSON",
 			"success": function (result) {
-				console.log(result);
 				$("#userName").text(result.userName);
 				$("#CJselect option[value="+result.deptid+"]").attr('selected','selected');
 				$("#SJselect option[value="+result.testpaperstepid+"]").attr('selected','selected');

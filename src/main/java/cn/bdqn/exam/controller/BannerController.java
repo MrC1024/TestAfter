@@ -27,7 +27,6 @@ import java.util.UUID;
 public class BannerController {
     @Autowired
     private BannerService bannerService;
-
     @RequestMapping(value = "/getAll",produces="application/json;charset=UTF-8")
     @ResponseBody
     public String getAll(){
@@ -77,30 +76,28 @@ public class BannerController {
         System.out.println(fileName);
         String suffixName  = fileName.substring(fileName.lastIndexOf(".")); //获取后缀名
         System.out.println(suffixName);
-        String filePath = "F:\\KaoShiXT2\\src\\main\\resources\\image";        //文件上传路径
+        String filePath = "D:\\新建文件夹\\项目\\src\\main\\resources\\static\\image\\";        //文件上传路径
         fileName = UUID.randomUUID()+suffixName;
         File dest = new File(filePath+fileName);
         file.transferTo(dest);
-        banner.setBanName("/static/"+fileName);
+        banner.setBanName("/static/image/"+fileName);
         banner.setBanPath(suffixName);
         banner.setLink(banner.getLink());
         bannerService.add(banner);
         return "redirect:/Banner.html";
     }
-
     @RequestMapping("/upd")
     public String upd(@RequestParam("uploadFile") MultipartFile file,Banner banner) throws IOException {
-
         String fileName = file.getOriginalFilename();   //获取文件名
         System.out.println(fileName);
         String suffixName  = fileName.substring(fileName.lastIndexOf(".")); //获取后缀名
         System.out.println(suffixName);
-        String filePath = "D:\\新建文件夹\\项目\\src\\main\\resources\\image\\";        //文件上传路径
+        String filePath = "D:\\新建文件夹\\项目\\src\\main\\resources\\static\\image\\";        //文件上传路径
         fileName = UUID.randomUUID()+suffixName;
         File dest = new File(filePath+fileName);
         file.transferTo(dest);
         System.out.println(banner.getBanId()); //输出id
-        banner.setBanName("/static/"+fileName);
+        banner.setBanName("../static/image/"+fileName);
         banner.setBanPath(suffixName);
         banner.setLink(banner.getLink());
         bannerService.upd(banner);
@@ -138,13 +135,7 @@ public class BannerController {
 
 
 
-//   /@RequestMapping("/get")
-//    public String get(HttpServletRequest request){
-//        InetAddress addr = InetAddress.getLocalHost();
-//        String ip=addr.getHostAddress();//获得本机IP
-//        String address=addr.getHostName();
-//
-//    }
+
 
 
 }

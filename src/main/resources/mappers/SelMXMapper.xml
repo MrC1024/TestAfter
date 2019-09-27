@@ -14,7 +14,8 @@ WHERE a.`studentName`=c.userID AND a.`indentName` = b.`commodityId` AND a.`costI
     </update>
 
     <select id="count" resultType="int">
-        SELECT COUNT(*) FROM indent WHERE ifSel=1
+        SELECT COUNT(*) FROM indent AS a,commodity AS b,`user` AS c
+WHERE a.`studentName`=c.userID AND a.`indentName` = b.`commodityId` AND a.`costIntegral` = b.`commodityId` AND a.ifSel=1
     </select>
 
     <select id="getPage" resultType="cn.bdqn.exam.entity.SelMX" parameterType="Integer">
@@ -25,7 +26,7 @@ LIMIT #{num1},#{num2}
 
     <select id="cha" resultType="cn.bdqn.exam.entity.SelMX">
         SELECT a.`indentId`,b.`commodityName`,c.userName,b.`comTotal`,c.points FROM indent AS a,commodity AS b,`user` AS c
-WHERE a.`studentName`=c.userid AND a.`indentName` = b.`commodityId` AND a.`costIntegral` = b.`commodityId` AND a.ifSel=1 AND c.userName=#{c.userName}
+WHERE a.`studentName`=c.userid AND a.`indentName` = b.`commodityId` AND a.`costIntegral` = b.`commodityId` AND a.ifSel=1 AND c.userName LIKE CONCAT('%',#{c.userName},'%')
     </select>
 
 

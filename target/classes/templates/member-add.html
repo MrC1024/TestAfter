@@ -34,26 +34,18 @@
 <article class="page-container">
 	<form action="" method="post" class="form form-horizontal" id="form-member-add">
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户名：</label>
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>讲师：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="" id="username" name="username">
+				<input type="text" class="input-text" value="" placeholder="" id="name" name="name">
 			</div>
 		</div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>密码：</label>
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>简介：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="" id="password" name="password">
+				<input type="text" class="input-text" value="" placeholder="" id="introduc" name="introduc">
 			</div>
 		</div>
 
-		<div class="row cl ">
-			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>种类：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<select name="gtype" class="cha" id="gtype">
-
-				</select>
-			</div>
-		</div>
 		<div class="row cl">
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
 				<input class="btn btn-primary radius" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;" onclick="b()">
@@ -121,29 +113,14 @@
 	});
 </script>
 <script>
-	a();
-	function a() {
-		$.ajax({
-			"url":"/yonghu/getJiaose",
-			"dataType":"json",
-			"type":"post",
-			"success":function (result) {
-				$(".cha").html("");
-				$(".cha").append("<option value='0'>请选择</option>")
-				$(result).each(function(){
-					$(".cha").append("<option value='"+this.rid+"'>"+this.rname+"</option>")
-				})
-			}
-		})
-	}
+
 
 	function b() {
-		var username = $("input[name=username]").val();
-		var gtype=$("#gtype").val();
-		var password =$("input[name=password]").val();
+		var name = $("input[name=name]").val();
+		var introduc =$("input[name=introduc]").val();
 		$.ajax({
-			"url":"/yonghu/add",
-			"data":"username="+username+"&password="+password+"&gtype="+gtype,
+			"url":"/author/add",
+			"data":"name="+name+"&introduc="+introduc,
 			"dataType":"json",
 			"type":"post",
 			"success":function (result) {

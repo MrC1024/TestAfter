@@ -8,10 +8,29 @@ public class Video {
     private Integer vtypeid;
 
     private String path;
+    private Integer authorId;
+
+    public Integer getAuthorId() {
+        return authorId;
+    }
+
+    public void setAuthorId(Integer authorId) {
+        this.authorId = authorId;
+    }
 
     private String lengthoftime;
 
     private Vtype vtype;
+
+    private Author author;
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
 
     public Vtype getVtype() {
         return vtype;

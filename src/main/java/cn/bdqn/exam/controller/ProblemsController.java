@@ -42,4 +42,12 @@ public class ProblemsController {
         List<Problems> finaByProQuerys=problemsService.finaByProQuery(pro_question);
         return JSON.toJSONString(finaByProQuerys);
     }
+    @RequestMapping("/del1")
+    @ResponseBody
+    public String del(HttpServletRequest request){
+        Integer id=Integer.parseInt(request.getParameter("pro_id"));
+        Integer res=problemsService.del(id);
+        return  JSON.toJSONString(res);
+    }
+
 }

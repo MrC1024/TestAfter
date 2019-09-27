@@ -62,8 +62,18 @@
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">视频时长：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-
 				<input type="text" class="input-text" value="0" placeholder=""  name="lengthoftime"  >
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>讲师：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="select-box">
+				<select name="authorId" id="authorid" class="select1">
+
+				</select>
+				</span>
 			</div>
 		</div>
 
@@ -768,6 +778,8 @@
 </script>
 <script>
 	a();
+	b();
+	authorid
 	function a() {
 		$.ajax({
 			"url":"/video/getType",
@@ -783,26 +795,58 @@
 		})
 	}
 
+	function b() {
+		$.ajax({
+			"url":"/video/getZuo",
+			"dataType":"json",
+			"type":"post",
+			"success":function (result) {
+				$(".select1").html("");
+				$(".select1").append("<option value='0'>请选择</option>")
+				$(result).each(function(){
+					$(".select1").append("<option value='"+this.authorId+"'>"+this.name+"</option>");
+				})
+			}
+		})
+	}
+
 	function f() {
 		var vname = $("input[name=vname]").val();
 		var vtypeid=$("#vtypeid").val();
 		var path=$("input[name=weizhi]").val()
 		var lengthoftime =$("input[name=lengthoftime]").val();
-		$.ajax({
-			"url":"/video/add",
-			"data":"vname="+vname+"&vtypeid="+vtypeid+"&path="+path+"&lengthoftime="+lengthoftime,
-			"dataType":"json",
-			"type":"post",
-			"success":function (result) {
-				if(result>0){
-					alert("添加成功!");
-					window.parent.location.reload();
-				}else{
-					alert("添加失败!");
+		var authorId=$("#authorid").val();
+		if(vname==""){
+			alert("请填写课程名称!");
+			return false;
+		}else if(vtypeid==0){
+			alert("请选择课程种类!");
+			return false;
+		}else if(path==""){
+			alert("请选择视频");
+			return  false;
+		} else if(authorId==0){
+			alert("请选择讲师");
+			return  false;
+		}else {
+			$.ajax({
+				"url":"/video/add",
+				"data":"vname="+vname+"&vtypeid="+vtypeid+"&path="+path+"&lengthoftime="+lengthoftime+"&authorId="+authorId,
+				"dataType":"json",
+				"type":"post",
+				"success":function (result) {
+					if(result>0){
+						alert("添加成功!");
+						window.parent.location.reload();
+					}else{
+						alert("添加失败!");
+					}
 				}
-			}
-		})
+			})
+		}
 	}
+
+
 
 
 	function uploadVidoe(vidoe) {

@@ -16,13 +16,14 @@ public class LoginInterceptor implements HandlerInterceptor {
     private RedisTemplate<Object, User> redisTemplate;
 
     private static final String LOGIN_URL = "/user/view";
-    private static final String LOGIN_SUCCESS = "toIndex";
+    private static final String LOGIN_SUCCESS = "/toIndex";
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         User user = (User) redisTemplate.opsForValue().get("user");
         if (user == null) {
             response.sendRedirect(LOGIN_URL);
             return false;
         } else {
+//            response.sendRedirect(LOGIN_SUCCESS);
             return true;
         }
     }

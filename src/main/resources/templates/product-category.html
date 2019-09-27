@@ -102,6 +102,13 @@
 			$(".table1").css("display","none")
 		}
 	}
+	function quanxuan(){
+		if($('.quanxuan').is(':checked')){
+			$(".zhuye input[name=subcheck]").prop("checked", true);
+		}else{
+			$(".zhuye input[name=subcheck]").prop("checked", false);
+		}
+	}
 	function upd(id){
 		$.ajax({
 			"url":"/CurriculumController/idSel",
@@ -151,7 +158,7 @@
 				$(".zhuye").html(" ");
 				$(".zhuye").append("<thead>\n" +
 						"\t\t\t\t<tr class=\"text-c\">\n" +
-						"\t\t\t\t\t<th width=\"25\"><input type=\"checkbox\" name=\"\" value=\"\"></th>\n" +
+						"\t\t\t\t\t<th width=\"25\"><input name=\"\" type=\"checkbox\" value=\"\" onclick='quanxuan()' class='quanxuan'></th>\n" +
 						"\t\t\t\t\t<th width=\"80\">ID</th>\n" +
 						"\t\t\t\t\t<th>课程类型</th>\n" +
 						"\t\t\t\t\t<th width=\"100\">操作</th>\n" +

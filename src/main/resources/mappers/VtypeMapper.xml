@@ -21,7 +21,7 @@
     </select>
 
     <update id="del" parameterType="cn.bdqn.exam.entity.Vtype">
-        update vtype set ifSel=0 where curriculumId = #{curriculumId}
+        update vtype set ifSel=1 where curriculumId = #{curriculumId}
     </update>
 
 

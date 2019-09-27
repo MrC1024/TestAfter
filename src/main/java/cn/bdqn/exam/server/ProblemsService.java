@@ -23,5 +23,9 @@ public interface ProblemsService {
      * @return
      */
     List<Problems> finaByProQuery(String pro_question);
+    /**
+     * 问题反馈删除
+     */
+    int del(int pro_id);
 
 }

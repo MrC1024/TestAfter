@@ -65,6 +65,7 @@ public class VtypeController {
     @ResponseBody
     public String del(HttpServletRequest request){
         Integer id = Integer.parseInt(request.getParameter("id"));
+        System.out.println(id);
         int res = curriculumService.del(id);
         return JSON.toJSONString(res);
     }
