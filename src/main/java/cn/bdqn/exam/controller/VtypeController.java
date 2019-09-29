@@ -91,6 +91,17 @@ public class VtypeController {
     }
 
 
+    @RequestMapping("/getCount")
+    @ResponseBody
+    public String getCount(HttpServletRequest request){
+        System.out.println("进来了");
+        String curriculumName = request.getParameter("name");
+        System.out.println(curriculumName);
+        int count = curriculumService.videoCount(curriculumName);
+        return JSON.toJSONString(count);
+    }
+
+
 
 
 

@@ -4,6 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.bdqn.exam.dao.VtypeMapper">
 
+
     <select id="getAll" resultType="cn.bdqn.exam.entity.Vtype">
         select * from vtype where ifSel=0
     </select>
@@ -24,6 +25,9 @@
         update vtype set ifSel=1 where curriculumId = #{curriculumId}
     </update>
 
+    <select id="videoCount" resultType="int" >
+        SELECT COUNT(*) FROM vtype,video WHERE vtype.`curriculumID`=video.vTypeId AND vtype.`curriculumName`=#{vtype.curriculumName}
+    </select>
 
 
 

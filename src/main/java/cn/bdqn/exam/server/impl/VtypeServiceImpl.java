@@ -9,7 +9,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class VtypeServiceImpl implements VtypeService {
+public class VtypeServiceImpl implements VtypeService
+{
     @Autowired
     private VtypeMapper curriculumMapper;
 
@@ -33,5 +34,10 @@ public class VtypeServiceImpl implements VtypeService {
 
     public Vtype idSel(int id) {
         return curriculumMapper.idSel(id);
+    }
+
+    @Override
+    public int videoCount(String curriculumName) {
+        return curriculumMapper.videoCount(curriculumName);
     }
 }

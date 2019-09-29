@@ -10,4 +10,5 @@ public interface VtypeService {
     int upd(Vtype curriculum);
     int del(int ifSel);
     Vtype idSel(int id);
+    int videoCount(String curriculumName);  //查询视频存在    如果不存在执行删除，反之不能删除
 }

@@ -171,7 +171,7 @@
 							"\t\t\t\t\t<td>"+this.curriculumId+"</td>\n" +
 							"\t\t\t\t\t<td class=\"text-l\">"+this.curriculumName+"</td>\n" +
 							"\t\t\t\t\t<td class=\"f-14\"><a title=\"编辑\" href=\"javascript:;\" onclick=\"upd("+this.curriculumId+")\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6df;</i></a>\n" +
-							"\t\t\t\t\t\t<a title=\"删除\" href=\"javascript:;\" onclick=\"system_category_del("+this.curriculumId+")\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
+							"\t\t\t\t\t\t<a title=\"删除\" href=\"javascript:;\" onclick=\"system_category_del('"+this.curriculumId+"','"+this.curriculumName+"')\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td>\n" +
 							"\t\t\t\t</tr>" +
 							"</tbody>");
 					count++;
@@ -302,24 +302,37 @@ function showCode(str) {
 
 
 /*系统-栏目-删除*/
-function system_category_del(id){
-	if(confirm("确定删除吗")){
-		$.ajax({
-			url: '/CurriculumController/del',
-			"data":"id="+id,
-			type: 'POST',
-			dataType: 'json',
-			success: function(result){
-				if(result>0){
-					show();
+function system_category_del(id,name){
+	$.ajax({
+		"url":"/CurriculumController/getCount",
+		"data":"name="+name,
+		"type":"post",
+		"dataType":"json",
+		"success":function(result){
+			if(result==0){
+				if(confirm("确定删除吗")){
+					$.ajax({
+						url: '/CurriculumController/del',
+						"data":"id="+id,
+						type: 'POST',
+						dataType: 'json',
+						success: function(result){
+							if(result>0){
+								show();
+							}else{
+								alert("删除失败");
+							}
+						},
+					});
 				}else{
-					alert("删除失败");
+					location.href="/product-category.html";
 				}
-			},
-		});
-	}else{
-		location.href="/product-category.html";
-	}
+			}else{
+				alert("由于"+name+"还有课程，所以无法删除");
+			}
+		},
+	});
+
 }
 function datadel(){
 	var checkedNum = $("input[name='subcheck']:checked").length;
