@@ -99,7 +99,8 @@ public class BannerController {
             filepath.getParentFile().mkdirs();
         }
         try {
-            // 写入文件
+
+             // 写入文件
             file.transferTo(new File(path + File.separator + filename));
         } catch (IOException e) {
             e.printStackTrace();
