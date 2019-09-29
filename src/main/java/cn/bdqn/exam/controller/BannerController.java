@@ -4,7 +4,9 @@ import cn.bdqn.exam.entity.Banner;
 import cn.bdqn.exam.server.BannerService;
 import cn.bdqn.exam.util.Page;
 import com.alibaba.fastjson.JSON;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -70,17 +72,41 @@ public class BannerController {
     }
 
 
+    @Value("D://img/")
+    private String filePath;
     @RequestMapping("/add")
     public String add(@RequestParam("uploadFile") MultipartFile file,HttpServletRequest request,Banner banner) throws IOException {
-        String fileName = file.getOriginalFilename();   //获取文件名
-        System.out.println(fileName);
-        String suffixName  = fileName.substring(fileName.lastIndexOf(".")); //获取后缀名
-        System.out.println(suffixName);
-        String filePath = "D:\\新建文件夹\\项目\\src\\main\\resources\\static\\image\\";        //文件上传路径
-        fileName = UUID.randomUUID()+suffixName;
-        File dest = new File(filePath+fileName);
-        file.transferTo(dest);
-        banner.setBanName("/static/image/"+fileName);
+//        String fileName = file.getOriginalFilename();   //获取文件名
+//        System.out.println(fileName);
+//        String suffixName  = fileName.substring(fileName.lastIndexOf(".")); //获取后缀名
+//        System.out.println(suffixName);
+//        String filePath = "D:\\img";        //文件上传路径
+//        fileName = UUID.randomUUID()+suffixName;
+//        File dest = new File(filePath+fileName);
+//        file.transferTo(dest);
+//        banner.setBanName("/img/"+fileName);
+//        banner.setBanPath(suffixName);
+//        banner.setLink(banner.getLink());
+        // 获取上传文件名
+        String filename = file.getOriginalFilename();
+        // 定义上传文件保存路径
+        String path = filePath+"/";
+
+        // 新建文件
+        File filepath = new File(path, filename);
+        // 判断路径是否存在，如果不存在就创建一个
+        if (!filepath.getParentFile().exists()) {
+            filepath.getParentFile().mkdirs();
+        }
+        try {
+            // 写入文件
+            file.transferTo(new File(path + File.separator + filename));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String sqlpath="/img/"+filename;
+        String suffixName  = sqlpath.substring(sqlpath.lastIndexOf(".")); //获取后缀名
+        banner.setBanName(sqlpath);
         banner.setBanPath(suffixName);
         banner.setLink(banner.getLink());
         bannerService.add(banner);
@@ -88,16 +114,26 @@ public class BannerController {
     }
     @RequestMapping("/upd")
     public String upd(@RequestParam("uploadFile") MultipartFile file,Banner banner) throws IOException {
-        String fileName = file.getOriginalFilename();   //获取文件名
-        System.out.println(fileName);
-        String suffixName  = fileName.substring(fileName.lastIndexOf(".")); //获取后缀名
-        System.out.println(suffixName);
-        String filePath = "D:\\新建文件夹\\项目\\src\\main\\resources\\static\\image\\";        //文件上传路径
-        fileName = UUID.randomUUID()+suffixName;
-        File dest = new File(filePath+fileName);
-        file.transferTo(dest);
-        System.out.println(banner.getBanId()); //输出id
-        banner.setBanName("../static/image/"+fileName);
+        // 获取上传文件名
+        String filename = file.getOriginalFilename();
+        // 定义上传文件保存路径
+        String path = filePath+"/";
+
+        // 新建文件
+        File filepath = new File(path, filename);
+        // 判断路径是否存在，如果不存在就创建一个
+        if (!filepath.getParentFile().exists()) {
+            filepath.getParentFile().mkdirs();
+        }
+        try {
+            // 写入文件
+            file.transferTo(new File(path + File.separator + filename));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String sqlpath="/img/"+filename;
+        String suffixName  = sqlpath.substring(sqlpath.lastIndexOf(".")); //获取后缀名
+        banner.setBanName(sqlpath);
         banner.setBanPath(suffixName);
         banner.setLink(banner.getLink());
         bannerService.upd(banner);

@@ -23,11 +23,17 @@
 <div class="page-container">
     <form action="" method="post" class="form form-horizontal" id="form-article-add">
         <input type="text" id="aid" th:value="${test.getAid()}" hidden="hidden">
+<!--        <div class="row cl">-->
+<!--            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>试题名称：</label>-->
+<!--            <div class="formControls col-xs-8 col-sm-9">-->
+<!--                <input type="text" class="input-text" th:value="${test.getAname()}" value="" placeholder="" id="tname"-->
+<!--                       name="">-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>试题名称：</label>
+            <label class="form-label col-xs-4 col-sm-2">试题名称:</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" th:value="${test.getAname()}" value="" placeholder="" id="tname"
-                       name="">
+                <textarea type="text" class="input-text" style="width:934px;height: 100px;"  th:text="${test.getAname()}" placeholder="试题解析" id="tname" ></textarea>
             </div>
         </div>
         <div class="row cl">
@@ -87,11 +93,17 @@
                        id="score" name="">
             </div>
         </div>
+<!--        <div class="row cl">-->
+<!--            <label class="form-label col-xs-4 col-sm-2">试题解析:</label>-->
+<!--            <div class="formControls col-xs-8 col-sm-9">-->
+<!--                <input type="text" class="input-text" value="" th:value="${test.getAnalysis()}" placeholder="试题解析"-->
+<!--                       id="analysis" name="">-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">试题解析:</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" value="" th:value="${test.getAnalysis()}" placeholder="试题解析"
-                       id="analysis" name="">
+                <textarea type="text" class="input-text"  style="width:934px;height: 100px;"  th:text="${test.getAnalysis()}" placeholder="试题解析" id="analysis" name=""></textarea>
             </div>
         </div>
         <div class="row cl">
@@ -124,7 +136,7 @@
 
     function updTest() {
         var aid = $("#aid").val();
-        var aname = $("#tname").val();
+        var aname = $("#tname").text();
         var bumen = $("#bumen  option:selected").val();
         var daan = $("#daan").val();
         var aoption = $("#aoption").val();
@@ -132,7 +144,7 @@
         var coption = $("#coption").val();
         var doption = $("#doption").val();
         var score = $("#score").val();
-        var analysis = $("#analysis").val();
+        var analysis = $("#analysis").text();
         // alert(aname+bumen+daan+aoption+boption+coption+doption)
 
         if (aname == "") {

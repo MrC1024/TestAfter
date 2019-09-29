@@ -58,13 +58,13 @@
 
 			</div>
 		</div>
-
+<!--
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">视频时长：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<input type="text" class="input-text" value="0" placeholder=""  name="lengthoftime"  >
 			</div>
-		</div>
+		</div>-->
 
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>讲师：</label>
@@ -814,7 +814,6 @@
 		var vname = $("input[name=vname]").val();
 		var vtypeid=$("#vtypeid").val();
 		var path=$("input[name=weizhi]").val()
-		var lengthoftime =$("input[name=lengthoftime]").val();
 		var authorId=$("#authorid").val();
 		if(vname==""){
 			alert("请填写课程名称!");
@@ -831,7 +830,7 @@
 		}else {
 			$.ajax({
 				"url":"/video/add",
-				"data":"vname="+vname+"&vtypeid="+vtypeid+"&path="+path+"&lengthoftime="+lengthoftime+"&authorId="+authorId,
+				"data":"vname="+vname+"&vtypeid="+vtypeid+"&path="+path+"&authorId="+authorId,
 				"dataType":"json",
 				"type":"post",
 				"success":function (result) {
@@ -860,11 +859,9 @@
 			}
 			var size = fileObj.size;
 			var type = fileObj.type;
-
 			var form = new FormData(); // FormData 对象
 			form.append("file", fileObj);
 			console.log(fileObj);
-
 			$.ajax({
 				url: "/fileHander/uploadVidoe",
 				contentType: false,//false 传输对象
@@ -873,7 +870,6 @@
 				data: form,
 				success: function (ret) {
 					console.log(ret);
-					$("video[id=my-video]").html("");
 					if (ret.resCode != undefined) {
 						if (ret.resCode == '1') {
 							$("input[name=weizhi]").val(ret.webShowPath);

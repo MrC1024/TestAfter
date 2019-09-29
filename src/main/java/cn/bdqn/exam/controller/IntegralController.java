@@ -40,7 +40,7 @@ public class IntegralController {
                 return JSON.toJSONString(res);
             }
             @ResponseBody
-            @PostMapping("/getidAll/{commodityId}")
+            @PostMapping(value="/getidAll/{commodityId}",produces="application/json;charset=UTF-8")
             public  String getidAll(@PathVariable("commodityId") Integer commodityId){
                 Integral list = integralService.getidAll(commodityId);
                 return JSON.toJSONString(list);

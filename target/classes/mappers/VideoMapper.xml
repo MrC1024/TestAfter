@@ -26,7 +26,7 @@
     </select>
 
     <insert id="add" parameterType="cn.bdqn.exam.entity.Video">
-        INSERT INTO video VALUES(NULL,#{vname},#{vtypeid},#{path},#{lengthoftime},0,#{authorId})
+        INSERT INTO video VALUES(NULL,#{vname},#{vtypeid},#{path},null,0,#{authorId})
     </insert>
 
     <select id="getZuo" resultType="cn.bdqn.exam.entity.Author">

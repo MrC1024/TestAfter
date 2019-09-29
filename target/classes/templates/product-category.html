@@ -127,7 +127,7 @@
 		var name = $("input[name=product]").val();
 		if(name==""||name==null){
 			alert("类型不能为空");
-			return;
+			return false;
 		}else{
 			$.ajax({
 				"url":"/CurriculumController/upd",
@@ -144,7 +144,7 @@
 				}
 			});
 		}
-
+   		return false;
 	}
 
 

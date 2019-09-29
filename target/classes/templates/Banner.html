@@ -96,7 +96,6 @@
 			});
 		}
 	});
-	var num=0;
 	function show() {
 		getCount();
 		$.ajax({
@@ -127,7 +126,7 @@
 					$(".zhuye").append("<tbody>\n" +
 							"\t\t\t\t<tr class=\"text-c\">\n" +
 							"\t\t\t\t\t<td><input name='subcheck' type=\"checkbox\" value='"+this.banId+"'></td>\n" +
-							"\t\t\t\t\t<td>"+num+"</td>\n" +
+							"\t\t\t\t\t<td>"+this.banId+"</td>\n" +
 							"\t\t\t\t\t<td><img src='"+this.banName+"' height=\"50\" width=\"50\"/></td>\n" +
 							"\t\t\t\t\t<td class=\"text-l\">"+this.banName+"</td>\n" +
 							"\t\t\t\t\t<td>"+this.link+"</td>\n" +

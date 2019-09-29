@@ -27,6 +27,10 @@
 <script>
 	function add(){
 		var name = $("input[name=product-category-name]").val();
+		if(name==""||name==null){
+			alert("课程类型不能为空");
+			return false;
+		}else{
 			$.ajax({
 				"url":"/CurriculumController/add",
 				"data":"name="+name,
@@ -40,6 +44,8 @@
 					}
 				}
 			});
+		}
+			return false;
 	}
 </script>
 
@@ -47,18 +53,18 @@
 <body>
 <div class="page-container">
 	<form action="" method="post" class="form form-horizontal" id="form-user-add">
-		<div class="row cl">
+		<div class="row cl al">
 			<label class="form-label col-xs-4 col-sm-2">
 				<span class="c-red">*</span>
-				添加课程名称：</label>
+				课程名称:</label>
 			<div class="formControls col-xs-6 col-sm-6">
-				<input type="text" class="input-text" value="" placeholder="" id="user-name" name="product-category-name">
+				<input type="text" class="input-text al" value="" placeholder="" id="user-name" name="product-category-name">
 			</div>
 		</div>
 
 		<div class="row cl">
 			<div class="col-9 col-offset-2">
-				<input class="btn btn-primary radius" onclick="add()" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+				<input class="btn btn-primary radius" onclick="return add()" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
 			</div>
 		</div>
 	</form>

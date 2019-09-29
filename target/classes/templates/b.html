@@ -46,7 +46,7 @@
 		</div>
 		<div class="row cl">
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
-				<input class="btn btn-primary radius" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;" onclick="a()">
+				<input class="btn btn-primary radius" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;" onclick="return a()">
 
 			</div>
 		</div>
@@ -743,20 +743,29 @@
 		var tname = $("input[name=tname]").val();
 		var testpaperstepId = $("select[name=testpaperstepId]").val();
 		var testpaperstepSite = $("input[name=testpaperstepSite]").val();
-		$.ajax({
-			"url": "/Test/testAdd",
-			"data": "tname=" + tname + "&testpaperstepId=" + testpaperstepId + "&testpaperstepSite=" + testpaperstepSite,
-			"dataType": "json",
-			"type": "post",
-			"success": function (result) {
-				if (result > 0) {
-					alert("添加成功!");
-					window.parent.location.reload();
-				} else {
-					alert("添加失败!");
+		if (tname == "" || tname == null) {
+			alert("试卷名称不能为空");
+			return false;
+		}else if(testpaperstepId == 0) {
+			alert("试卷类型不能为空")
+			return false;
+		}else{
+			$.ajax({
+				"url": "/Test/testAdd",
+				"data": "tname=" + tname + "&testpaperstepId=" + testpaperstepId + "&testpaperstepSite=" + testpaperstepSite,
+				"dataType": "json",
+				"type": "post",
+				"success": function (result) {
+					if (result > 0) {
+						// alert("添加成功!");
+						window.parent.location.reload();
+					} else {
+						alert("添加失败!");
+					}
 				}
-			}
-		})
+			})
+		}
+		return false;
 	}
 
 

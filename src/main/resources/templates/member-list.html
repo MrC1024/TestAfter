@@ -30,7 +30,7 @@
 		<input type="text" class="input-text" style="width:250px; float: right" placeholder="输入会员名称、电话、邮箱" id="" name="tName">
 		<button type="submit" class="btn btn-success radius" style="display: inline; float: right" id="" name="" onclick="mohu()"><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
 	</div><br><br>
-	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel();" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="member_add('添加用户','b','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加用户</a></span> <span class="r">共有数据：<strong>88</strong> 条</span> </div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel();" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="member_add('添加用户','b','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加试卷</a></span> <span class="r">共有数据：<strong>88</strong> 条</span> </div>
 	<div class="mt-20">
 	<table class="table table-border table-bordered table-hover table-bg ">
 		<thead>
@@ -78,6 +78,14 @@
 					<button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div class="ye " style="float: right">
+		<div><p class="hidden">当前 <span class="dangqian"></span> 页,总 <span class="zong"></span> 页,共 <span class="gong"></span> 条记录</p>
+			<a onclick="shouye()">首页</a>
+			<a onclick="shang()">上一页</a>
+			<a onclick="return xia()">下一页</a>
+			<a onclick="weiye()">尾页</a>
 		</div>
 	</div>
 <!--_footer 作为公共模版分离出去-->
@@ -288,7 +296,7 @@ function member_del(obj,id){
 				"dataType": "json",
 				"success": function (result) {
 					if (result) {
-						alert("删除成功!")
+						// alert("删除成功!")
 					} else {
 						alert("删除失败!")
 					}
@@ -326,7 +334,7 @@ function member_del(obj,id){
 			"dataType":"json",
 			"success":function (res) {
 				if(res>0){
-					alert("修改成功!");
+					// alert("修改成功!");
 					$(".kuang").hide();
 					a();
 				}else{
@@ -380,13 +388,6 @@ function member_del(obj,id){
 	}
 
 </script>
-	<div class="ye " style="float: right">
-		<div><p>当前 <span class="dangqian"></span> 页,总 <span class="zong"></span> 页,共 <span class="gong"></span> 条记录</p>
-		<a onclick="shouye()">首页</a>
-		<a onclick="shang()">上一页</a>
-		<a onclick="return xia()">下一页</a>
-		<a onclick="weiye()">尾页</a>
-		</div>
-	</div>
+
 </body>
 </html>

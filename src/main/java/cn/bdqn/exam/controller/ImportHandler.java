@@ -71,6 +71,15 @@ public class ImportHandler {
             map.put("hint", "上传文件不能为空!!!");
             return "AddMultiTest";
         }
+        String filename = file.getOriginalFilename();
+        String suffix = filename.substring(filename.indexOf("."));
+
+        if(!suffix.equals(".xls")){
+            map.put("hint", "请选择正确的文件格式!!!");
+            return "AddMultiTest";
+        }
+
+
         InputStream inputStream = file.getInputStream();
         System.out.println(file.getOriginalFilename());
         List<Test> bankListByExcel = importService.getBankListByExcel(inputStream, file.getOriginalFilename());

@@ -5,7 +5,7 @@
 <mapper namespace="cn.bdqn.exam.dao.TestMapper">
 
     <select id="getAll" resultType="cn.bdqn.exam.entity.Test">
-        select * from test where testState = 0
+        select * from test where testState = 0 ORDER BY aid DESC
     </select>
 
     <update id="updTestStatus" parameterType="java.lang.Integer">
@@ -15,12 +15,11 @@
     <select id="QueryTestNameByLike" resultType="cn.bdqn.exam.entity.Test">
         select * from test
         <where>
-
             <if test="testname!=null and testname!=''">
                 aname like concat("%",#{testname},"%")
             </if>
         </where>
-
+        ORDER BY aid DESC
     </select>
 
     <select id="QueryDeptAll" resultType="cn.bdqn.exam.entity.Dept">

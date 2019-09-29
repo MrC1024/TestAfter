@@ -13,13 +13,15 @@
     </association>
   </resultMap>
     <select id="finaByproblems" resultMap="BaseDate">
-    SELECT  p.`pro_id`,p.`pro_question`,p.proAdminContext,u.`account`,p.`pro_name`,p.`pro_phone` FROM `problems` AS p,`user` AS u WHERE p.`user_Id`=u.`userid`
+    SELECT  p.`pro_id`,p.`pro_question`,p.proAdminContext,u.`account`,p.`pro_name`,p.`pro_phone` FROM `problems` AS p,`user` AS u WHERE p.`user_Id`=u.`userid` and pro_if=0
+
     </select>
   <update id="upd" parameterType="cn.bdqn.exam.entity.Problems">
           UPDATE problems SET proAdminContext=#{proAdminContext} where pro_id=#{pro_id}
     </update>
   <select id="finaByProQuery" resultMap="BaseDate">
-   SELECT  p.`pro_id`,p.`pro_question`,p.proAdminContext,u.`account`,p.`pro_name`,p.`pro_phone` FROM `problems` AS p,`user` AS u WHERE p.`user_Id`=u.`userid` AND p.`pro_question` LIKE CONCAT('%',#{pro_question},'%')
+   SELECT  p.`pro_id`,p.`pro_question`,p.proAdminContext,u.`account`,p.`pro_name`,p.`pro_phone` FROM `problems` AS p,`user` AS u WHERE p.`user_Id`=u.`userid` AND p.`pro_question` LIKE CONCAT('%',#{pro_question},'%') and pro_if=0
+
     </select>
     <update id="del" parameterType="Integer">
         UPDATE problems SET pro_if=1 WHERE pro_id = #{pro_id}

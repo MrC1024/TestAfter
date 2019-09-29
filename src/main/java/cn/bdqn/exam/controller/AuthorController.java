@@ -48,4 +48,18 @@ public class AuthorController {
         return JSON.toJSONString(res);
     }
 
+    @RequestMapping("/del2")
+    @ResponseBody
+    public void deptDel2(HttpServletRequest request){
+        String items = request.getParameter("delitems");
+        String[] strs = items.split(",");
+        for (int i = 0; i < strs.length; i++) {
+            try {
+                int a = Integer.parseInt(strs[i]);
+                authorService.del(a);
+            } catch (Exception e) {
+            }
+        }
+    }
+
 }

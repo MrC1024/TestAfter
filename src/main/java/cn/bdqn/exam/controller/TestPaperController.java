@@ -47,7 +47,7 @@ public class TestPaperController {
 
     }
 
-    @RequestMapping("/testUpdId/{tid}")
+    @RequestMapping(value="/testUpdId/{tid}",produces="application/json;charset=UTF-8")
     @ResponseBody
     public String testUpdId(@PathVariable("tid") Integer tid){
         testpaper t = testPaperService.testUpdId(tid);
@@ -76,7 +76,7 @@ public class TestPaperController {
     }
 
     @ResponseBody
-    @RequestMapping("/mohucha/{tName}")
+    @RequestMapping(value = "/mohucha/{tName}",produces="application/json;charset=UTF-8")
     public String mohucha(@PathVariable String tName){
         List<testpaper> list = testPaperService.mohucha(tName);
         return JSON.toJSONString(list);
