@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="renderer" content="webkit|ie-comp|ie-stand">
@@ -32,6 +33,7 @@
 				<input type="text" class="input-text" value="" placeholder="" id="" name="vname">
 			</div>
 		</div>
+
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>课程种类：</label>
 			<div class="formControls col-xs-8 col-sm-9">
@@ -45,10 +47,15 @@
 
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">视频路径：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<input type="file" class="input-text" value="0" placeholder="" id="shipin" name="myfile" onchange="uploadVidoe(this)">
+			<div class="formControls col-xs-8 col-sm-9 v">
 
+				<input type="file" class="input-text" value="0" placeholder="" id="shipin" name="myfile" onchange="uploadVidoe(this)">
 				<input type="hidden" name="weizhi">
+				<!--<video id='my-video' class='video-js' controls width='200' height='200'  src="/static/video/0eed98de0325429690edda4c4a2661ee.mp4"  muted="true">
+&lt;!&ndash;					<source src="/static/video/4d25594eab50407bbedd3a6d3b68b7ab.mp4" type='video/mp4'>&ndash;&gt;
+				</video>-->
+
+
 			</div>
 		</div>
 
@@ -57,7 +64,17 @@
 			<div class="formControls col-xs-8 col-sm-9">
 				<input type="text" class="input-text" value="0" placeholder=""  name="lengthoftime"  >
 			</div>
+		</div>
 
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>讲师：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="select-box">
+				<select name="authorId" id="authorid" class="select1">
+
+				</select>
+				</span>
+			</div>
 		</div>
 
 
@@ -761,6 +778,8 @@
 </script>
 <script>
 	a();
+	b();
+	authorid
 	function a() {
 		$.ajax({
 			"url":"/video/getType",
@@ -776,26 +795,58 @@
 		})
 	}
 
+	function b() {
+		$.ajax({
+			"url":"/video/getZuo",
+			"dataType":"json",
+			"type":"post",
+			"success":function (result) {
+				$(".select1").html("");
+				$(".select1").append("<option value='0'>请选择</option>")
+				$(result).each(function(){
+					$(".select1").append("<option value='"+this.authorId+"'>"+this.name+"</option>");
+				})
+			}
+		})
+	}
+
 	function f() {
 		var vname = $("input[name=vname]").val();
 		var vtypeid=$("#vtypeid").val();
 		var path=$("input[name=weizhi]").val()
 		var lengthoftime =$("input[name=lengthoftime]").val();
-		$.ajax({
-			"url":"/video/add",
-			"data":"vname="+vname+"&vtypeid="+vtypeid+"&path="+path+"&lengthoftime="+lengthoftime,
-			"dataType":"json",
-			"type":"post",
-			"success":function (result) {
-				if(result>0){
-					alert("添加成功!");
-					window.parent.location.reload();
-				}else{
-					alert("添加失败!");
+		var authorId=$("#authorid").val();
+		if(vname==""){
+			alert("请填写课程名称!");
+			return false;
+		}else if(vtypeid==0){
+			alert("请选择课程种类!");
+			return false;
+		}else if(path==""){
+			alert("请选择视频");
+			return  false;
+		} else if(authorId==0){
+			alert("请选择讲师");
+			return  false;
+		}else {
+			$.ajax({
+				"url":"/video/add",
+				"data":"vname="+vname+"&vtypeid="+vtypeid+"&path="+path+"&lengthoftime="+lengthoftime+"&authorId="+authorId,
+				"dataType":"json",
+				"type":"post",
+				"success":function (result) {
+					if(result>0){
+						alert("添加成功!");
+						window.parent.location.reload();
+					}else{
+						alert("添加失败!");
+					}
 				}
-			}
-		})
+			})
+		}
 	}
+
+
 
 
 	function uploadVidoe(vidoe) {
@@ -812,6 +863,7 @@
 
 			var form = new FormData(); // FormData 对象
 			form.append("file", fileObj);
+			console.log(fileObj);
 
 			$.ajax({
 				url: "/fileHander/uploadVidoe",
@@ -820,12 +872,27 @@
 				type: "POST",
 				data: form,
 				success: function (ret) {
+					console.log(ret);
+					$("video[id=my-video]").html("");
 					if (ret.resCode != undefined) {
 						if (ret.resCode == '1') {
 							$("input[name=weizhi]").val(ret.webShowPath);
-
 							alert("格式正确");
-
+								/*var qie = ret.webShowPath.substring(30);
+								qie = qie.replace("\\","/").replace("\\","/").replace("\\","/");
+								$("#my-video").attr("src",qie);*/
+								// $(".v").append("<video id='my-video' class='video-js' controls width='200' height='200'    muted=\"true\">\n" +
+								// 		"\t\t\t\t\t<source src=\""+qie+"\" type=\"video/mp4\">\n" +
+								// 		"\t\t\t\t</video>");
+								/*	document.getElementById("my-video").play()
+								 var time = null;
+								var pl = document.getElementById("my-video");
+								 time =pl.duration;
+								 var shi = parseInt(time/3600);
+								 var fen = parseInt((time%3600)/60);
+								 var miao =Math.ceil(time%60);
+								 var timeTr = shi+":"+fen+":"+miao;
+								$("input[name=lengthoftime]").val(timeTr);*/
 
 						} else if (ret.resCode == '0') {
 							alert("格式不正确");
@@ -837,6 +904,17 @@
 
 		}
 	}
+/*    function getInfo() {
+        var time = null;
+        var pl = document.getElementById("my-video");
+        time =pl.duration;
+        var shi = parseInt(time/3600);
+        var fen = parseInt((time%3600)/60);
+        var miao =Math.ceil(time%60);
+        alert(miao);
+        var timeTr = shi+"时"+fen+"分"+miao+"秒" ;
+        $("#xixi").text(timeTr);
+    }*/
 
 
 

@@ -41,7 +41,6 @@ public class UserHandler {
         User login = userService.Login(user.getAccount().trim(), user.getPassword().trim());
         System.out.println(user.getAccount().trim()+ user.getPassword().trim());
         redisTemplate.opsForValue().set("user", user, 60*60, TimeUnit.SECONDS);
-
         User u = (User) redisTemplate.opsForValue().get("user");
         if (login != null) {
             return 1;
@@ -87,7 +86,6 @@ public class UserHandler {
     }
 
     @GetMapping("/quit")
-
     public String quit() {
 
         redisTemplate.delete("user");

@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
@@ -30,16 +31,16 @@ public class UploadController {
             String fileExt = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf(".") + 1)
                     .toLowerCase();
             // 重构文件名称
+            System.out.println(fileExt);
             String pikId = UUID.randomUUID().toString().replaceAll("-", "");
             String newVidoeName = pikId + "." + fileExt;
+            System.out.println(newVidoeName);
             //保存视频
             File fileSave = new File(savePaths, newVidoeName);
             file.transferTo(fileSave);
             resultMap.put("resCode","1");
             resultMap.put("webShowPath", savePaths+newVidoeName);
-            System.out.println(savePaths+newVidoeName);
             return  resultMap;
-
         }catch (Exception e){
             e.printStackTrace();
             resultMap.put("resCode","0");

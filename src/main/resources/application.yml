@@ -36,7 +36,7 @@ mybatis:
   #设置别名
   type-aliases-package: cn.bdqn.exam.entity
 pic:
-  savePath: D:\新建文件夹\项目\src\main\resources\video\
+  savePath: D:\新建文件夹\项目\src\main\resources\static\video\
 
 
 pagehelper:
@@ -45,5 +45,9 @@ pagehelper:
   reasonable: true
   support-methods-arguments: true
 
+
+excel:
+  fileName: Template.xls
+  filePath: C:\\
 
 

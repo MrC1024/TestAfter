@@ -32,5 +32,9 @@ public interface problemsMapper {
      * @return
      */
     List<Problems> finaByProQuery(@Param("pro_question")String pro_question);
+    /**
+     * 问题反馈删除
+     */
+    int del(@Param("pro_id") int pro_id);
 
 }

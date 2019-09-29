@@ -23,4 +23,9 @@ public class ProblemsSerivceImpl  implements ProblemsService {
     public List<Problems> finaByProQuery(String pro_question) {
         return problemsMapper.finaByProQuery(pro_question);
     }
+
+    @Override
+    public int del(int pro_id) {
+        return problemsMapper.del(pro_id);
+    }
 }

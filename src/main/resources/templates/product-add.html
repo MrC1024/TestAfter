@@ -11,18 +11,18 @@
     <link rel="Bookmark" href="/favicon.ico">
     <link rel="Shortcut Icon" href="/favicon.ico"/>
     <!--[if lt IE 9]>
-    <script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="../static/lib/html5shiv.js"></script>
     <script type="text/javascript" src="../static/lib/respond.min.js"></script>
 
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/H-ui.admin.css"/>
-    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
 
-    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/skin/default/skin.css" id="skin"/>
-    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/style.css"/>
     <!--[if IE 6]>
-    <script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script type="text/javascript" src="../static/lib/DD_belatedPNG_0.0.8a-min.js"></script>
     <script>DD_belatedPNG.fix('*');</script>
     <![endif]-->
     <!--/meta 作为公共模版分离出去-->
@@ -36,7 +36,7 @@
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>试题名称：</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" value="" placeholder="" id="tname" name="">
+                <input type="text" class="input-text" value="" placeholder="试题名称" id="tname" name="">
             </div>
         </div>
         <!--<div class="row cl">
@@ -46,7 +46,7 @@
             </div>
         </div>-->
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>部门选择：</label>
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>部门选择:</label>
             <div class="formControls col-xs-8 col-sm-9"> <span class="select-box">
 				<select name="" class="select" id="bumen">
 					<option value="" selected="selected">选择部门</option>
@@ -58,36 +58,47 @@
 				</span></div>
         </div>
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2">试题答案：</label>
+            <label class="form-label col-xs-4 col-sm-2">试题答案:</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" value="" placeholder="" id="daan" name="">
+                <input type="text" class="input-text" value="" placeholder="试题答案" id="daan" name="">
             </div>
         </div>
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2">A选项：</label>
+            <label class="form-label col-xs-4 col-sm-2">A选项:</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" value="" placeholder="" id="aoption" name="">
+                <input type="text" class="input-text" value="" placeholder="A选项" id="aoption" name="">
             </div>
         </div>
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2">B选项：</label>
+            <label class="form-label col-xs-4 col-sm-2">B选项:</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" value="" placeholder="" id="boption" name="">
+                <input type="text" class="input-text" value="" placeholder="B选项" id="boption" name="">
             </div>
         </div>
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2">C选项：</label>
+            <label class="form-label col-xs-4 col-sm-2">C选项:</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" value="" placeholder="" id="coption" name="">
+                <input type="text" class="input-text" value="" placeholder="C选项" id="coption" name="">
             </div>
         </div>
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2">D选项：</label>
+            <label class="form-label col-xs-4 col-sm-2">D选项:</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" value="" placeholder="" id="doption" name="">
+                <input type="text" class="input-text" value="" placeholder="D选项" id="doption" name="">
             </div>
         </div>
-
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">试题分数:</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="试题分数" id="score" name="">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">试题解析:</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="试题解析" id="analysis" name="">
+            </div>
+        </div>
         <div class="row cl">
             <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
                 <button id="tijiao" onclick="return addTest()" class="btn btn-primary radius" type="button"><i
@@ -96,6 +107,7 @@
                 <button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp; 取消&nbsp;&nbsp;</button>
             </div>
         </div>
+
     </form>
 </div>
 
@@ -140,6 +152,8 @@
         var boption = $("#boption").val();
         var coption = $("#coption").val();
         var doption = $("#doption").val();
+        var score = $("#score").val();
+        var analysis = $("#analysis").val();
         if (aname == "") {
             alert("请输入试题名称!!");
             return false;
@@ -168,6 +182,14 @@
             alert("请输入D选项答案!!");
             return false;
         }
+        if (score == "") {
+            alert("请输入试题分数!!");
+            return false;
+        }
+        if (analysis == "") {
+            alert("请输入试题解析!!");
+            return false;
+        }
         $.ajax({
             url: "/test/addTest",
             type: "post",
@@ -178,7 +200,9 @@
                 Aoption: aoption,
                 Boption: boption,
                 Coption: coption,
-                Doption: doption
+                Doption: doption,
+                Score:score,
+                Analysis:analysis
             },
             dataType: "text",
             success: function (result) {

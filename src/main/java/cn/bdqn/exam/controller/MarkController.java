@@ -32,13 +32,13 @@ public class MarkController {
                 return JSON.toJSONString(list);
             }
             @ResponseBody
-            @RequestMapping("/userAll")
+            @RequestMapping(value = "/userAll",produces="application/json;charset=UTF-8")
             public String userAll(){
                 List<User> list = markService.userAll();
                 return JSON.toJSONString(list);
             }
             @ResponseBody
-            @RequestMapping("/testpaperstepAll")
+            @RequestMapping(value = "/testpaperstepAll",produces="application/json;charset=UTF-8")
             public String testpaperstepAll(){
                 List<testpaperstep> list = markService.testpaperstepAll();
                 return JSON.toJSONString(list);
