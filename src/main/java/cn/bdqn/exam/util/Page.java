@@ -13,7 +13,7 @@ public class Page {
 	private int count;					// 总条数
 	private List<Banner> content;		// 每页显示的内容
 
-	
+
 
 	public List<Banner> getContent() {
 		return content;

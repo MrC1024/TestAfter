@@ -21,4 +21,8 @@ public interface AuthorService {
      Id查询
    */
     Author getById(int id);
+    /*
+       是否有课程
+    */
+    int videoCount(String name);
 }

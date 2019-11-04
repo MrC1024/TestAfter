@@ -10,5 +10,8 @@
         <module name="KaoShiXT2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exam" target="6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

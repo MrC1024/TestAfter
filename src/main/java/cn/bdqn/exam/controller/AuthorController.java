@@ -62,4 +62,14 @@ public class AuthorController {
         }
     }
 
+    @RequestMapping("/getCount")
+    @ResponseBody
+    public String getCount(HttpServletRequest request){
+        String curriculumName = request.getParameter("name");
+        int count = authorService.videoCount(curriculumName);
+        System.out.println(count);
+        System.out.println(curriculumName);
+        return JSON.toJSONString(count);
+    }
+
 }

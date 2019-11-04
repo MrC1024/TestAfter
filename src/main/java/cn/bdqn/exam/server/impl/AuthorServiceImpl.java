@@ -33,4 +33,9 @@ public class AuthorServiceImpl implements AuthorService {
     public Author getById(int id) {
         return authorMapper.getById(id);
     }
+
+    @Override
+    public int videoCount(String name) {
+        return authorMapper.videoCount(name);
+    }
 }
